@@ -1,4 +1,4 @@
-id,year,month,day,phase,percentage,blackFaces
+id,year,month,day,phase,percentage,darkFaces
 1,1997,jan,2,half_new,50,right
 2,1997,jan,9,new,0,right
 3,1997,jan,15,half_full,50,left
