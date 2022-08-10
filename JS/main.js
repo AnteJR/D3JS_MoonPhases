@@ -2,6 +2,7 @@ const largeur = window.innerWidth - 20;
 const hauteur = window.innerHeight - 20;
 
 let dataTable;
+let moon;
 
 //SVG setup
 let svgSpace = d3
@@ -25,6 +26,14 @@ let monCSV = d3.csv("Data/Moonphases.csv", function (d) {
     dataTable = k
 });
 
-setTimeout(() =>{
-    console.log(dataTable);
-},250);
+setTimeout(() => {
+    console.log(dataTable)
+    
+    svgSpace.append('circle')
+        .attr("cx", largeur / 2)
+        .attr("cy", hauteur / 2)
+        .attr("r", (hauteur / 4) * Math.cos(100))
+        .attr("fill", "white")
+        .attr("opacity", 1)
+
+}, 250);
