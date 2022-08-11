@@ -19,6 +19,7 @@ let monCSV = d3.csv("Data/Moonphases.csv", function (d) {
     return {
         year: +d.year,
         month: d.month,
+        monthNbr: +d.monthNbr,
         day: +d.day,
         moonphase: d.phase,
         percentLight: Math.PI * +d.percentage,
@@ -147,7 +148,11 @@ function moonCalendarDisplay(txt) {
         monthToTest = "",
         yearToTest = txtSplit[1],
         myMonth = [],
-        mainMoons = [];
+        mainMoons = [],
+        lineHoroscope = 0,
+        horoscopes = [[1, "Capricorn ♑︎", "Aquarius ♒︎"], [2, "Aquarius ♒︎", "Pisces ♓︎"], [3, "Pisces ♓︎", "Aries ♈︎"], [4, "Aries ♈︎", "Taurus ♉︎"], [5, "Taurus ♉︎", "Gemini ♊︎"], [6, "Gemini ♊︎", "Cancer ♋︎"],
+        [7, "Cancer ♋︎", "Leo ♌︎"], [8, "Leo ♌︎", "Virgo ♍︎"], [9, "Virgo ♍︎", "Libra ♎︎"], [10, "Libra ♎︎", "Scorpio ♏︎"], [11, "Scorpio ♏︎", "Sagittarius ♐︎"], [12, "Sagittarius ♐︎", "Capricorn ♑︎"]],
+        monthNumber = 0;
 
     monthComplete.split("").forEach((e, i) => {
         if (i < 3) myMonth.push(e)
@@ -156,8 +161,17 @@ function moonCalendarDisplay(txt) {
     monthToTest = myMonth.join("");
 
     dataTable.forEach((e) => {
-        if (e.year == yearToTest && e.month == monthToTest) mainMoons.push([e.day, e.moonphase, e.percentLight]);
+        if (e.year == yearToTest && e.month == monthToTest) {
+            mainMoons.push([e.day, e.moonphase, e.percentLight]);
+            monthNumber = e.monthNbr;
+        }
     });
+
+    if (monthToTest == "feb" || monthToTest == "apr") lineHoroscope = 19;
+    else if (monthToTest == "jan" || monthToTest == "mar" || monthToTest == "may") lineHoroscope = 20;
+    else if (monthToTest == "jun") lineHoroscope = 21;
+    else if (monthToTest == "jul" || monthToTest == "aug" || monthToTest == "sep" || monthToTest == "nov" || monthToTest == "dec") lineHoroscope = 22;
+    else if (monthToTest == "oct") lineHoroscope = 23;
 
     const lunarCalendarDates = svgSpace.append("g")
         .attr("id", "calendarD")
@@ -169,6 +183,7 @@ function moonCalendarDisplay(txt) {
         .attr("x", (d, i) => largeur / (mainMoons.length + 1) * (i + 1))
         .attr("y", hauteur / 10 * 3)
         .attr("class", "lunarCalendarDates")
+        .style("cursor", "default")
         .style("opacity", "0")
         .transition().delay((d, i) => 500 + (50 * i)).duration(500).style("opacity", "1")
 
@@ -185,7 +200,68 @@ function moonCalendarDisplay(txt) {
             return moon((2 * pi + d[2]) % (2 * pi), 12.5);    // call of the moon function to determine the angle of the SVG elliptic arcs
         })
         .style("opacity", "0")
-        .transition().delay((d, i) => 500 + (50 * i)).duration(500).style("opacity", "1")
+        .transition().delay((d, i) => 500 + (50 * i)).duration(500).style("opacity", "1");
+
+    const lunarCalendarTexts = svgSpace.append("g")
+        .attr("id", "calendarT")
+        .selectAll("text")
+        .data(mainMoons)
+        .enter()
+        .append("text")
+        .text((d) => {
+            let original = d[1],
+                newTxt = original.split(""),
+                finalTxt = "";
+
+            newTxt.forEach((e) => finalTxt += e + "\u00A0");
+            return finalTxt
+        })
+        .attr("class", "lunarCalendarTexts")
+        .attr("fill", "white")
+        .attr("x", (d, i) => (largeur / (mainMoons.length + 1) * (i + 1)) + 25)
+        .attr("y", hauteur / 10 * 3 + 65)
+        .attr("rotate", -90)
+        .attr("style", "writing-mode: tb;")
+        .style("cursor", "default")
+        .style("letter-spacing", "0.5em")
+        .style("opacity", "0")
+        .style("font-size", "1em")
+        .transition().delay((d, i) => 500 + (50 * i)).duration(500).style("opacity", "1");
+
+    const lunarCalendarSeparation = svgSpace.append("line")
+        .attr("class", "astroLine")
+        .attr("x1", () => largeur / (mainMoons.length + 1) * (lineHoroscope + 1.625))
+        .attr("y1", hauteur / 10 * 3)
+        .attr("x2", () => largeur / (mainMoons.length + 1) * (lineHoroscope + 1.625))
+        .attr("y2", hauteur / 10 * 9)
+        .style("stroke", "white")
+        .style("opacity", "0")
+        .transition().delay(1500).duration(500).style("opacity", "1");
+
+    const lunarCalendarAstro = svgSpace.append("text")
+        .text(horoscopes[monthNumber - 1][1])
+        .attr("class", "astroTxt")
+        .attr("fill", "white")
+        .attr("x", () => largeur / (mainMoons.length + 1) * (lineHoroscope + 1.5))
+        .attr("y", hauteur / 10 * 9)
+        .style("cursor", "default")
+        .style("text-anchor", "end")
+        .style("opacity", "0")
+        .style("font-size", "1em")
+        .transition().delay(1500).duration(500).style("opacity", "1");
+    
+    const lunarCalendarAstroRight = svgSpace.append("text")
+        .text(horoscopes[monthNumber - 1][2])
+        .attr("class", "astroTxt")
+        .attr("fill", "white")
+        .attr("x", () => largeur / (mainMoons.length + 1) * (lineHoroscope + 1.75))
+        .attr("y", hauteur / 10 * 9)
+        .style("cursor", "default")
+        .style("text-anchor", "start")
+        .style("opacity", "0")
+        .style("font-size", "1em")
+        .transition().delay(1500).duration(500).style("opacity", "1");
+
 }
 
 /* TITLE PAGE */
@@ -298,7 +374,7 @@ let backTxtMonths = svgSpace    // the text to go back to the month selection
         titleApp                        // 3. make the title re-appear
             .transition().delay(1500).duration(500).style("opacity", "1");
 
-                                        // 4. bring back the months, first by displaying them, then by increasing their opacity
+        // 4. bring back the months, first by displaying them, then by increasing their opacity
         d3.selectAll(".txtCalendarMonth")
             .transition().delay((d, i) => 1000 + (100 * i)).duration(1000).style("display", "block").style("opacity", "1");
 
@@ -314,12 +390,24 @@ let backTxtMonths = svgSpace    // the text to go back to the month selection
             .transition().duration(1000).style("display", "block")
             .transition().duration(1000).style("opacity", "1");
 
-                                        // 8. remvoe the dates
+                                        // 8. remove the dates
         d3.selectAll(".lunarCalendarDates")
             .transition().delay((d, i) => 25 * i).duration(250).style("opacity", "0")
             .transition().remove();
-                                        // 8. remvoe the dates
+                                        // 9. remove the mini-moons
         d3.selectAll(".lunarCalendarMoons")
+            .transition().delay((d, i) => 25 * i).duration(250).style("opacity", "0")
+            .transition().remove();
+                                        // 10. remove the texts
+        d3.selectAll(".lunarCalendarTexts")
+            .transition().delay((d, i) => 25 * i).duration(250).style("opacity", "0")
+            .transition().remove();
+                                        // 11. remove the line
+        d3.selectAll(".astroLine")
+            .transition().delay((d, i) => 25 * i).duration(250).style("opacity", "0")
+            .transition().remove();
+                                        // 12. remove the horoscropes texts
+        d3.selectAll(".astroTxt")
             .transition().delay((d, i) => 25 * i).duration(250).style("opacity", "0")
             .transition().remove();
     });

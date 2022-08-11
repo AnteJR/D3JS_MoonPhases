@@ -1,1916 +1,1993 @@
-year,month,day,phase,percentage
-1997,jan,1,,0.429
-1997,jan,2,half_new,0.5
-1997,jan,3,,0.571
-1997,jan,4,,0.642
-1997,jan,5,,0.714
-1997,jan,6,,0.785
-1997,jan,7,,0.857
-1997,jan,8,,0.928
-1997,jan,9,new,1
-1997,jan,10,,1.083
-1997,jan,11,,1.167
-1997,jan,12,,1.25
-1997,jan,13,,1.333
-1997,jan,14,,1.417
-1997,jan,15,half_full,1.5
-1997,jan,16,,1.562
-1997,jan,17,,1.625
-1997,jan,18,,1.687
-1997,jan,19,,1.75
-1997,jan,20,,1.812
-1997,jan,21,,1.875
-1997,jan,22,,1.937
-1997,jan,23,full,0
-1997,jan,24,,0.062
-1997,jan,25,,0.125
-1997,jan,26,,0.187
-1997,jan,27,,0.25
-1997,jan,28,,0.312
-1997,jan,29,,0.375
-1997,jan,30,,0.437
-1997,jan,31,half_new,0.5
-1997,feb,1,,0.571
-1997,feb,2,,0.642
-1997,feb,3,,0.714
-1997,feb,4,,0.785
-1997,feb,5,,0.857
-1997,feb,6,,0.928
-1997,feb,7,new,1
-1997,feb,8,,1.071
-1997,feb,9,,1.142
-1997,feb,10,,1.214
-1997,feb,11,,1.285
-1997,feb,12,,1.357
-1997,feb,13,,1.428
-1997,feb,14,half_full,1.5
-1997,feb,15,,1.562
-1997,feb,16,,1.625
-1997,feb,17,,1.687
-1997,feb,18,,1.75
-1997,feb,19,,1.812
-1997,feb,20,,1.875
-1997,feb,21,,1.937
-1997,feb,22,full,0
-1997,feb,23,,0.062
-1997,feb,24,,0.125
-1997,feb,25,,0.187
-1997,feb,26,,0.25
-1997,feb,27,,0.312
-1997,feb,28,,0.375
-1997,mar,1,,0.437
-1997,mar,2,half_new,0.5
-1997,mar,3,,0.571
-1997,mar,4,,0.642
-1997,mar,5,,0.714
-1997,mar,6,,0.785
-1997,mar,7,,0.857
-1997,mar,8,,0.928
-1997,mar,9,new,1
-1997,mar,10,,1.071
-1997,mar,11,,1.142
-1997,mar,12,,1.214
-1997,mar,13,,1.285
-1997,mar,14,,1.357
-1997,mar,15,,1.428
-1997,mar,16,half_full,1.5
-1997,mar,17,,1.562
-1997,mar,18,,1.625
-1997,mar,19,,1.687
-1997,mar,20,,1.75
-1997,mar,21,,1.812
-1997,mar,22,,1.875
-1997,mar,23,,1.937
-1997,mar,24,full,0
-1997,mar,25,,0.071
-1997,mar,26,,0.142
-1997,mar,27,,0.214
-1997,mar,28,,0.285
-1997,mar,29,,0.357
-1997,mar,30,,0.428
-1997,mar,31,half_new,0.5
-1997,apr,1,,0.571
-1997,apr,2,,0.642
-1997,apr,3,,0.714
-1997,apr,4,,0.785
-1997,apr,5,,0.857
-1997,apr,6,,0.928
-1997,apr,7,new,1
-1997,apr,8,,1.071
-1997,apr,9,,1.142
-1997,apr,10,,1.214
-1997,apr,11,,1.285
-1997,apr,12,,1.357
-1997,apr,13,,1.428
-1997,apr,14,half_full,1.5
-1997,apr,15,,1.562
-1997,apr,16,,1.625
-1997,apr,17,,1.687
-1997,apr,18,,1.75
-1997,apr,19,,1.812
-1997,apr,20,,1.875
-1997,apr,21,,1.937
-1997,apr,22,full,0
-1997,apr,23,,0.062
-1997,apr,24,,0.125
-1997,apr,25,,0.187
-1997,apr,26,,0.25
-1997,apr,27,,0.312
-1997,apr,28,,0.375
-1997,apr,29,,0.437
-1997,apr,30,half_new,0.5
-1997,may,1,,0.583
-1997,may,2,,0.666
-1997,may,3,,0.749
-1997,may,4,,0.833
-1997,may,5,,0.916
-1997,may,6,new,1
-1997,may,7,,1.062
-1997,may,8,,1.125
-1997,may,9,,1.187
-1997,may,10,,1.25
-1997,may,11,,1.312
-1997,may,12,,1.375
-1997,may,13,,1.437
-1997,may,14,half_full,1.5
-1997,may,15,,1.562
-1997,may,16,,1.625
-1997,may,17,,1.687
-1997,may,18,,1.75
-1997,may,19,,1.812
-1997,may,20,,1.875
-1997,may,21,,1.937
-1997,may,22,full,0
-1997,may,23,,0.071
-1997,may,24,,0.142
-1997,may,25,,0.214
-1997,may,26,,0.285
-1997,may,27,,0.357
-1997,may,28,,0.428
-1997,may,29,half_new,0.5
-1997,may,30,,0.571
-1997,may,31,,0.642
-1997,jun,1,,0.714
-1997,jun,2,,0.785
-1997,jun,3,,0.857
-1997,jun,4,,0.928
-1997,jun,5,new,1
-1997,jun,6,,1.062
-1997,jun,7,,1.125
-1997,jun,8,,1.187
-1997,jun,9,,1.25
-1997,jun,10,,1.312
-1997,jun,11,,1.375
-1997,jun,12,,1.437
-1997,jun,13,half_full,1.5
-1997,jun,14,,1.571
-1997,jun,15,,1.642
-1997,jun,16,,1.714
-1997,jun,17,,1.785
-1997,jun,18,,1.857
-1997,jun,19,,1.928
-1997,jun,20,full,0
-1997,jun,21,,0.071
-1997,jun,22,,0.142
-1997,jun,23,,0.214
-1997,jun,24,,0.285
-1997,jun,25,,0.357
-1997,jun,26,,0.428
-1997,jun,27,half_new,0.5
-1997,jun,28,,0.571
-1997,jun,29,,0.642
-1997,jun,30,,0.714
-1997,jul,1,,0.785
-1997,jul,2,,0.857
-1997,jul,3,,0.928
-1997,jul,4,new,1
-1997,jul,5,,1.062
-1997,jul,6,,1.125
-1997,jul,7,,1.187
-1997,jul,8,,1.25
-1997,jul,9,,1.312
-1997,jul,10,,1.375
-1997,jul,11,,1.437
-1997,jul,12,half_full,1.5
-1997,jul,13,,1.562
-1997,jul,14,,1.625
-1997,jul,15,,1.687
-1997,jul,16,,1.75
-1997,jul,17,,1.812
-1997,jul,18,,1.875
-1997,jul,19,,1.937
-1997,jul,20,full,0
-1997,jul,21,,0.071
-1997,jul,22,,0.142
-1997,jul,23,,0.214
-1997,jul,24,,0.285
-1997,jul,25,,0.357
-1997,jul,26,,0.428
-1997,jul,27,half_new,0.5
-1997,jul,28,,0.571
-1997,jul,29,,0.642
-1997,jul,30,,0.714
-1997,jul,31,,0.785
-1997,aug,1,,0.857
-1997,aug,2,,0.928
-1997,aug,3,new,1
-1997,aug,4,,1.062
-1997,aug,5,,1.125
-1997,aug,6,,1.187
-1997,aug,7,,1.25
-1997,aug,8,,1.312
-1997,aug,9,,1.375
-1997,aug,10,,1.437
-1997,aug,11,half_full,1.5
-1997,aug,12,,1.571
-1997,aug,13,,1.642
-1997,aug,14,,1.714
-1997,aug,15,,1.785
-1997,aug,16,,1.857
-1997,aug,17,,1.928
-1997,aug,18,full,0
-1997,aug,19,,0.071
-1997,aug,20,,0.142
-1997,aug,21,,0.214
-1997,aug,22,,0.285
-1997,aug,23,,0.357
-1997,aug,24,,0.428
-1997,aug,25,half_new,0.5
-1997,aug,26,,0.562
-1997,aug,27,,0.625
-1997,aug,28,,0.687
-1997,aug,29,,0.75
-1997,aug,30,,0.812
-1997,aug,31,,0.875
-1997,sep,1,,0.937
-1997,sep,2,new,1
-1997,sep,3,,1.062
-1997,sep,4,,1.125
-1997,sep,5,,1.187
-1997,sep,6,,1.25
-1997,sep,7,,1.312
-1997,sep,8,,1.375
-1997,sep,9,,1.437
-1997,sep,10,half_full,1.5
-1997,sep,11,,1.583
-1997,sep,12,,1.667
-1997,sep,13,,1.75
-1997,sep,14,,1.833
-1997,sep,15,,1.917
-1997,sep,16,full,0
-1997,sep,17,,0.071
-1997,sep,18,,0.142
-1997,sep,19,,0.214
-1997,sep,20,,0.285
-1997,sep,21,,0.357
-1997,sep,22,,0.428
-1997,sep,23,half_new,0.5
-1997,sep,24,,0.562
-1997,sep,25,,0.625
-1997,sep,26,,0.687
-1997,sep,27,,0.75
-1997,sep,28,,0.812
-1997,sep,29,,0.875
-1997,sep,30,,0.937
-1997,oct,1,new,1
-1997,oct,2,,1.062
-1997,oct,3,,1.125
-1997,oct,4,,1.187
-1997,oct,5,,1.25
-1997,oct,6,,1.312
-1997,oct,7,,1.375
-1997,oct,8,,1.437
-1997,oct,9,half_full,1.5
-1997,oct,10,,1.571
-1997,oct,11,,1.642
-1997,oct,12,,1.714
-1997,oct,13,,1.785
-1997,oct,14,,1.857
-1997,oct,15,,1.928
-1997,oct,16,full,0
-1997,oct,17,,0.071
-1997,oct,18,,0.142
-1997,oct,19,,0.214
-1997,oct,20,,0.285
-1997,oct,21,,0.357
-1997,oct,22,,0.428
-1997,oct,23,half_new,0.5
-1997,oct,24,,0.562
-1997,oct,25,,0.625
-1997,oct,26,,0.687
-1997,oct,27,,0.75
-1997,oct,28,,0.812
-1997,oct,29,,0.875
-1997,oct,30,,0.937
-1997,oct,31,new,1
-1997,nov,1,,1.071
-1997,nov,2,,1.142
-1997,nov,3,,1.214
-1997,nov,4,,1.285
-1997,nov,5,,1.357
-1997,nov,6,,1.428
-1997,nov,7,half_full,1.5
-1997,nov,8,,1.571
-1997,nov,9,,1.642
-1997,nov,10,,1.714
-1997,nov,11,,1.785
-1997,nov,12,,1.857
-1997,nov,13,,1.928
-1997,nov,14,full,0
-1997,nov,15,,0.062
-1997,nov,16,,0.125
-1997,nov,17,,0.187
-1997,nov,18,,0.25
-1997,nov,19,,0.312
-1997,nov,20,,0.375
-1997,nov,21,,0.437
-1997,nov,22,half_new,0.5
-1997,nov,23,,0.562
-1997,nov,24,,0.625
-1997,nov,25,,0.687
-1997,nov,26,,0.75
-1997,nov,27,,0.812
-1997,nov,28,,0.875
-1997,nov,29,,0.937
-1997,nov,30,new,1
-1997,dec,1,,1.071
-1997,dec,2,,1.142
-1997,dec,3,,1.214
-1997,dec,4,,1.285
-1997,dec,5,,1.357
-1997,dec,6,,1.428
-1997,dec,7,half_full,1.5
-1997,dec,8,,1.571
-1997,dec,9,,1.642
-1997,dec,10,,1.714
-1997,dec,11,,1.785
-1997,dec,12,,1.857
-1997,dec,13,,1.928
-1997,dec,14,full,0
-1997,dec,15,,0.071
-1997,dec,16,,0.142
-1997,dec,17,,0.214
-1997,dec,18,,0.285
-1997,dec,19,,0.357
-1997,dec,20,,0.428
-1997,dec,21,half_new,0.5
-1997,dec,22,,0.562
-1997,dec,23,,0.625
-1997,dec,24,,0.687
-1997,dec,25,,0.75
-1997,dec,26,,0.812
-1997,dec,27,,0.875
-1997,dec,28,,0.937
-1997,dec,29,new,1
-1997,dec,30,,1.071
-1997,dec,31,,1.142
-1998,jan,1,,1.214
-1998,jan,2,,1.285
-1998,jan,3,,1.357
-1998,jan,4,,1.428
-1998,jan,5,half_full,1.5
-1998,jan,6,,1.071
-1998,jan,7,,1.142
-1998,jan,8,,1.214
-1998,jan,9,,1.285
-1998,jan,10,,1.357
-1998,jan,11,,1.428
-1998,jan,12,full,0
-1998,jan,13,,0.062
-1998,jan,14,,0.125
-1998,jan,15,,0.187
-1998,jan,16,,0.25
-1998,jan,17,,0.312
-1998,jan,18,,0.375
-1998,jan,19,,0.437
-1998,jan,20,half_new,0.5
-1998,jan,21,,0.562
-1998,jan,22,,0.625
-1998,jan,23,,0.687
-1998,jan,24,,0.75
-1998,jan,25,,0.812
-1998,jan,26,,0.875
-1998,jan,27,,0.937
-1998,jan,28,new,1
-1998,jan,29,,1.083
-1998,jan,30,,1.167
-1998,jan,31,,1.25
-1998,feb,1,,1.333
-1998,feb,2,,1.417
-1998,feb,3,half_full,1.5
-1998,feb,4,,1.562
-1998,feb,5,,1.625
-1998,feb,6,,1.687
-1998,feb,7,,1.75
-1998,feb,8,,1.812
-1998,feb,9,,1.875
-1998,feb,10,,1.937
-1998,feb,11,full,0
-1998,feb,12,,0.062
-1998,feb,13,,0.125
-1998,feb,14,,0.187
-1998,feb,15,,0.25
-1998,feb,16,,0.312
-1998,feb,17,,0.375
-1998,feb,18,,0.437
-1998,feb,19,half_new,0.5
-1998,feb,20,,0.571
-1998,feb,21,,0.642
-1998,feb,22,,0.714
-1998,feb,23,,0.785
-1998,feb,24,,0.857
-1998,feb,25,,0.928
-1998,feb,26,new,1
-1998,feb,27,,1.071
-1998,feb,28,,1.142
-1998,mar,1,,1.214
-1998,mar,2,,1.285
-1998,mar,3,,1.357
-1998,mar,4,,1.428
-1998,mar,5,half_full,1.5
-1998,mar,6,,1.562
-1998,mar,7,,1.625
-1998,mar,8,,1.687
-1998,mar,9,,1.75
-1998,mar,10,,1.812
-1998,mar,11,,1.875
-1998,mar,12,,1.937
-1998,mar,13,full,0
-1998,mar,14,,0.062
-1998,mar,15,,0.125
-1998,mar,16,,0.187
-1998,mar,17,,0.25
-1998,mar,18,,0.312
-1998,mar,19,,0.375
-1998,mar,20,,0.437
-1998,mar,21,half_new,0.5
-1998,mar,22,,0.571
-1998,mar,23,,0.642
-1998,mar,24,,0.714
-1998,mar,25,,0.785
-1998,mar,26,,0.857
-1998,mar,27,,0.928
-1998,mar,28,new,1
-1998,mar,29,,1.083
-1998,mar,30,,1.167
-1998,mar,31,,1.25
-1998,apr,1,,1.333
-1998,apr,2,,1.417
-1998,apr,3,half_full,1.5
-1998,apr,4,,1.556
-1998,apr,5,,1.611
-1998,apr,6,,1.667
-1998,apr,7,,1.722
-1998,apr,8,,1.778
-1998,apr,9,,1.834
-1998,apr,10,,1.889
-1998,apr,11,,1.944
-1998,apr,12,full,0
-1998,apr,13,,0.071
-1998,apr,14,,0.142
-1998,apr,15,,0.214
-1998,apr,16,,0.285
-1998,apr,17,,0.357
-1998,apr,18,,0.428
-1998,apr,19,half_new,0.5
-1998,apr,20,,0.571
-1998,apr,21,,0.642
-1998,apr,22,,0.714
-1998,apr,23,,0.785
-1998,apr,24,,0.857
-1998,apr,25,,0.928
-1998,apr,26,new,1
-1998,apr,27,,1.071
-1998,apr,28,,1.142
-1998,apr,29,,1.214
-1998,apr,30,,1.285
-1998,may,1,,1.357
-1998,may,2,,1.428
-1998,may,3,half_full,1.5
-1998,may,4,,1.562
-1998,may,5,,1.625
-1998,may,6,,1.687
-1998,may,7,,1.75
-1998,may,8,,1.812
-1998,may,9,,1.875
-1998,may,10,,1.937
-1998,may,11,full,0
-1998,may,12,,0.062
-1998,may,13,,0.125
-1998,may,14,,0.187
-1998,may,15,,0.25
-1998,may,16,,0.312
-1998,may,17,,0.375
-1998,may,18,,0.437
-1998,may,19,half_new,0.5
-1998,may,20,,0.583
-1998,may,21,,0.666
-1998,may,22,,0.749
-1998,may,23,,0.832
-1998,may,24,,0.915
-1998,may,25,new,1
-1998,may,26,,1.062
-1998,may,27,,1.125
-1998,may,28,,1.187
-1998,may,29,,1.25
-1998,may,30,,1.312
-1998,may,31,,1.375
-1998,jun,1,,1.437
-1998,jun,2,half_full,1.5
-1998,jun,3,,1.562
-1998,jun,4,,1.625
-1998,jun,5,,1.687
-1998,jun,6,,1.75
-1998,jun,7,,1.812
-1998,jun,8,,1.875
-1998,jun,9,,1.937
-1998,jun,10,full,0
-1998,jun,11,,0.071
-1998,jun,12,,0.142
-1998,jun,13,,0.214
-1998,jun,14,,0.285
-1998,jun,15,,0.357
-1998,jun,16,,0.428
-1998,jun,17,half_new,0.5
-1998,jun,18,,0.571
-1998,jun,19,,0.642
-1998,jun,20,,0.714
-1998,jun,21,,0.785
-1998,jun,22,,0.857
-1998,jun,23,,0.928
-1998,jun,24,new,1
-1998,jun,25,,1.071
-1998,jun,26,,1.142
-1998,jun,27,,1.214
-1998,jun,28,,1.285
-1998,jun,29,,1.357
-1998,jun,30,,1.428
-1998,jul,1,half_full,1.5
-1998,jul,2,,1.562
-1998,jul,3,,1.625
-1998,jul,4,,1.687
-1998,jul,5,,1.75
-1998,jul,6,,1.812
-1998,jul,7,,1.875
-1998,jul,8,,1.937
-1998,jul,9,full,0
-1998,jul,10,,0.071
-1998,jul,11,,0.142
-1998,jul,12,,0.214
-1998,jul,13,,0.285
-1998,jul,14,,0.357
-1998,jul,15,,0.428
-1998,jul,16,half_new,0.5
-1998,jul,17,,0.571
-1998,jul,18,,0.642
-1998,jul,19,,0.714
-1998,jul,20,,0.785
-1998,jul,21,,0.857
-1998,jul,22,,0.928
-1998,jul,23,new,1
-1998,jul,24,,1.062
-1998,jul,25,,1.125
-1998,jul,26,,1.187
-1998,jul,27,,1.25
-1998,jul,28,,1.312
-1998,jul,29,,1.375
-1998,jul,30,,1.437
-1998,jul,31,half_full,1.5
-1998,aug,1,,1.562
-1998,aug,2,,1.625
-1998,aug,3,,1.687
-1998,aug,4,,1.75
-1998,aug,5,,1.812
-1998,aug,6,,1.875
-1998,aug,7,,1.937
-1998,aug,8,full,0
-1998,aug,9,,0.083
-1998,aug,10,,0.166
-1998,aug,11,,0.249
-1998,aug,12,,0.333
-1998,aug,13,,0.416
-1998,aug,14,half_new,0.5
-1998,aug,15,,0.562
-1998,aug,16,,0.625
-1998,aug,17,,0.687
-1998,aug,18,,0.75
-1998,aug,19,,0.812
-1998,aug,20,,0.875
-1998,aug,21,,0.937
-1998,aug,22,new,1
-1998,aug,23,,1.062
-1998,aug,24,,1.125
-1998,aug,25,,1.187
-1998,aug,26,,1.25
-1998,aug,27,,1.312
-1998,aug,28,,1.375
-1998,aug,29,,1.437
-1998,aug,30,half_full,1.5
-1998,aug,31,,1.071
-1998,sep,1,,1.142
-1998,sep,2,,1.214
-1998,sep,3,,1.285
-1998,sep,4,,1.357
-1998,sep,5,,1.428
-1998,sep,6,full,0
-1998,sep,7,,0.071
-1998,sep,8,,0.142
-1998,sep,9,,0.214
-1998,sep,10,,0.285
-1998,sep,11,,0.357
-1998,sep,12,,0.428
-1998,sep,13,half_new,0.5
-1998,sep,14,,0.571
-1998,sep,15,,0.642
-1998,sep,16,,0.714
-1998,sep,17,,0.785
-1998,sep,18,,0.857
-1998,sep,19,,0.928
-1998,sep,20,new,1
-1998,sep,21,,1.062
-1998,sep,22,,1.125
-1998,sep,23,,1.187
-1998,sep,24,,1.25
-1998,sep,25,,1.312
-1998,sep,26,,1.375
-1998,sep,27,,1.437
-1998,sep,28,half_full,1.5
-1998,sep,29,,1.071
-1998,sep,30,,1.142
-1998,oct,1,,1.214
-1998,oct,2,,1.285
-1998,oct,3,,1.357
-1998,oct,4,,1.428
-1998,oct,5,full,0
-1998,oct,6,,0.071
-1998,oct,7,,0.142
-1998,oct,8,,0.214
-1998,oct,9,,0.285
-1998,oct,10,,0.357
-1998,oct,11,,0.428
-1998,oct,12,half_new,0.5
-1998,oct,13,,0.562
-1998,oct,14,,0.625
-1998,oct,15,,0.687
-1998,oct,16,,0.75
-1998,oct,17,,0.812
-1998,oct,18,,0.875
-1998,oct,19,,0.937
-1998,oct,20,new,1
-1998,oct,21,,1.062
-1998,oct,22,,1.125
-1998,oct,23,,1.187
-1998,oct,24,,1.25
-1998,oct,25,,1.312
-1998,oct,26,,1.375
-1998,oct,27,,1.437
-1998,oct,28,half_full,1.5
-1998,oct,29,,1.071
-1998,oct,30,,1.142
-1998,oct,31,,1.214
-1998,nov,1,,1.285
-1998,nov,2,,1.357
-1998,nov,3,,1.428
-1998,nov,4,full,0
-1998,nov,5,,0.071
-1998,nov,6,,0.142
-1998,nov,7,,0.214
-1998,nov,8,,0.285
-1998,nov,9,,0.357
-1998,nov,10,,0.428
-1998,nov,11,half_new,0.5
-1998,nov,12,,0.562
-1998,nov,13,,0.625
-1998,nov,14,,0.687
-1998,nov,15,,0.75
-1998,nov,16,,0.812
-1998,nov,17,,0.875
-1998,nov,18,,0.937
-1998,nov,19,new,1
-1998,nov,20,,1.062
-1998,nov,21,,1.125
-1998,nov,22,,1.187
-1998,nov,23,,1.25
-1998,nov,24,,1.312
-1998,nov,25,,1.375
-1998,nov,26,,1.437
-1998,nov,27,half_full,1.5
-1998,nov,28,,1.583
-1998,nov,29,,1.667
-1998,nov,30,,1.75
-1998,dec,1,,1.833
-1998,dec,2,,1.917
-1998,dec,3,full,0
-1998,dec,4,,0.071
-1998,dec,5,,0.142
-1998,dec,6,,0.214
-1998,dec,7,,0.285
-1998,dec,8,,0.357
-1998,dec,9,,0.428
-1998,dec,10,half_new,0.5
-1998,dec,11,,0.562
-1998,dec,12,,0.625
-1998,dec,13,,0.687
-1998,dec,14,,0.75
-1998,dec,15,,0.812
-1998,dec,16,,0.875
-1998,dec,17,,0.937
-1998,dec,18,new,1
-1998,dec,19,,1.062
-1998,dec,20,,1.125
-1998,dec,21,,1.187
-1998,dec,22,,1.25
-1998,dec,23,,1.312
-1998,dec,24,,1.375
-1998,dec,25,,1.437
-1998,dec,26,half_full,1.5
-1998,dec,27,,1.071
-1998,dec,27,,1.142
-1998,dec,27,,1.214
-1998,dec,30,,1.285
-1998,dec,31,,1.357
-1999,jan,1,,1.428
-1999,jan,2,full,0
-1999,jan,9,half_new,0.5
-1999,jan,17,new,1
-1999,jan,24,half_full,1.5
-1999,jan,31,full,0
-1999,feb,8,half_new,0.5
-1999,feb,16,new,1
-1999,feb,23,half_full,1.5
-1999,mar,2,full,0
-1999,mar,10,half_new,0.5
-1999,mar,17,new,1
-1999,mar,24,half_full,1.5
-1999,apr,1,full,0
-1999,apr,9,half_new,0.5
-1999,apr,16,new,1
-1999,apr,22,half_full,1.5
-1999,apr,30,full,0
-1999,may,8,half_new,0.5
-1999,may,15,new,1
-1999,may,22,half_full,1.5
-1999,may,30,full,0
-1999,jun,7,half_new,0.5
-1999,jun,13,new,1
-1999,jun,20,half_full,1.5
-1999,jun,28,full,0
-1999,jul,6,half_new,0.5
-1999,jul,13,new,1
-1999,jul,20,half_full,1.5
-1999,jul,28,full,0
-1999,aug,4,half_new,0.5
-1999,aug,11,new,1
-1999,aug,19,half_full,1.5
-1999,aug,27,full,0
-1999,sep,3,half_new,0.5
-1999,sep,10,new,1
-1999,sep,17,half_full,1.5
-1999,sep,25,full,0
-1999,oct,2,half_new,0.5
-1999,oct,9,new,1
-1999,oct,17,half_full,1.5
-1999,oct,24,full,0
-1999,oct,31,half_new,0.5
-1999,nov,8,new,1
-1999,nov,16,half_full,1.5
-1999,nov,23,full,0
-1999,nov,30,half_new,0.5
-1999,dec,7,new,1
-1999,dec,16,half_full,1.5
-1999,dec,22,full,0
-1999,dec,29,half_new,0.5
-2000,jan,6,new,1
-2000,jan,14,half_full,1.5
-2000,jan,21,full,0
-2000,jan,28,half_new,0.5
-2000,feb,5,new,1
-2000,feb,13,half_full,1.5
-2000,feb,19,full,0
-2000,feb,27,half_new,0.5
-2000,mar,6,new,1
-2000,mar,13,half_full,1.5
-2000,mar,20,full,0
-2000,mar,28,half_new,0.5
-2000,apr,4,new,1
-2000,apr,11,half_full,1.5
-2000,apr,18,full,0
-2000,apr,26,half_new,0.5
-2000,may,4,new,1
-2000,may,10,half_full,1.5
-2000,may,18,full,0
-2000,may,26,half_new,0.5
-2000,jun,2,new,1
-2000,jun,9,half_full,1.5
-2000,jun,17,full,0
-2000,jun,25,half_new,0.5
-2000,jul,1,new,1
-2000,jul,8,half_full,1.5
-2000,jul,16,full,0
-2000,jul,24,half_new,0.5
-2000,jul,31,new,1
-2000,aug,7,half_full,1.5
-2000,aug,15,full,0
-2000,aug,22,half_new,0.5
-2000,aug,29,new,1
-2000,sep,5,half_full,1.5
-2000,sep,13,full,0
-2000,sep,21,half_new,0.5
-2000,sep,27,new,1
-2000,oct,5,half_full,1.5
-2000,oct,13,full,0
-2000,oct,20,half_new,0.5
-2000,oct,27,new,1
-2000,nov,4,half_full,1.5
-2000,nov,11,full,0
-2000,nov,18,half_new,0.5
-2000,nov,26,new,1
-2000,dec,4,half_full,1.5
-2000,dec,11,full,0
-2000,dec,18,half_new,0.5
-2000,dec,25,new,1
-2001,jan,2,half_full,1.5
-2001,jan,9,full,0
-2001,jan,16,half_new,0.5
-2001,jan,24,new,1
-2001,feb,1,half_full,1.5
-2001,feb,8,full,0
-2001,feb,15,half_new,0.5
-2001,feb,23,new,1
-2001,mar,3,half_full,1.5
-2001,mar,9,full,0
-2001,mar,16,half_new,0.5
-2001,mar,25,new,1
-2001,apr,1,half_full,1.5
-2001,apr,8,full,0
-2001,apr,15,half_new,0.5
-2001,apr,23,new,1
-2001,apr,30,half_full,1.5
-2001,may,7,full,0
-2001,may,15,half_new,0.5
-2001,may,23,new,1
-2001,may,30,half_full,1.5
-2001,jun,6,full,0
-2001,jun,14,half_new,0.5
-2001,jun,21,new,1
-2001,jun,28,half_full,1.5
-2001,jul,5,full,0
-2001,jul,13,half_new,0.5
-2001,jul,20,new,1
-2001,jul,27,half_full,1.5
-2001,aug,4,full,0
-2001,aug,12,half_new,0.5
-2001,aug,19,new,1
-2001,aug,25,half_full,1.5
-2001,sep,2,full,0
-2001,sep,10,half_new,0.5
-2001,sep,17,new,1
-2001,sep,24,half_full,1.5
-2001,oct,2,full,0
-2001,oct,10,half_new,0.5
-2001,oct,16,new,1
-2001,oct,24,half_full,1.5
-2001,nov,1,full,0
-2001,nov,8,half_new,0.5
-2001,nov,15,new,1
-2001,nov,23,half_full,1.5
-2001,nov,30,full,0
-2001,dec,7,half_new,0.5
-2001,dec,14,new,1
-2001,dec,22,half_full,1.5
-2001,dec,30,full,0
-2002,jan,6,half_new,0.5
-2002,jan,13,new,1
-2002,jan,21,half_full,1.5
-2002,jan,28,full,0
-2002,feb,4,half_new,0.5
-2002,feb,12,new,1
-2002,feb,20,half_full,1.5
-2002,feb,27,full,0
-2002,mar,6,half_new,0.5
-2002,mar,14,new,1
-2002,mar,22,half_full,1.5
-2002,mar,28,full,0
-2002,apr,4,half_new,0.5
-2002,apr,12,new,1
-2002,apr,20,half_full,1.5
-2002,apr,27,full,0
-2002,may,4,half_new,0.5
-2002,may,12,new,1
-2002,may,19,half_full,1.5
-2002,may,26,full,0
-2002,jun,3,half_new,0.5
-2002,jun,11,new,1
-2002,jun,18,half_full,1.5
-2002,jun,24,full,0
-2002,jul,2,half_new,0.5
-2002,jul,10,new,1
-2002,jul,17,half_full,1.5
-2002,jul,24,full,0
-2002,aug,1,half_new,0.5
-2002,aug,8,new,1
-2002,aug,15,half_full,1.5
-2002,aug,23,full,0
-2002,aug,31,half_new,0.5
-2002,sep,7,new,1
-2002,sep,13,half_full,1.5
-2002,sep,21,full,0
-2002,sep,29,half_new,0.5
-2002,oct,6,new,1
-2002,oct,13,half_full,1.5
-2002,oct,21,full,0
-2002,oct,29,half_new,0.5
-2002,nov,4,new,1
-2002,nov,11,half_full,1.5
-2002,nov,20,full,0
-2002,nov,27,half_new,0.5
-2002,dec,4,new,1
-2002,dec,11,half_full,1.5
-2002,dec,19,full,0
-2002,dec,27,half_new,0.5
-2003,jan,2,new,1
-2003,jan,10,half_full,1.5
-2003,jan,18,full,0
-2003,jan,25,half_new,0.5
-2003,feb,1,new,1
-2003,feb,9,half_full,1.5
-2003,feb,17,full,0
-2003,feb,23,half_new,0.5
-2003,mar,3,new,1
-2003,mar,11,half_full,1.5
-2003,mar,18,full,0
-2003,mar,25,half_new,0.5
-2003,apr,1,new,1
-2003,apr,10,half_full,1.5
-2003,apr,16,full,0
-2003,apr,23,half_new,0.5
-2003,may,1,new,1
-2003,may,9,half_full,1.5
-2003,may,16,full,0
-2003,may,23,half_new,0.5
-2003,may,31,new,1
-2003,jun,7,half_full,1.5
-2003,jun,14,full,0
-2003,jun,21,half_new,0.5
-2003,jun,29,new,1
-2003,jul,7,half_full,1.5
-2003,jul,13,full,0
-2003,jul,21,half_new,0.5
-2003,jul,29,new,1
-2003,aug,5,half_full,1.5
-2003,aug,12,full,0
-2003,aug,20,half_new,0.5
-2003,aug,27,new,1
-2003,sep,3,half_full,1.5
-2003,sep,10,full,0
-2003,sep,18,half_new,0.5
-2003,sep,26,new,1
-2003,oct,2,half_full,1.5
-2003,oct,10,full,0
-2003,oct,18,half_new,0.5
-2003,oct,25,new,1
-2003,nov,1,half_full,1.5
-2003,nov,9,full,0
-2003,nov,17,half_new,0.5
-2003,nov,23,new,1
-2003,nov,30,half_full,1.5
-2003,dec,8,full,0
-2003,dec,16,half_new,0.5
-2003,dec,23,new,1
-2003,dec,30,half_full,1.5
-2004,jan,7,full,0
-2004,jan,15,half_new,0.5
-2004,jan,21,new,1
-2004,jan,29,half_full,1.5
-2004,feb,6,full,0
-2004,feb,13,half_new,0.5
-2004,feb,20,new,1
-2004,feb,28,half_full,1.5
-2004,mar,7,full,0
-2004,mar,13,half_new,0.5
-2004,mar,20,new,1
-2004,mar,29,half_full,1.5
-2004,apr,5,full,0
-2004,apr,12,half_new,0.5
-2004,apr,19,new,1
-2004,apr,27,half_full,1.5
-2004,may,4,full,0
-2004,may,11,half_new,0.5
-2004,may,19,new,1
-2004,may,27,half_full,1.5
-2004,jun,3,full,0
-2004,jun,9,half_new,0.5
-2004,jun,17,new,1
-2004,jun,25,half_full,1.5
-2004,jul,2,full,0
-2004,jul,9,half_new,0.5
-2004,jul,17,new,1
-2004,jul,25,half_full,1.5
-2004,jul,31,full,0
-2004,aug,8,half_new,0.5
-2004,aug,16,new,1
-2004,aug,23,half_full,1.5
-2004,aug,30,full,0
-2004,sep,6,half_new,0.5
-2004,sep,14,new,1
-2004,sep,21,half_full,1.5
-2004,sep,28,full,0
-2004,oct,6,half_new,0.5
-2004,oct,14,new,1
-2004,oct,20,half_full,1.5
-2004,oct,28,full,0
-2004,nov,5,half_new,0.5
-2004,nov,12,new,1
-2004,nov,19,half_full,1.5
-2004,nov,26,full,0
-2004,dec,5,half_new,0.5
-2004,dec,12,new,1
-2004,dec,18,half_full,1.5
-2004,dec,26,full,0
-2005,jan,3,half_new,0.5
-2005,jan,10,new,1
-2005,jan,17,half_full,1.5
-2005,jan,25,full,0
-2005,feb,2,half_new,0.5
-2005,feb,8,new,1
-2005,feb,16,half_full,1.5
-2005,feb,24,full,0
-2005,mar,3,half_new,0.5
-2005,mar,10,new,1
-2005,mar,17,half_full,1.5
-2005,mar,25,full,0
-2005,apr,2,half_new,0.5
-2005,apr,8,new,1
-2005,apr,16,half_full,1.5
-2005,apr,24,full,0
-2005,may,1,half_new,0.5
-2005,may,8,new,1
-2005,may,16,half_full,1.5
-2005,may,23,full,0
-2005,may,30,half_new,0.5
-2005,jun,6,new,1
-2005,jun,15,half_full,1.5
-2005,jun,22,full,0
-2005,jun,28,half_new,0.5
-2005,jul,6,new,1
-2005,jul,14,half_full,1.5
-2005,jul,21,full,0
-2005,jul,28,half_new,0.5
-2005,aug,5,new,1
-2005,aug,13,half_full,1.5
-2005,aug,19,full,0
-2005,aug,26,half_new,0.5
-2005,sep,3,new,1
-2005,sep,11,half_full,1.5
-2005,sep,18,full,0
-2005,sep,25,half_new,0.5
-2005,oct,3,new,1
-2005,oct,10,half_full,1.5
-2005,oct,17,full,0
-2005,oct,25,half_new,0.5
-2005,nov,2,new,1
-2005,nov,9,half_full,1.5
-2005,nov,16,full,0
-2005,nov,23,half_new,0.5
-2005,dec,1,new,1
-2005,dec,8,half_full,1.5
-2005,dec,15,full,0
-2005,dec,23,half_new,0.5
-2005,dec,31,new,1
-2006,jan,6,half_full,1.5
-2006,jan,14,full,0
-2006,jan,22,half_new,0.5
-2006,jan,29,new,1
-2006,feb,5,half_full,1.5
-2006,feb,13,full,0
-2006,feb,21,half_new,0.5
-2006,feb,28,new,1
-2006,mar,6,half_full,1.5
-2006,mar,15,full,0
-2006,mar,22,half_new,0.5
-2006,mar,28,new,1
-2006,apr,5,half_full,1.5
-2006,apr,13,full,0
-2006,apr,21,half_new,0.5
-2006,apr,27,new,1
-2006,may,5,half_full,1.5
-2006,may,13,full,0
-2006,may,20,half_new,0.5
-2006,may,27,new,1
-2006,jun,4,half_full,1.5
-2006,jun,11,full,0
-2006,jun,18,half_new,0.5
-2006,jun,25,new,1
-2006,jul,3,half_full,1.5
-2006,jul,11,full,0
-2006,jul,17,half_new,0.5
-2006,jul,25,new,1
-2006,aug,2,half_full,1.5
-2006,aug,9,full,0
-2006,aug,16,half_new,0.5
-2006,aug,23,new,1
-2006,sep,1,half_full,1.5
-2006,sep,7,full,0
-2006,sep,14,half_new,0.5
-2006,sep,22,new,1
-2006,sep,30,half_full,1.5
-2006,oct,7,full,0
-2006,oct,14,half_new,0.5
-2006,oct,22,new,1
-2006,oct,29,half_full,1.5
-2006,nov,5,full,0
-2006,nov,12,half_new,0.5
-2006,nov,20,new,1
-2006,nov,28,half_full,1.5
-2006,dec,5,full,0
-2006,dec,12,half_new,0.5
-2006,dec,20,new,1
-2006,dec,27,half_full,1.5
-2007,jan,3,full,0
-2007,jan,11,half_new,0.5
-2007,jan,19,new,1
-2007,jan,26,half_full,1.5
-2007,feb,2,full,0
-2007,feb,10,half_new,0.5
-2007,feb,17,new,1
-2007,feb,24,half_full,1.5
-2007,mar,4,full,0
-2007,mar,12,half_new,0.5
-2007,mar,19,new,1
-2007,mar,25,half_full,1.5
-2007,apr,2,full,0
-2007,apr,10,half_new,0.5
-2007,apr,17,new,1
-2007,apr,24,half_full,1.5
-2007,may,2,full,0
-2007,may,10,half_new,0.5
-2007,may,16,new,1
-2007,may,23,half_full,1.5
-2007,jun,1,full,0
-2007,jun,8,half_new,0.5
-2007,jun,15,new,1
-2007,jun,22,half_full,1.5
-2007,jun,30,full,0
-2007,aug,5,half_new,0.5
-2007,aug,13,new,1
-2007,aug,21,half_full,1.5
-2007,aug,28,full,0
-2007,sep,4,half_new,0.5
-2007,sep,11,new,1
-2007,sep,19,half_full,1.5
-2007,sep,26,full,0
-2007,oct,3,half_new,0.5
-2007,oct,11,new,1
-2007,oct,19,half_full,1.5
-2007,oct,26,full,0
-2007,nov,1,half_new,0.5
-2007,nov,10,new,1
-2007,nov,17,half_full,1.5
-2007,nov,24,full,0
-2007,dec,1,half_new,0.5
-2007,dec,9,new,1
-2007,dec,17,half_full,1.5
-2007,dec,24,full,0
-2007,dec,31,half_new,0.5
-2008,jan,8,new,1
-2008,jan,15,half_full,1.5
-2008,jan,22,full,0
-2008,jan,30,half_new,0.5
-2008,feb,7,new,1
-2008,feb,14,half_full,1.5
-2008,feb,21,full,0
-2008,feb,29,half_new,0.5
-2008,mar,7,new,1
-2008,mar,14,half_full,1.5
-2008,mar,21,full,0
-2008,mar,29,half_new,0.5
-2008,apr,6,new,1
-2008,apr,12,half_full,1.5
-2008,apr,20,full,0
-2008,apr,28,half_new,0.5
-2008,may,5,new,1
-2008,may,12,half_full,1.5
-2008,may,20,full,0
-2008,may,28,half_new,0.5
-2008,jun,3,new,1
-2008,jun,10,half_full,1.5
-2008,jun,18,full,0
-2008,jun,26,half_new,0.5
-2008,jul,3,new,1
-2008,jul,10,half_full,1.5
-2008,jul,18,full,0
-2008,jul,25,half_new,0.5
-2008,aug,1,new,1
-2008,aug,8,half_full,1.5
-2008,aug,16,full,0
-2008,aug,24,half_new,0.5
-2008,aug,30,new,1
-2008,sep,7,half_full,1.5
-2008,sep,15,full,0
-2008,sep,22,half_new,0.5
-2008,sep,29,new,1
-2008,oct,7,half_full,1.5
-2008,oct,14,full,0
-2008,oct,21,half_new,0.5
-2008,oct,29,new,1
-2008,nov,6,half_full,1.5
-2008,nov,13,full,0
-2008,nov,19,half_new,0.5
-2008,nov,27,new,1
-2008,dec,5,half_full,1.5
-2008,dec,12,full,0
-2008,dec,19,half_new,0.5
-2008,dec,27,new,1
-2009,jan,4,half_full,1.5
-2009,jan,11,full,0
-2009,jan,18,half_new,0.5
-2009,jan,26,new,1
-2009,feb,3,half_full,1.5
-2009,feb,9,full,0
-2009,feb,16,half_new,0.5
-2009,feb,25,new,1
-2009,mar,4,half_full,1.5
-2009,mar,11,full,0
-2009,mar,18,half_new,0.5
-2009,mar,26,new,1
-2009,apr,2,half_full,1.5
-2009,apr,9,full,0
-2009,apr,17,half_new,0.5
-2009,apr,25,new,1
-2009,may,1,half_full,1.5
-2009,may,9,full,0
-2009,may,17,half_new,0.5
-2009,may,24,new,1
-2009,may,31,half_full,1.5
-2009,jun,7,full,0
-2009,jun,16,half_new,0.5
-2009,jun,22,new,1
-2009,jun,29,half_full,1.5
-2009,jul,7,full,0
-2009,jul,15,half_new,0.5
-2009,jul,22,new,1
-2009,jul,28,half_full,1.5
-2009,aug,6,full,0
-2009,aug,13,half_new,0.5
-2009,aug,20,new,1
-2009,aug,27,half_full,1.5
-2009,sep,4,full,0
-2009,sep,12,half_new,0.5
-2009,sep,18,new,1
-2009,sep,26,half_full,1.5
-2009,oct,4,full,0
-2009,oct,11,half_new,0.5
-2009,oct,18,new,1
-2009,oct,26,half_full,1.5
-2009,nov,2,full,0
-2009,nov,9,half_new,0.5
-2009,nov,16,new,1
-2009,nov,24,half_full,1.5
-2009,dec,2,full,0
-2009,dec,9,half_new,0.5
-2009,dec,16,new,1
-2009,dec,24,half_full,1.5
-2009,dec,31,full,0
-2010,jan,7,half_new,0.5
-2010,jan,15,new,1
-2010,jan,23,half_full,1.5
-2010,jan,30,full,0
-2010,feb,6,half_new,0.5
-2010,feb,14,new,1
-2010,feb,22,half_full,1.5
-2010,feb,28,full,0
-2010,mar,7,half_new,0.5
-2010,mar,15,new,1
-2010,mar,23,half_full,1.5
-2010,mar,30,full,0
-2010,apr,6,half_new,0.5
-2010,apr,14,new,1
-2010,apr,21,half_full,1.5
-2010,apr,28,full,0
-2010,may,6,half_new,0.5
-2010,may,14,new,1
-2010,may,21,half_full,1.5
-2010,may,28,full,0
-2010,jun,5,half_new,0.5
-2010,jun,12,new,1
-2010,jun,19,half_full,1.5
-2010,jun,26,full,0
-2010,jul,4,half_new,0.5
-2010,jul,11,new,1
-2010,jul,18,half_full,1.5
-2010,jul,26,full,0
-2010,aug,3,half_new,0.5
-2010,aug,10,new,1
-2010,aug,16,half_full,1.5
-2010,aug,24,full,0
-2010,sep,1,half_new,0.5
-2010,sep,8,new,1
-2010,sep,15,half_full,1.5
-2010,sep,23,full,0
-2010,oct,1,half_new,0.5
-2010,oct,7,new,1
-2010,oct,14,half_full,1.5
-2010,oct,23,full,0
-2010,oct,30,half_new,0.5
-2010,nov,6,new,1
-2010,nov,12,half_full,1.5
-2010,nov,21,full,0
-2010,nov,28,half_new,0.5
-2010,dec,5,new,1
-2010,dec,13,half_full,1.5
-2010,dec,21,full,0
-2010,dec,28,half_new,0.5
-2011,jan,4,new,1
-2011,jan,12,half_full,1.5
-2011,jan,19,full,0
-2011,jan,26,half_new,0.5
-2011,feb,3,new,1
-2011,feb,11,half_full,1.5
-2011,feb,18,full,0
-2011,feb,25,half_new,0.5
-2011,mar,4,new,1
-2011,mar,13,half_full,1.5
-2011,mar,19,full,0
-2011,mar,26,half_new,0.5
-2011,apr,3,new,1
-2011,apr,11,half_full,1.5
-2011,apr,18,full,0
-2011,apr,25,half_new,0.5
-2011,may,3,new,1
-2011,may,10,half_full,1.5
-2011,may,17,full,0
-2011,may,24,half_new,0.5
-2011,jun,1,new,1
-2011,jun,9,half_full,1.5
-2011,jun,15,full,0
-2011,jun,23,half_new,0.5
-2011,jul,1,new,1
-2011,jul,8,half_full,1.5
-2011,jul,15,full,0
-2011,jul,23,half_new,0.5
-2011,jul,30,new,1
-2011,aug,6,half_full,1.5
-2011,aug,13,full,0
-2011,aug,21,half_new,0.5
-2011,aug,29,new,1
-2011,sep,4,half_full,1.5
-2011,sep,12,full,0
-2011,sep,20,half_new,0.5
-2011,sep,27,new,1
-2011,oct,4,half_full,1.5
-2011,oct,12,full,0
-2011,oct,20,half_new,0.5
-2011,oct,26,new,1
-2011,nov,2,half_full,1.5
-2011,nov,10,full,0
-2011,nov,18,half_new,0.5
-2011,nov,25,new,1
-2011,dec,2,half_full,1.5
-2011,dec,10,full,0
-2011,dec,18,half_new,0.5
-2011,dec,24,new,1
-2012,jan,1,half_full,1.5
-2012,jan,9,full,0
-2012,jan,16,half_new,0.5
-2012,jan,23,new,1
-2012,jan,31,half_full,1.5
-2012,feb,7,full,0
-2012,feb,14,half_new,0.5
-2012,feb,21,new,1
-2012,mar,1,half_full,1.5
-2012,mar,8,full,0
-2012,mar,15,half_new,0.5
-2012,mar,22,new,1
-2012,mar,30,half_full,1.5
-2012,apr,6,full,0
-2012,apr,13,half_new,0.5
-2012,apr,21,new,1
-2012,apr,29,half_full,1.5
-2012,may,6,full,0
-2012,may,12,half_new,0.5
-2012,may,21,new,1
-2012,may,28,half_full,1.5
-2012,jun,4,full,0
-2012,jun,11,half_new,0.5
-2012,jun,19,new,1
-2012,jun,27,half_full,1.5
-2012,jul,3,full,0
-2012,jul,11,half_new,0.5
-2012,jul,19,new,1
-2012,jul,26,half_full,1.5
-2012,aug,2,full,0
-2012,aug,9,half_new,0.5
-2012,aug,17,new,1
-2012,aug,24,half_full,1.5
-2012,aug,31,full,0
-2012,sep,8,half_new,0.5
-2012,sep,16,new,1
-2012,sep,22,half_full,1.5
-2012,sep,30,full,0
-2012,oct,8,half_new,0.5
-2012,oct,15,new,1
-2012,oct,22,half_full,1.5
-2012,oct,29,full,0
-2012,nov,7,half_new,0.5
-2012,nov,13,new,1
-2012,nov,20,half_full,1.5
-2012,nov,28,full,0
-2012,dec,6,half_new,0.5
-2012,dec,13,new,1
-2012,dec,20,half_full,1.5
-2012,dec,28,full,0
-2013,jan,5,half_new,0.5
-2013,jan,11,new,1
-2013,jan,19,half_full,1.5
-2013,jan,27,full,0
-2013,feb,3,half_new,0.5
-2013,feb,10,new,1
-2013,feb,17,half_full,1.5
-2013,feb,25,full,0
-2013,mar,4,half_new,0.5
-2013,mar,11,new,1
-2013,mar,19,half_full,1.5
-2013,mar,27,full,0
-2013,apr,3,half_new,0.5
-2013,apr,10,new,1
-2013,apr,18,half_full,1.5
-2013,apr,25,full,0
-2013,may,2,half_new,0.5
-2013,may,10,new,1
-2013,may,18,half_full,1.5
-2013,may,25,full,0
-2013,may,31,half_new,0.5
-2013,jun,8,new,1
-2013,jun,16,half_full,1.5
-2013,jun,23,full,0
-2013,jun,30,half_new,0.5
-2013,jul,7,new,1
-2013,jul,16,half_full,1.5
-2013,jul,22,full,0
-2013,jul,29,half_new,0.5
-2013,aug,6,new,1
-2013,aug,14,half_full,1.5
-2013,aug,21,full,0
-2013,aug,28,half_new,0.5
-2013,sep,5,new,1
-2013,sep,12,half_full,1.5
-2013,sep,19,full,0
-2013,sep,27,half_new,0.5
-2013,oct,5,new,1
-2013,oct,12,half_full,1.5
-2013,oct,19,full,0
-2013,oct,27,half_new,0.5
-2013,nov,3,new,1
-2013,nov,10,half_full,1.5
-2013,nov,17,full,0
-2013,nov,25,half_new,0.5
-2013,dec,3,new,1
-2013,dec,9,half_full,1.5
-2013,dec,17,full,0
-2013,dec,25,half_new,0.5
-2014,jan,1,new,1
-2014,jan,8,half_full,1.5
-2014,jan,16,full,0
-2014,jan,24,half_new,0.5
-2014,jan,30,new,1
-2014,feb,6,half_full,1.5
-2014,feb,15,full,0
-2014,feb,22,half_new,0.5
-2014,mar,1,new,1
-2014,mar,8,half_full,1.5
-2014,mar,16,full,0
-2014,mar,24,half_new,0.5
-2014,mar,30,new,1
-2014,apr,7,half_full,1.5
-2014,apr,15,full,0
-2014,apr,22,half_new,0.5
-2014,apr,29,new,1
-2014,may,7,half_full,1.5
-2014,may,14,full,0
-2014,may,21,half_new,0.5
-2014,may,28,new,1
-2014,jun,5,half_full,1.5
-2014,jun,13,full,0
-2014,jun,19,half_new,0.5
-2014,jun,27,new,1
-2014,jul,5,half_full,1.5
-2014,jul,12,full,0
-2014,jul,19,half_new,0.5
-2014,jul,27,new,1
-2014,aug,4,half_full,1.5
-2014,aug,10,full,0
-2014,aug,17,half_new,0.5
-2014,aug,25,new,1
-2014,sep,2,half_full,1.5
-2014,sep,9,full,0
-2014,sep,16,half_new,0.5
-2014,sep,24,new,1
-2014,oct,1,half_full,1.5
-2014,oct,8,full,0
-2014,oct,15,half_new,0.5
-2014,oct,23,new,1
-2014,oct,31,half_full,1.5
-2014,nov,6,full,0
-2014,nov,14,half_new,0.5
-2014,nov,22,new,1
-2014,nov,29,half_full,1.5
-2014,dec,6,full,0
-2014,dec,14,half_new,0.5
-2014,dec,22,new,1
-2014,dec,28,half_full,1.5
-2015,jan,5,full,0
-2015,jan,13,half_new,0.5
-2015,jan,20,new,1
-2015,jan,27,half_full,1.5
-2015,feb,4,full,0
-2015,feb,12,half_new,0.5
-2015,feb,19,new,1
-2015,feb,25,half_full,1.5
-2015,mar,5,full,0
-2015,mar,13,half_new,0.5
-2015,mar,20,new,1
-2015,mar,27,half_full,1.5
-2015,apr,4,full,0
-2015,apr,12,half_new,0.5
-2015,apr,18,new,1
-2015,apr,26,half_full,1.5
-2015,may,4,full,0
-2015,may,11,half_new,0.5
-2015,may,18,new,1
-2015,may,25,half_full,1.5
-2015,jun,2,full,0
-2015,jun,9,half_new,0.5
-2015,jun,16,new,1
-2015,jun,24,half_full,1.5
-2015,jul,2,full,0
-2015,jul,8,half_new,0.5
-2015,jul,16,new,1
-2015,jul,24,half_full,1.5
-2015,jul,31,full,0
-2015,aug,7,half_new,0.5
-2015,aug,14,new,1
-2015,aug,22,half_full,1.5
-2015,aug,29,full,0
-2015,sep,5,half_new,0.5
-2015,sep,13,new,1
-2015,sep,21,half_full,1.5
-2015,sep,28,full,0
-2015,oct,4,half_new,0.5
-2015,oct,13,new,1
-2015,oct,20,half_full,1.5
-2015,oct,27,full,0
-2015,nov,3,half_new,0.5
-2015,nov,11,new,1
-2015,nov,19,half_full,1.5
-2015,nov,25,full,0
-2015,dec,3,half_new,0.5
-2015,dec,11,new,1
-2015,dec,18,half_full,1.5
-2015,dec,25,full,0
-2016,jan,2,half_new,0.5
-2016,jan,10,new,1
-2016,jan,17,half_full,1.5
-2016,jan,24,full,0
-2016,feb,1,half_new,0.5
-2016,feb,8,new,1
-2016,feb,15,half_full,1.5
-2016,feb,22,full,0
-2016,mar,2,half_new,0.5
-2016,mar,9,new,1
-2016,mar,15,half_full,1.5
-2016,mar,23,full,0
-2016,mar,31,half_new,0.5
-2016,apr,7,new,1
-2016,apr,14,half_full,1.5
-2016,apr,22,full,0
-2016,apr,30,half_new,0.5
-2016,may,7,new,1
-2016,may,13,half_full,1.5
-2016,may,21,full,0
-2016,may,29,half_new,0.5
-2016,jun,5,new,1
-2016,jun,12,half_full,1.5
-2016,jun,20,full,0
-2016,jun,27,half_new,0.5
-2016,jul,4,new,1
-2016,jul,12,half_full,1.5
-2016,jul,20,full,0
-2016,jul,27,half_new,0.5
-2016,aug,2,new,1
-2016,aug,10,half_full,1.5
-2016,aug,18,full,0
-2016,aug,25,half_new,0.5
-2016,sep,1,new,1
-2016,sep,9,half_full,1.5
-2016,sep,16,full,0
-2016,sep,23,half_new,0.5
-2016,oct,1,new,1
-2016,oct,9,half_full,1.5
-2016,oct,16,full,0
-2016,oct,22,half_new,0.5
-2016,oct,30,new,1
-2016,nov,7,half_full,1.5
-2016,nov,14,full,0
-2016,nov,21,half_new,0.5
-2016,nov,29,new,1
-2016,dec,7,half_full,1.5
-2016,dec,14,full,0
-2016,dec,21,half_new,0.5
-2016,dec,29,new,1
-2017,jan,5,half_full,1.5
-2017,jan,12,full,0
-2017,jan,19,half_new,0.5
-2017,jan,28,new,1
-2017,feb,4,half_full,1.5
-2017,feb,11,full,0
-2017,feb,18,half_new,0.5
-2017,feb,26,new,1
-2017,mar,5,half_full,1.5
-2017,mar,12,full,0
-2017,mar,20,half_new,0.5
-2017,mar,28,new,1
-2017,apr,3,half_full,1.5
-2017,apr,11,full,0
-2017,apr,19,half_new,0.5
-2017,apr,26,new,1
-2017,may,3,half_full,1.5
-2017,may,10,full,0
-2017,may,19,half_new,0.5
-2017,may,25,new,1
-2017,jun,1,half_full,1.5
-2017,jun,9,full,0
-2017,jun,17,half_new,0.5
-2017,jun,24,new,1
-2017,jul,1,half_full,1.5
-2017,jul,9,full,0
-2017,jul,16,half_new,0.5
-2017,jul,23,new,1
-2017,jul,30,half_full,1.5
-2017,aug,7,full,0
-2017,aug,15,half_new,0.5
-2017,aug,21,new,1
-2017,aug,29,half_full,1.5
-2017,sep,6,full,0
-2017,sep,13,half_new,0.5
-2017,sep,20,new,1
-2017,sep,28,half_full,1.5
-2017,oct,5,full,0
-2017,oct,12,half_new,0.5
-2017,oct,19,new,1
-2017,oct,28,half_full,1.5
-2017,nov,4,full,0
-2017,nov,10,half_new,0.5
-2017,nov,18,new,1
-2017,nov,26,half_full,1.5
-2017,dec,3,full,0
-2017,dec,10,half_new,0.5
-2017,dec,18,new,1
-2017,dec,26,half_full,1.5
-2018,jan,2,full,0
-2018,jan,8,half_new,0.5
-2018,jan,17,new,1
-2018,jan,24,half_full,1.5
-2018,jan,31,full,0
-2018,feb,7,half_new,0.5
-2018,feb,15,new,1
-2018,feb,23,half_full,1.5
-2018,mar,2,full,0
-2018,mar,9,half_new,0.5
-2018,mar,17,new,1
-2018,mar,24,half_full,1.5
-2018,mar,31,full,0
-2018,apr,8,half_new,0.5
-2018,apr,16,new,1
-2018,apr,22,half_full,1.5
-2018,apr,30,full,0
-2018,may,8,half_new,0.5
-2018,may,15,new,1
-2018,may,22,half_full,1.5
-2018,may,29,full,0
-2018,jun,6,half_new,0.5
-2018,jun,13,new,1
-2018,jun,20,half_full,1.5
-2018,jun,28,full,0
-2018,jul,6,half_new,0.5
-2018,jul,13,new,1
-2018,jul,19,half_full,1.5
-2018,jul,27,full,0
-2018,aug,4,half_new,0.5
-2018,aug,11,new,1
-2018,aug,18,half_full,1.5
-2018,aug,26,full,0
-2018,sep,3,half_new,0.5
-2018,sep,9,new,1
-2018,sep,17,half_full,1.5
-2018,sep,25,full,0
-2018,oct,2,half_new,0.5
-2018,oct,9,new,1
-2018,oct,16,half_full,1.5
-2018,oct,24,full,0
-2018,oct,31,half_new,0.5
-2018,nov,7,new,1
-2018,nov,15,half_full,1.5
-2018,nov,23,full,0
-2018,nov,30,half_new,0.5
-2018,dec,7,new,1
-2018,dec,15,half_full,1.5
-2018,dec,22,full,0
-2018,dec,29,half_new,0.5
-2019,jan,6,new,1
-2019,jan,14,half_full,1.5
-2019,jan,21,full,0
-2019,jan,27,half_new,0.5
-2019,feb,4,new,1
-2019,feb,12,half_full,1.5
-2019,feb,19,full,0
-2019,feb,26,half_new,0.5
-2019,mar,6,new,1
-2019,mar,14,half_full,1.5
-2019,mar,21,full,0
-2019,mar,28,half_new,0.5
-2019,apr,5,new,1
-2019,apr,12,half_full,1.5
-2019,apr,19,full,0
-2019,apr,27,half_new,0.5
-2019,may,5,new,1
-2019,may,12,half_full,1.5
-2019,may,18,full,0
-2019,may,26,half_new,0.5
-2019,jun,3,new,1
-2019,jun,10,half_full,1.5
-2019,jun,17,full,0
-2019,jun,25,half_new,0.5
-2019,jul,2,new,1
-2019,jul,9,half_full,1.5
-2019,jul,16,full,0
-2019,jul,25,half_new,0.5
-2019,aug,1,new,1
-2019,aug,7,half_full,1.5
-2019,aug,15,full,0
-2019,aug,23,half_new,0.5
-2019,aug,30,new,1
-2019,sep,6,half_full,1.5
-2019,sep,14,full,0
-2019,sep,22,half_new,0.5
-2019,sep,28,new,1
-2019,oct,5,half_full,1.5
-2019,oct,13,full,0
-2019,oct,21,half_new,0.5
-2019,oct,28,new,1
-2019,nov,4,half_full,1.5
-2019,nov,12,full,0
-2019,nov,19,half_new,0.5
-2019,nov,26,new,1
-2019,dec,4,half_full,1.5
-2019,dec,12,full,0
-2019,dec,19,half_new,0.5
-2019,dec,26,new,1
-2020,jan,3,half_full,1.5
-2020,jan,10,full,0
-2020,jan,17,half_new,0.5
-2020,jan,24,new,1
-2020,feb,2,half_full,1.5
-2020,feb,9,full,0
-2020,feb,15,half_new,0.5
-2020,feb,23,new,1
-2020,mar,2,half_full,1.5
-2020,mar,9,full,0
-2020,mar,16,half_new,0.5
-2020,mar,24,new,1
-2020,apr,1,half_full,1.5
-2020,apr,8,full,0
-2020,apr,15,half_new,0.5
-2020,apr,23,new,1
-2020,apr,30,half_full,1.5
-2020,may,7,full,0
-2020,may,14,half_new,0.5
-2020,may,22,new,1
-2020,may,30,half_full,1.5
-2020,jun,5,full,0
-2020,jun,13,half_new,0.5
-2020,jun,21,new,1
-2020,jun,28,half_full,1.5
-2020,jul,5,full,0
-2020,jul,13,half_new,0.5
-2020,jul,20,new,1
-2020,jul,27,half_full,1.5
-2020,aug,3,full,0
-2020,aug,11,half_new,0.5
-2020,aug,19,new,1
-2020,aug,25,half_full,1.5
-2020,sep,2,full,0
-2020,sep,10,half_new,0.5
-2020,sep,17,new,1
-2020,sep,24,half_full,1.5
-2020,oct,1,full,0
-2020,oct,10,half_new,0.5
-2020,oct,16,new,1
-2020,oct,23,half_full,1.5
-2020,oct,31,full,0
-2020,nov,8,half_new,0.5
-2020,nov,15,new,1
-2020,nov,22,half_full,1.5
-2020,nov,30,full,0
-2020,dec,8,half_new,0.5
-2020,dec,14,new,1
-2020,dec,22,half_full,1.5
-2020,dec,30,full,0
-2021,jan,6,half_new,0.5
-2021,jan,13,new,1
-2021,jan,20,half_full,1.5
-2021,jan,28,full,0
-2021,feb,4,half_new,0.5
-2021,feb,11,new,1
-2021,feb,19,half_full,1.5
-2021,feb,27,full,0
-2021,mar,6,half_new,0.5
-2021,mar,13,new,1
-2021,mar,21,half_full,1.5
-2021,mar,28,full,0
-2021,apr,4,half_new,0.5
-2021,apr,12,new,1
-2021,apr,20,half_full,1.5
-2021,apr,27,full,0
-2021,may,3,half_new,0.5
-2021,may,11,new,1
-2021,may,19,half_full,1.5
-2021,may,26,full,0
-2021,jun,2,half_new,0.5
-2021,jun,10,new,1
-2021,jun,18,half_full,1.5
-2021,jun,24,full,0
-2021,jul,1,half_new,0.5
-2021,jul,10,new,1
-2021,jul,17,half_full,1.5
-2021,jul,24,full,0
-2021,jul,31,half_new,0.5
-2021,aug,8,new,1
-2021,aug,15,half_full,1.5
-2021,aug,22,full,0
-2021,aug,30,half_new,0.5
-2021,sep,7,new,1
-2021,sep,13,half_full,1.5
-2021,sep,21,full,0
-2021,sep,29,half_new,0.5
-2021,oct,6,new,1
-2021,oct,13,half_full,1.5
-2021,oct,20,full,0
-2021,oct,28,half_new,0.5
-2021,nov,4,new,1
-2021,nov,11,half_full,1.5
-2021,nov,19,full,0
-2021,nov,27,half_new,0.5
-2021,dec,4,new,1
-2021,dec,11,half_full,1.5
-2021,dec,19,full,0
-2021,dec,27,half_new,0.5
-2022,jan,2,new,1
-2022,jan,9,half_full,1.5
-2022,jan,18,full,0
-2022,jan,25,half_new,0.5
-2022,feb,1,new,1
-2022,feb,8,half_full,1.5
-2022,feb,16,full,0
-2022,feb,23,half_new,0.5
-2022,mar,2,new,1
-2022,mar,10,half_full,1.5
-2022,mar,18,full,0
-2022,mar,25,half_new,0.5
-2022,apr,1,new,1
-2022,apr,9,half_full,1.5
-2022,apr,16,full,0
-2022,apr,23,half_new,0.5
-2022,apr,30,new,1
-2022,may,9,half_full,1.5
-2022,may,16,full,0
-2022,may,22,half_new,0.5
-2022,may,30,new,1
-2022,jun,7,half_full,1.5
-2022,jun,14,full,0
-2022,jun,21,half_new,0.5
-2022,jun,29,new,1
-2022,jul,7,half_full,1.5
-2022,jul,13,full,0
-2022,jul,20,half_new,0.5
-2022,jul,28,new,1
-2022,aug,5,half_full,1.5
-2022,aug,12,full,0
-2022,aug,19,half_new,0.5
-2022,aug,27,new,1
-2022,sep,3,half_full,1.5
-2022,sep,10,full,0
-2022,sep,17,half_new,0.5
-2022,sep,25,new,1
-2022,oct,3,half_full,1.5
-2022,oct,9,full,0
-2022,oct,17,half_new,0.5
-2022,oct,25,new,1
-2022,nov,1,half_full,1.5
-2022,nov,8,full,0
-2022,nov,16,half_new,0.5
-2022,nov,23,new,1
-2022,nov,30,half_full,1.5
-2022,dec,8,full,0
-2022,dec,16,half_new,0.5
-2022,dec,23,new,1
-2022,dec,30,half_full,1.5
+year,monthNbr,month,day,phase,percentage
+1997,1,jan,1,,0.429
+1997,1,jan,2,half new,0.5
+1997,1,jan,3,,0.571
+1997,1,jan,4,,0.642
+1997,1,jan,5,,0.714
+1997,1,jan,6,,0.785
+1997,1,jan,7,,0.857
+1997,1,jan,8,,0.928
+1997,1,jan,9,new moon,1
+1997,1,jan,10,,1.083
+1997,1,jan,11,,1.167
+1997,1,jan,12,,1.25
+1997,1,jan,13,,1.333
+1997,1,jan,14,,1.417
+1997,1,jan,15,half full,1.5
+1997,1,jan,16,,1.562
+1997,1,jan,17,,1.625
+1997,1,jan,18,,1.687
+1997,1,jan,19,,1.75
+1997,1,jan,20,,1.812
+1997,1,jan,21,,1.875
+1997,1,jan,22,,1.937
+1997,1,jan,23,full moon,0
+1997,1,jan,24,,0.062
+1997,1,jan,25,,0.125
+1997,1,jan,26,,0.187
+1997,1,jan,27,,0.25
+1997,1,jan,28,,0.312
+1997,1,jan,29,,0.375
+1997,1,jan,30,,0.437
+1997,1,jan,31,half new,0.5
+1997,2,feb,1,,0.571
+1997,2,feb,2,,0.642
+1997,2,feb,3,,0.714
+1997,2,feb,4,,0.785
+1997,2,feb,5,,0.857
+1997,2,feb,6,,0.928
+1997,2,feb,7,new moon,1
+1997,2,feb,8,,1.071
+1997,2,feb,9,,1.142
+1997,2,feb,10,,1.214
+1997,2,feb,11,,1.285
+1997,2,feb,12,,1.357
+1997,2,feb,13,,1.428
+1997,2,feb,14,half full,1.5
+1997,2,feb,15,,1.562
+1997,2,feb,16,,1.625
+1997,2,feb,17,,1.687
+1997,2,feb,18,,1.75
+1997,2,feb,19,,1.812
+1997,2,feb,20,,1.875
+1997,2,feb,21,,1.937
+1997,2,feb,22,full moon,0
+1997,2,feb,23,,0.062
+1997,2,feb,24,,0.125
+1997,2,feb,25,,0.187
+1997,2,feb,26,,0.25
+1997,2,feb,27,,0.312
+1997,2,feb,28,,0.375
+1997,3,mar,1,,0.437
+1997,3,mar,2,half new,0.5
+1997,3,mar,3,,0.571
+1997,3,mar,4,,0.642
+1997,3,mar,5,,0.714
+1997,3,mar,6,,0.785
+1997,3,mar,7,,0.857
+1997,3,mar,8,,0.928
+1997,3,mar,9,new moon,1
+1997,3,mar,10,,1.071
+1997,3,mar,11,,1.142
+1997,3,mar,12,,1.214
+1997,3,mar,13,,1.285
+1997,3,mar,14,,1.357
+1997,3,mar,15,,1.428
+1997,3,mar,16,half full,1.5
+1997,3,mar,17,,1.562
+1997,3,mar,18,,1.625
+1997,3,mar,19,,1.687
+1997,3,mar,20,,1.75
+1997,3,mar,21,,1.812
+1997,3,mar,22,,1.875
+1997,3,mar,23,,1.937
+1997,3,mar,24,full moon,0
+1997,3,mar,25,,0.071
+1997,3,mar,26,,0.142
+1997,3,mar,27,,0.214
+1997,3,mar,28,,0.285
+1997,3,mar,29,,0.357
+1997,3,mar,30,,0.428
+1997,3,mar,31,half new,0.5
+1997,4,apr,1,,0.571
+1997,4,apr,2,,0.642
+1997,4,apr,3,,0.714
+1997,4,apr,4,,0.785
+1997,4,apr,5,,0.857
+1997,4,apr,6,,0.928
+1997,4,apr,7,new moon,1
+1997,4,apr,8,,1.071
+1997,4,apr,9,,1.142
+1997,4,apr,10,,1.214
+1997,4,apr,11,,1.285
+1997,4,apr,12,,1.357
+1997,4,apr,13,,1.428
+1997,4,apr,14,half full,1.5
+1997,4,apr,15,,1.562
+1997,4,apr,16,,1.625
+1997,4,apr,17,,1.687
+1997,4,apr,18,,1.75
+1997,4,apr,19,,1.812
+1997,4,apr,20,,1.875
+1997,4,apr,21,,1.937
+1997,4,apr,22,full moon,0
+1997,4,apr,23,,0.062
+1997,4,apr,24,,0.125
+1997,4,apr,25,,0.187
+1997,4,apr,26,,0.25
+1997,4,apr,27,,0.312
+1997,4,apr,28,,0.375
+1997,4,apr,29,,0.437
+1997,4,apr,30,half new,0.5
+1997,5,may,1,,0.583
+1997,5,may,2,,0.666
+1997,5,may,3,,0.749
+1997,5,may,4,,0.833
+1997,5,may,5,,0.916
+1997,5,may,6,new moon,1
+1997,5,may,7,,1.062
+1997,5,may,8,,1.125
+1997,5,may,9,,1.187
+1997,5,may,10,,1.25
+1997,5,may,11,,1.312
+1997,5,may,12,,1.375
+1997,5,may,13,,1.437
+1997,5,may,14,half full,1.5
+1997,5,may,15,,1.562
+1997,5,may,16,,1.625
+1997,5,may,17,,1.687
+1997,5,may,18,,1.75
+1997,5,may,19,,1.812
+1997,5,may,20,,1.875
+1997,5,may,21,,1.937
+1997,5,may,22,full moon,0
+1997,5,may,23,,0.071
+1997,5,may,24,,0.142
+1997,5,may,25,,0.214
+1997,5,may,26,,0.285
+1997,5,may,27,,0.357
+1997,5,may,28,,0.428
+1997,5,may,29,half new,0.5
+1997,5,may,30,,0.571
+1997,5,may,31,,0.642
+1997,6,jun,1,,0.714
+1997,6,jun,2,,0.785
+1997,6,jun,3,,0.857
+1997,6,jun,4,,0.928
+1997,6,jun,5,new moon,1
+1997,6,jun,6,,1.062
+1997,6,jun,7,,1.125
+1997,6,jun,8,,1.187
+1997,6,jun,9,,1.25
+1997,6,jun,10,,1.312
+1997,6,jun,11,,1.375
+1997,6,jun,12,,1.437
+1997,6,jun,13,half full,1.5
+1997,6,jun,14,,1.571
+1997,6,jun,15,,1.642
+1997,6,jun,16,,1.714
+1997,6,jun,17,,1.785
+1997,6,jun,18,,1.857
+1997,6,jun,19,,1.928
+1997,6,jun,20,full moon,0
+1997,6,jun,21,,0.071
+1997,6,jun,22,,0.142
+1997,6,jun,23,,0.214
+1997,6,jun,24,,0.285
+1997,6,jun,25,,0.357
+1997,6,jun,26,,0.428
+1997,6,jun,27,half new,0.5
+1997,6,jun,28,,0.571
+1997,6,jun,29,,0.642
+1997,6,jun,30,,0.714
+1997,7,jul,1,,0.785
+1997,7,jul,2,,0.857
+1997,7,jul,3,,0.928
+1997,7,jul,4,new moon,1
+1997,7,jul,5,,1.062
+1997,7,jul,6,,1.125
+1997,7,jul,7,,1.187
+1997,7,jul,8,,1.25
+1997,7,jul,9,,1.312
+1997,7,jul,10,,1.375
+1997,7,jul,11,,1.437
+1997,7,jul,12,half full,1.5
+1997,7,jul,13,,1.562
+1997,7,jul,14,,1.625
+1997,7,jul,15,,1.687
+1997,7,jul,16,,1.75
+1997,7,jul,17,,1.812
+1997,7,jul,18,,1.875
+1997,7,jul,19,,1.937
+1997,7,jul,20,full moon,0
+1997,7,jul,21,,0.071
+1997,7,jul,22,,0.142
+1997,7,jul,23,,0.214
+1997,7,jul,24,,0.285
+1997,7,jul,25,,0.357
+1997,7,jul,26,,0.428
+1997,7,jul,27,half new,0.5
+1997,7,jul,28,,0.571
+1997,7,jul,29,,0.642
+1997,7,jul,30,,0.714
+1997,7,jul,31,,0.785
+1997,8,aug,1,,0.857
+1997,8,aug,2,,0.928
+1997,8,aug,3,new moon,1
+1997,8,aug,4,,1.062
+1997,8,aug,5,,1.125
+1997,8,aug,6,,1.187
+1997,8,aug,7,,1.25
+1997,8,aug,8,,1.312
+1997,8,aug,9,,1.375
+1997,8,aug,10,,1.437
+1997,8,aug,11,half full,1.5
+1997,8,aug,12,,1.571
+1997,8,aug,13,,1.642
+1997,8,aug,14,,1.714
+1997,8,aug,15,,1.785
+1997,8,aug,16,,1.857
+1997,8,aug,17,,1.928
+1997,8,aug,18,full moon,0
+1997,8,aug,19,,0.071
+1997,8,aug,20,,0.142
+1997,8,aug,21,,0.214
+1997,8,aug,22,,0.285
+1997,8,aug,23,,0.357
+1997,8,aug,24,,0.428
+1997,8,aug,25,half new,0.5
+1997,8,aug,26,,0.562
+1997,8,aug,27,,0.625
+1997,8,aug,28,,0.687
+1997,8,aug,29,,0.75
+1997,8,aug,30,,0.812
+1997,8,aug,31,,0.875
+1997,9,sep,1,,0.937
+1997,9,sep,2,new moon,1
+1997,9,sep,3,,1.062
+1997,9,sep,4,,1.125
+1997,9,sep,5,,1.187
+1997,9,sep,6,,1.25
+1997,9,sep,7,,1.312
+1997,9,sep,8,,1.375
+1997,9,sep,9,,1.437
+1997,9,sep,10,half full,1.5
+1997,9,sep,11,,1.583
+1997,9,sep,12,,1.667
+1997,9,sep,13,,1.75
+1997,9,sep,14,,1.833
+1997,9,sep,15,,1.917
+1997,9,sep,16,full moon,0
+1997,9,sep,17,,0.071
+1997,9,sep,18,,0.142
+1997,9,sep,19,,0.214
+1997,9,sep,20,,0.285
+1997,9,sep,21,,0.357
+1997,9,sep,22,,0.428
+1997,9,sep,23,half new,0.5
+1997,9,sep,24,,0.562
+1997,9,sep,25,,0.625
+1997,9,sep,26,,0.687
+1997,9,sep,27,,0.75
+1997,9,sep,28,,0.812
+1997,9,sep,29,,0.875
+1997,9,sep,30,,0.937
+1997,10,oct,1,new moon,1
+1997,10,oct,2,,1.062
+1997,10,oct,3,,1.125
+1997,10,oct,4,,1.187
+1997,10,oct,5,,1.25
+1997,10,oct,6,,1.312
+1997,10,oct,7,,1.375
+1997,10,oct,8,,1.437
+1997,10,oct,9,half full,1.5
+1997,10,oct,10,,1.571
+1997,10,oct,11,,1.642
+1997,10,oct,12,,1.714
+1997,10,oct,13,,1.785
+1997,10,oct,14,,1.857
+1997,10,oct,15,,1.928
+1997,10,oct,16,full moon,0
+1997,10,oct,17,,0.071
+1997,10,oct,18,,0.142
+1997,10,oct,19,,0.214
+1997,10,oct,20,,0.285
+1997,10,oct,21,,0.357
+1997,10,oct,22,,0.428
+1997,10,oct,23,half new,0.5
+1997,10,oct,24,,0.562
+1997,10,oct,25,,0.625
+1997,10,oct,26,,0.687
+1997,10,oct,27,,0.75
+1997,10,oct,28,,0.812
+1997,10,oct,29,,0.875
+1997,10,oct,30,,0.937
+1997,10,oct,31,new moon,1
+1997,11,nov,1,,1.071
+1997,11,nov,2,,1.142
+1997,11,nov,3,,1.214
+1997,11,nov,4,,1.285
+1997,11,nov,5,,1.357
+1997,11,nov,6,,1.428
+1997,11,nov,7,half full,1.5
+1997,11,nov,8,,1.571
+1997,11,nov,9,,1.642
+1997,11,nov,10,,1.714
+1997,11,nov,11,,1.785
+1997,11,nov,12,,1.857
+1997,11,nov,13,,1.928
+1997,11,nov,14,full moon,0
+1997,11,nov,15,,0.062
+1997,11,nov,16,,0.125
+1997,11,nov,17,,0.187
+1997,11,nov,18,,0.25
+1997,11,nov,19,,0.312
+1997,11,nov,20,,0.375
+1997,11,nov,21,,0.437
+1997,11,nov,22,half new,0.5
+1997,11,nov,23,,0.562
+1997,11,nov,24,,0.625
+1997,11,nov,25,,0.687
+1997,11,nov,26,,0.75
+1997,11,nov,27,,0.812
+1997,11,nov,28,,0.875
+1997,11,nov,29,,0.937
+1997,11,nov,30,new moon,1
+1997,12,dec,1,,1.071
+1997,12,dec,2,,1.142
+1997,12,dec,3,,1.214
+1997,12,dec,4,,1.285
+1997,12,dec,5,,1.357
+1997,12,dec,6,,1.428
+1997,12,dec,7,half full,1.5
+1997,12,dec,8,,1.571
+1997,12,dec,9,,1.642
+1997,12,dec,10,,1.714
+1997,12,dec,11,,1.785
+1997,12,dec,12,,1.857
+1997,12,dec,13,,1.928
+1997,12,dec,14,full moon,0
+1997,12,dec,15,,0.071
+1997,12,dec,16,,0.142
+1997,12,dec,17,,0.214
+1997,12,dec,18,,0.285
+1997,12,dec,19,,0.357
+1997,12,dec,20,,0.428
+1997,12,dec,21,half new,0.5
+1997,12,dec,22,,0.562
+1997,12,dec,23,,0.625
+1997,12,dec,24,,0.687
+1997,12,dec,25,,0.75
+1997,12,dec,26,,0.812
+1997,12,dec,27,,0.875
+1997,12,dec,28,,0.937
+1997,12,dec,29,new moon,1
+1997,12,dec,30,,1.071
+1997,12,dec,31,,1.142
+1998,1,jan,1,,1.214
+1998,1,jan,2,,1.285
+1998,1,jan,3,,1.357
+1998,1,jan,4,,1.428
+1998,1,jan,5,half full,1.5
+1998,1,jan,6,,1.571
+1998,1,jan,7,,1.642
+1998,1,jan,8,,1.714
+1998,1,jan,9,,1.785
+1998,1,jan,10,,1.857
+1998,1,jan,11,,1.928
+1998,1,jan,12,full moon,0
+1998,1,jan,13,,0.062
+1998,1,jan,14,,0.125
+1998,1,jan,15,,0.187
+1998,1,jan,16,,0.25
+1998,1,jan,17,,0.312
+1998,1,jan,18,,0.375
+1998,1,jan,19,,0.437
+1998,1,jan,20,half new,0.5
+1998,1,jan,21,,0.562
+1998,1,jan,22,,0.625
+1998,1,jan,23,,0.687
+1998,1,jan,24,,0.75
+1998,1,jan,25,,0.812
+1998,1,jan,26,,0.875
+1998,1,jan,27,,0.937
+1998,1,jan,28,new moon,1
+1998,1,jan,29,,1.083
+1998,1,jan,30,,1.167
+1998,1,jan,31,,1.25
+1998,2,feb,1,,1.333
+1998,2,feb,2,,1.417
+1998,2,feb,3,half full,1.5
+1998,2,feb,4,,1.562
+1998,2,feb,5,,1.625
+1998,2,feb,6,,1.687
+1998,2,feb,7,,1.75
+1998,2,feb,8,,1.812
+1998,2,feb,9,,1.875
+1998,2,feb,10,,1.937
+1998,2,feb,11,full moon,0
+1998,2,feb,12,,0.062
+1998,2,feb,13,,0.125
+1998,2,feb,14,,0.187
+1998,2,feb,15,,0.25
+1998,2,feb,16,,0.312
+1998,2,feb,17,,0.375
+1998,2,feb,18,,0.437
+1998,2,feb,19,half new,0.5
+1998,2,feb,20,,0.571
+1998,2,feb,21,,0.642
+1998,2,feb,22,,0.714
+1998,2,feb,23,,0.785
+1998,2,feb,24,,0.857
+1998,2,feb,25,,0.928
+1998,2,feb,26,new moon,1
+1998,2,feb,27,,1.071
+1998,2,feb,28,,1.142
+1998,3,mar,1,,1.214
+1998,3,mar,2,,1.285
+1998,3,mar,3,,1.357
+1998,3,mar,4,,1.428
+1998,3,mar,5,half full,1.5
+1998,3,mar,6,,1.562
+1998,3,mar,7,,1.625
+1998,3,mar,8,,1.687
+1998,3,mar,9,,1.75
+1998,3,mar,10,,1.812
+1998,3,mar,11,,1.875
+1998,3,mar,12,,1.937
+1998,3,mar,13,full moon,0
+1998,3,mar,14,,0.062
+1998,3,mar,15,,0.125
+1998,3,mar,16,,0.187
+1998,3,mar,17,,0.25
+1998,3,mar,18,,0.312
+1998,3,mar,19,,0.375
+1998,3,mar,20,,0.437
+1998,3,mar,21,half new,0.5
+1998,3,mar,22,,0.571
+1998,3,mar,23,,0.642
+1998,3,mar,24,,0.714
+1998,3,mar,25,,0.785
+1998,3,mar,26,,0.857
+1998,3,mar,27,,0.928
+1998,3,mar,28,new moon,1
+1998,3,mar,29,,1.083
+1998,3,mar,30,,1.167
+1998,3,mar,31,,1.25
+1998,4,apr,1,,1.333
+1998,4,apr,2,,1.417
+1998,4,apr,3,half full,1.5
+1998,4,apr,4,,1.556
+1998,4,apr,5,,1.611
+1998,4,apr,6,,1.667
+1998,4,apr,7,,1.722
+1998,4,apr,8,,1.778
+1998,4,apr,9,,1.834
+1998,4,apr,10,,1.889
+1998,4,apr,11,,1.944
+1998,4,apr,12,full moon,0
+1998,4,apr,13,,0.071
+1998,4,apr,14,,0.142
+1998,4,apr,15,,0.214
+1998,4,apr,16,,0.285
+1998,4,apr,17,,0.357
+1998,4,apr,18,,0.428
+1998,4,apr,19,half new,0.5
+1998,4,apr,20,,0.571
+1998,4,apr,21,,0.642
+1998,4,apr,22,,0.714
+1998,4,apr,23,,0.785
+1998,4,apr,24,,0.857
+1998,4,apr,25,,0.928
+1998,4,apr,26,new moon,1
+1998,4,apr,27,,1.071
+1998,4,apr,28,,1.142
+1998,4,apr,29,,1.214
+1998,4,apr,30,,1.285
+1998,5,may,1,,1.357
+1998,5,may,2,,1.428
+1998,5,may,3,half full,1.5
+1998,5,may,4,,1.562
+1998,5,may,5,,1.625
+1998,5,may,6,,1.687
+1998,5,may,7,,1.75
+1998,5,may,8,,1.812
+1998,5,may,9,,1.875
+1998,5,may,10,,1.937
+1998,5,may,11,full moon,0
+1998,5,may,12,,0.062
+1998,5,may,13,,0.125
+1998,5,may,14,,0.187
+1998,5,may,15,,0.25
+1998,5,may,16,,0.312
+1998,5,may,17,,0.375
+1998,5,may,18,,0.437
+1998,5,may,19,half new,0.5
+1998,5,may,20,,0.583
+1998,5,may,21,,0.666
+1998,5,may,22,,0.749
+1998,5,may,23,,0.832
+1998,5,may,24,,0.915
+1998,5,may,25,new moon,1
+1998,5,may,26,,1.062
+1998,5,may,27,,1.125
+1998,5,may,28,,1.187
+1998,5,may,29,,1.25
+1998,5,may,30,,1.312
+1998,5,may,31,,1.375
+1998,6,jun,1,,1.437
+1998,6,jun,2,half full,1.5
+1998,6,jun,3,,1.562
+1998,6,jun,4,,1.625
+1998,6,jun,5,,1.687
+1998,6,jun,6,,1.75
+1998,6,jun,7,,1.812
+1998,6,jun,8,,1.875
+1998,6,jun,9,,1.937
+1998,6,jun,10,full moon,0
+1998,6,jun,11,,0.071
+1998,6,jun,12,,0.142
+1998,6,jun,13,,0.214
+1998,6,jun,14,,0.285
+1998,6,jun,15,,0.357
+1998,6,jun,16,,0.428
+1998,6,jun,17,half new,0.5
+1998,6,jun,18,,0.571
+1998,6,jun,19,,0.642
+1998,6,jun,20,,0.714
+1998,6,jun,21,,0.785
+1998,6,jun,22,,0.857
+1998,6,jun,23,,0.928
+1998,6,jun,24,new moon,1
+1998,6,jun,25,,1.071
+1998,6,jun,26,,1.142
+1998,6,jun,27,,1.214
+1998,6,jun,28,,1.285
+1998,6,jun,29,,1.357
+1998,6,jun,30,,1.428
+1998,7,jul,1,half full,1.5
+1998,7,jul,2,,1.562
+1998,7,jul,3,,1.625
+1998,7,jul,4,,1.687
+1998,7,jul,5,,1.75
+1998,7,jul,6,,1.812
+1998,7,jul,7,,1.875
+1998,7,jul,8,,1.937
+1998,7,jul,9,full moon,0
+1998,7,jul,10,,0.071
+1998,7,jul,11,,0.142
+1998,7,jul,12,,0.214
+1998,7,jul,13,,0.285
+1998,7,jul,14,,0.357
+1998,7,jul,15,,0.428
+1998,7,jul,16,half new,0.5
+1998,7,jul,17,,0.571
+1998,7,jul,18,,0.642
+1998,7,jul,19,,0.714
+1998,7,jul,20,,0.785
+1998,7,jul,21,,0.857
+1998,7,jul,22,,0.928
+1998,7,jul,23,new moon,1
+1998,7,jul,24,,1.062
+1998,7,jul,25,,1.125
+1998,7,jul,26,,1.187
+1998,7,jul,27,,1.25
+1998,7,jul,28,,1.312
+1998,7,jul,29,,1.375
+1998,7,jul,30,,1.437
+1998,7,jul,31,half full,1.5
+1998,8,aug,1,,1.562
+1998,8,aug,2,,1.625
+1998,8,aug,3,,1.687
+1998,8,aug,4,,1.75
+1998,8,aug,5,,1.812
+1998,8,aug,6,,1.875
+1998,8,aug,7,,1.937
+1998,8,aug,8,full moon,0
+1998,8,aug,9,,0.083
+1998,8,aug,10,,0.166
+1998,8,aug,11,,0.249
+1998,8,aug,12,,0.333
+1998,8,aug,13,,0.416
+1998,8,aug,14,half new,0.5
+1998,8,aug,15,,0.562
+1998,8,aug,16,,0.625
+1998,8,aug,17,,0.687
+1998,8,aug,18,,0.75
+1998,8,aug,19,,0.812
+1998,8,aug,20,,0.875
+1998,8,aug,21,,0.937
+1998,8,aug,22,new moon,1
+1998,8,aug,23,,1.062
+1998,8,aug,24,,1.125
+1998,8,aug,25,,1.187
+1998,8,aug,26,,1.25
+1998,8,aug,27,,1.312
+1998,8,aug,28,,1.375
+1998,8,aug,29,,1.437
+1998,8,aug,30,half full,1.5
+1998,8,aug,31,,1.571
+1998,9,sep,1,,1.642
+1998,9,sep,2,,1.714
+1998,9,sep,3,,1.785
+1998,9,sep,4,,1.857
+1998,9,sep,5,,1.928
+1998,9,sep,6,full moon,0
+1998,9,sep,7,,0.071
+1998,9,sep,8,,0.142
+1998,9,sep,9,,0.214
+1998,9,sep,10,,0.285
+1998,9,sep,11,,0.357
+1998,9,sep,12,,0.428
+1998,9,sep,13,half new,0.5
+1998,9,sep,14,,0.571
+1998,9,sep,15,,0.642
+1998,9,sep,16,,0.714
+1998,9,sep,17,,0.785
+1998,9,sep,18,,0.857
+1998,9,sep,19,,0.928
+1998,9,sep,20,new moon,1
+1998,9,sep,21,,1.062
+1998,9,sep,22,,1.125
+1998,9,sep,23,,1.187
+1998,9,sep,24,,1.25
+1998,9,sep,25,,1.312
+1998,9,sep,26,,1.375
+1998,9,sep,27,,1.437
+1998,9,sep,28,half full,1.5
+1998,9,sep,29,,1.571
+1998,9,sep,30,,1.642
+1998,10,oct,1,,1.714
+1998,10,oct,2,,1.785
+1998,10,oct,3,,1.857
+1998,10,oct,4,,1.928
+1998,10,oct,5,full moon,0
+1998,10,oct,6,,0.071
+1998,10,oct,7,,0.142
+1998,10,oct,8,,0.214
+1998,10,oct,9,,0.285
+1998,10,oct,10,,0.357
+1998,10,oct,11,,0.428
+1998,10,oct,12,half new,0.5
+1998,10,oct,13,,0.562
+1998,10,oct,14,,0.625
+1998,10,oct,15,,0.687
+1998,10,oct,16,,0.75
+1998,10,oct,17,,0.812
+1998,10,oct,18,,0.875
+1998,10,oct,19,,0.937
+1998,10,oct,20,new moon,1
+1998,10,oct,21,,1.062
+1998,10,oct,22,,1.125
+1998,10,oct,23,,1.187
+1998,10,oct,24,,1.25
+1998,10,oct,25,,1.312
+1998,10,oct,26,,1.375
+1998,10,oct,27,,1.437
+1998,10,oct,28,half full,1.5
+1998,10,oct,29,,1.571
+1998,10,oct,30,,1.642
+1998,10,oct,31,,1.714
+1998,11,nov,1,,1.785
+1998,11,nov,2,,1.857
+1998,11,nov,3,,1.928
+1998,11,nov,4,full moon,0
+1998,11,nov,5,,0.071
+1998,11,nov,6,,0.142
+1998,11,nov,7,,0.214
+1998,11,nov,8,,0.285
+1998,11,nov,9,,0.357
+1998,11,nov,10,,0.428
+1998,11,nov,11,half new,0.5
+1998,11,nov,12,,0.562
+1998,11,nov,13,,0.625
+1998,11,nov,14,,0.687
+1998,11,nov,15,,0.75
+1998,11,nov,16,,0.812
+1998,11,nov,17,,0.875
+1998,11,nov,18,,0.937
+1998,11,nov,19,new moon,1
+1998,11,nov,20,,1.062
+1998,11,nov,21,,1.125
+1998,11,nov,22,,1.187
+1998,11,nov,23,,1.25
+1998,11,nov,24,,1.312
+1998,11,nov,25,,1.375
+1998,11,nov,26,,1.437
+1998,11,nov,27,half full,1.5
+1998,11,nov,28,,1.583
+1998,11,nov,29,,1.667
+1998,11,nov,30,,1.75
+1998,12,dec,1,,1.833
+1998,12,dec,2,,1.917
+1998,12,dec,3,full moon,0
+1998,12,dec,4,,0.071
+1998,12,dec,5,,0.142
+1998,12,dec,6,,0.214
+1998,12,dec,7,,0.285
+1998,12,dec,8,,0.357
+1998,12,dec,9,,0.428
+1998,12,dec,10,half new,0.5
+1998,12,dec,11,,0.562
+1998,12,dec,12,,0.625
+1998,12,dec,13,,0.687
+1998,12,dec,14,,0.75
+1998,12,dec,15,,0.812
+1998,12,dec,16,,0.875
+1998,12,dec,17,,0.937
+1998,12,dec,18,new moon,1
+1998,12,dec,19,,1.062
+1998,12,dec,20,,1.125
+1998,12,dec,21,,1.187
+1998,12,dec,22,,1.25
+1998,12,dec,23,,1.312
+1998,12,dec,24,,1.375
+1998,12,dec,25,,1.437
+1998,12,dec,26,half full,1.5
+1998,12,dec,27,,1.571
+1998,12,dec,27,,1.642
+1998,12,dec,27,,1.714
+1998,12,dec,30,,1.785
+1998,12,dec,31,,1.857
+1999,1,jan,1,,1.928
+1999,1,jan,2,full moon,0
+1999,1,jan,3,,0.071
+1999,1,jan,4,,0.142
+1999,1,jan,5,,0.214
+1999,1,jan,6,,0.285
+1999,1,jan,7,,0.357
+1999,1,jan,8,,0.428
+1999,1,jan,9,half new,0.5
+1999,1,jan,10,,0.562
+1999,1,jan,11,,0.625
+1999,1,jan,12,,0.687
+1999,1,jan,13,,0.75
+1999,1,jan,14,,0.812
+1999,1,jan,15,,0.875
+1999,1,jan,16,,0.937
+1999,1,jan,17,new moon,1
+1999,1,jan,18,,1.071
+1999,1,jan,19,,1.142
+1999,1,jan,20,,1.214
+1999,1,jan,21,,1.285
+1999,1,jan,22,,1.357
+1999,1,jan,23,,1.428
+1999,1,jan,24,half full,1.5
+1999,1,jan,25,,1.571
+1999,1,jan,26,,1.642
+1999,1,jan,27,,1.714
+1999,1,jan,28,,1.785
+1999,1,jan,29,,1.857
+1999,1,jan,30,,1.928
+1999,1,jan,31,full moon,0
+1999,2,feb,1,,0.062
+1999,2,feb,2,,0.125
+1999,2,feb,3,,0.187
+1999,2,feb,4,,0.25
+1999,2,feb,5,,0.312
+1999,2,feb,6,,0.375
+1999,2,feb,7,,0.437
+1999,2,feb,8,half new,0.5
+1999,2,feb,9,,0.562
+1999,2,feb,10,,0.625
+1999,2,feb,11,,0.687
+1999,2,feb,12,,0.75
+1999,2,feb,13,,0.812
+1999,2,feb,14,,0.875
+1999,2,feb,15,,0.937
+1999,2,feb,16,new moon,1
+1999,2,feb,17,,1.071
+1999,2,feb,18,,1.142
+1999,2,feb,19,,1.214
+1999,2,feb,20,,1.285
+1999,2,feb,21,,1.357
+1999,2,feb,22,,1.428
+1999,2,feb,23,half full,1.5
+1999,2,feb,24,,1.571
+1999,2,feb,25,,1.642
+1999,2,feb,26,,1.714
+1999,2,feb,27,,1.785
+1999,2,feb,28,,1.857
+1999,3,mar,1,,1.928
+1999,3,mar,2,full moon,0
+1999,3,mar,3,,0.062
+1999,3,mar,4,,0.125
+1999,3,mar,5,,0.187
+1999,3,mar,6,,0.25
+1999,3,mar,7,,0.312
+1999,3,mar,8,,0.375
+1999,3,mar,9,,0.437
+1999,3,mar,10,half new,0.5
+1999,3,mar,11,,0.571
+1999,3,mar,12,,0.642
+1999,3,mar,13,,0.714
+1999,3,mar,14,,0.785
+1999,3,mar,15,,0.857
+1999,3,mar,16,,0.928
+1999,3,mar,17,new moon,1
+1999,3,mar,18,,1.071
+1999,3,mar,19,,1.142
+1999,3,mar,20,,1.214
+1999,3,mar,21,,1.285
+1999,3,mar,22,,1.357
+1999,3,mar,23,,1.428
+1999,3,mar,24,half full,1.5
+1999,3,mar,25,,1.562
+1999,3,mar,26,,1.625
+1999,3,mar,27,,1.687
+1999,3,mar,28,,1.75
+1999,3,mar,29,,1.812
+1999,3,mar,30,,1.875
+1999,3,mar,31,,1.937
+1999,4,apr,1,full moon,0
+1999,4,apr,9,half new,0.5
+1999,4,apr,16,new moon,1
+1999,4,apr,22,half full,1.5
+1999,4,apr,30,full moon,0
+1999,5,may,8,half new,0.5
+1999,5,may,15,new moon,1
+1999,5,may,22,half full,1.5
+1999,5,may,30,full moon,0
+1999,6,jun,7,half new,0.5
+1999,6,jun,13,new moon,1
+1999,6,jun,20,half full,1.5
+1999,6,jun,28,full moon,0
+1999,7,jul,6,half new,0.5
+1999,7,jul,13,new moon,1
+1999,7,jul,20,half full,1.5
+1999,7,jul,28,full moon,0
+1999,8,aug,4,half new,0.5
+1999,8,aug,11,new moon,1
+1999,8,aug,19,half full,1.5
+1999,8,aug,27,full moon,0
+1999,9,sep,3,half new,0.5
+1999,9,sep,10,new moon,1
+1999,9,sep,17,half full,1.5
+1999,9,sep,25,full moon,0
+1999,10,oct,2,half new,0.5
+1999,10,oct,9,new moon,1
+1999,10,oct,17,half full,1.5
+1999,10,oct,24,full moon,0
+1999,10,oct,31,half new,0.5
+1999,11,nov,8,new moon,1
+1999,11,nov,16,half full,1.5
+1999,11,nov,23,full moon,0
+1999,11,nov,30,half new,0.5
+1999,12,dec,7,new moon,1
+1999,12,dec,16,half full,1.5
+1999,12,dec,22,full moon,0
+1999,12,dec,29,half new,0.5
+2000,1,jan,6,new moon,1
+2000,1,jan,14,half full,1.5
+2000,1,jan,21,full moon,0
+2000,1,jan,28,half new,0.5
+2000,2,feb,5,new moon,1
+2000,2,feb,13,half full,1.5
+2000,2,feb,19,full moon,0
+2000,2,feb,27,half new,0.5
+2000,3,mar,6,new moon,1
+2000,3,mar,13,half full,1.5
+2000,3,mar,20,full moon,0
+2000,3,mar,28,half new,0.5
+2000,4,apr,4,new moon,1
+2000,4,apr,11,half full,1.5
+2000,4,apr,18,full moon,0
+2000,4,apr,26,half new,0.5
+2000,5,may,4,new moon,1
+2000,5,may,10,half full,1.5
+2000,5,may,18,full moon,0
+2000,5,may,26,half new,0.5
+2000,6,jun,2,new moon,1
+2000,6,jun,9,half full,1.5
+2000,6,jun,17,full moon,0
+2000,6,jun,25,half new,0.5
+2000,7,jul,1,new moon,1
+2000,7,jul,8,half full,1.5
+2000,7,jul,16,full moon,0
+2000,7,jul,24,half new,0.5
+2000,7,jul,31,new moon,1
+2000,8,aug,7,half full,1.5
+2000,8,aug,15,full moon,0
+2000,8,aug,22,half new,0.5
+2000,8,aug,29,new moon,1
+2000,9,sep,5,half full,1.5
+2000,9,sep,13,full moon,0
+2000,9,sep,21,half new,0.5
+2000,9,sep,27,new moon,1
+2000,10,oct,5,half full,1.5
+2000,10,oct,13,full moon,0
+2000,10,oct,20,half new,0.5
+2000,10,oct,27,new moon,1
+2000,11,nov,4,half full,1.5
+2000,11,nov,11,full moon,0
+2000,11,nov,18,half new,0.5
+2000,11,nov,26,new moon,1
+2000,12,dec,4,half full,1.5
+2000,12,dec,11,full moon,0
+2000,12,dec,18,half new,0.5
+2000,12,dec,25,new moon,1
+2001,1,jan,2,half full,1.5
+2001,1,jan,9,full moon,0
+2001,1,jan,16,half new,0.5
+2001,1,jan,24,new moon,1
+2001,2,feb,1,half full,1.5
+2001,2,feb,8,full moon,0
+2001,2,feb,15,half new,0.5
+2001,2,feb,23,new moon,1
+2001,3,mar,3,half full,1.5
+2001,3,mar,9,full moon,0
+2001,3,mar,16,half new,0.5
+2001,3,mar,25,new moon,1
+2001,4,apr,1,half full,1.5
+2001,4,apr,8,full moon,0
+2001,4,apr,15,half new,0.5
+2001,4,apr,23,new moon,1
+2001,4,apr,30,half full,1.5
+2001,5,may,7,full moon,0
+2001,5,may,15,half new,0.5
+2001,5,may,23,new moon,1
+2001,5,may,30,half full,1.5
+2001,6,jun,6,full moon,0
+2001,6,jun,14,half new,0.5
+2001,6,jun,21,new moon,1
+2001,6,jun,28,half full,1.5
+2001,7,jul,5,full moon,0
+2001,7,jul,13,half new,0.5
+2001,7,jul,20,new moon,1
+2001,7,jul,27,half full,1.5
+2001,8,aug,4,full moon,0
+2001,8,aug,12,half new,0.5
+2001,8,aug,19,new moon,1
+2001,8,aug,25,half full,1.5
+2001,9,sep,2,full moon,0
+2001,9,sep,10,half new,0.5
+2001,9,sep,17,new moon,1
+2001,9,sep,24,half full,1.5
+2001,10,oct,2,full moon,0
+2001,10,oct,10,half new,0.5
+2001,10,oct,16,new moon,1
+2001,10,oct,24,half full,1.5
+2001,11,nov,1,full moon,0
+2001,11,nov,8,half new,0.5
+2001,11,nov,15,new moon,1
+2001,11,nov,23,half full,1.5
+2001,11,nov,30,full moon,0
+2001,12,dec,7,half new,0.5
+2001,12,dec,14,new moon,1
+2001,12,dec,22,half full,1.5
+2001,12,dec,30,full moon,0
+2002,1,jan,6,half new,0.5
+2002,1,jan,13,new moon,1
+2002,1,jan,21,half full,1.5
+2002,1,jan,28,full moon,0
+2002,2,feb,4,half new,0.5
+2002,2,feb,12,new moon,1
+2002,2,feb,20,half full,1.5
+2002,2,feb,27,full moon,0
+2002,3,mar,6,half new,0.5
+2002,3,mar,14,new moon,1
+2002,3,mar,22,half full,1.5
+2002,3,mar,28,full moon,0
+2002,4,apr,4,half new,0.5
+2002,4,apr,12,new moon,1
+2002,4,apr,20,half full,1.5
+2002,4,apr,27,full moon,0
+2002,5,may,4,half new,0.5
+2002,5,may,12,new moon,1
+2002,5,may,19,half full,1.5
+2002,5,may,26,full moon,0
+2002,6,jun,3,half new,0.5
+2002,6,jun,11,new moon,1
+2002,6,jun,18,half full,1.5
+2002,6,jun,24,full moon,0
+2002,7,jul,2,half new,0.5
+2002,7,jul,10,new moon,1
+2002,7,jul,17,half full,1.5
+2002,7,jul,24,full moon,0
+2002,8,aug,1,half new,0.5
+2002,8,aug,8,new moon,1
+2002,8,aug,15,half full,1.5
+2002,8,aug,23,full moon,0
+2002,8,aug,31,half new,0.5
+2002,9,sep,7,new moon,1
+2002,9,sep,13,half full,1.5
+2002,9,sep,21,full moon,0
+2002,9,sep,29,half new,0.5
+2002,10,oct,6,new moon,1
+2002,10,oct,13,half full,1.5
+2002,10,oct,21,full moon,0
+2002,10,oct,29,half new,0.5
+2002,11,nov,4,new moon,1
+2002,11,nov,11,half full,1.5
+2002,11,nov,20,full moon,0
+2002,11,nov,27,half new,0.5
+2002,12,dec,4,new moon,1
+2002,12,dec,11,half full,1.5
+2002,12,dec,19,full moon,0
+2002,12,dec,27,half new,0.5
+2003,1,jan,2,new moon,1
+2003,1,jan,10,half full,1.5
+2003,1,jan,18,full moon,0
+2003,1,jan,25,half new,0.5
+2003,2,feb,1,new moon,1
+2003,2,feb,9,half full,1.5
+2003,2,feb,17,full moon,0
+2003,2,feb,23,half new,0.5
+2003,3,mar,3,new moon,1
+2003,3,mar,11,half full,1.5
+2003,3,mar,18,full moon,0
+2003,3,mar,25,half new,0.5
+2003,4,apr,1,new moon,1
+2003,4,apr,10,half full,1.5
+2003,4,apr,16,full moon,0
+2003,4,apr,23,half new,0.5
+2003,5,may,1,new moon,1
+2003,5,may,9,half full,1.5
+2003,5,may,16,full moon,0
+2003,5,may,23,half new,0.5
+2003,5,may,31,new moon,1
+2003,6,jun,7,half full,1.5
+2003,6,jun,14,full moon,0
+2003,6,jun,21,half new,0.5
+2003,6,jun,29,new moon,1
+2003,7,jul,7,half full,1.5
+2003,7,jul,13,full moon,0
+2003,7,jul,21,half new,0.5
+2003,7,jul,29,new moon,1
+2003,8,aug,5,half full,1.5
+2003,8,aug,12,full moon,0
+2003,8,aug,20,half new,0.5
+2003,8,aug,27,new moon,1
+2003,9,sep,3,half full,1.5
+2003,9,sep,10,full moon,0
+2003,9,sep,18,half new,0.5
+2003,9,sep,26,new moon,1
+2003,10,oct,2,half full,1.5
+2003,10,oct,10,full moon,0
+2003,10,oct,18,half new,0.5
+2003,10,oct,25,new moon,1
+2003,11,nov,1,half full,1.5
+2003,11,nov,9,full moon,0
+2003,11,nov,17,half new,0.5
+2003,11,nov,23,new moon,1
+2003,11,nov,30,half full,1.5
+2003,12,dec,8,full moon,0
+2003,12,dec,16,half new,0.5
+2003,12,dec,23,new moon,1
+2003,12,dec,30,half full,1.5
+2004,1,jan,7,full moon,0
+2004,1,jan,15,half new,0.5
+2004,1,jan,21,new moon,1
+2004,1,jan,29,half full,1.5
+2004,2,feb,6,full moon,0
+2004,2,feb,13,half new,0.5
+2004,2,feb,20,new moon,1
+2004,2,feb,28,half full,1.5
+2004,3,mar,7,full moon,0
+2004,3,mar,13,half new,0.5
+2004,3,mar,20,new moon,1
+2004,3,mar,29,half full,1.5
+2004,4,apr,5,full moon,0
+2004,4,apr,12,half new,0.5
+2004,4,apr,19,new moon,1
+2004,4,apr,27,half full,1.5
+2004,5,may,4,full moon,0
+2004,5,may,11,half new,0.5
+2004,5,may,19,new moon,1
+2004,5,may,27,half full,1.5
+2004,6,jun,3,full moon,0
+2004,6,jun,9,half new,0.5
+2004,6,jun,17,new moon,1
+2004,6,jun,25,half full,1.5
+2004,7,jul,2,full moon,0
+2004,7,jul,9,half new,0.5
+2004,7,jul,17,new moon,1
+2004,7,jul,25,half full,1.5
+2004,7,jul,31,full moon,0
+2004,8,aug,8,half new,0.5
+2004,8,aug,16,new moon,1
+2004,8,aug,23,half full,1.5
+2004,8,aug,30,full moon,0
+2004,9,sep,6,half new,0.5
+2004,9,sep,14,new moon,1
+2004,9,sep,21,half full,1.5
+2004,9,sep,28,full moon,0
+2004,10,oct,6,half new,0.5
+2004,10,oct,14,new moon,1
+2004,10,oct,20,half full,1.5
+2004,10,oct,28,full moon,0
+2004,11,nov,5,half new,0.5
+2004,11,nov,12,new moon,1
+2004,11,nov,19,half full,1.5
+2004,11,nov,26,full moon,0
+2004,12,dec,5,half new,0.5
+2004,12,dec,12,new moon,1
+2004,12,dec,18,half full,1.5
+2004,12,dec,26,full moon,0
+2005,1,jan,3,half new,0.5
+2005,1,jan,10,new moon,1
+2005,1,jan,17,half full,1.5
+2005,1,jan,25,full moon,0
+2005,2,feb,2,half new,0.5
+2005,2,feb,8,new moon,1
+2005,2,feb,16,half full,1.5
+2005,2,feb,24,full moon,0
+2005,3,mar,3,half new,0.5
+2005,3,mar,10,new moon,1
+2005,3,mar,17,half full,1.5
+2005,3,mar,25,full moon,0
+2005,4,apr,2,half new,0.5
+2005,4,apr,8,new moon,1
+2005,4,apr,16,half full,1.5
+2005,4,apr,24,full moon,0
+2005,5,may,1,half new,0.5
+2005,5,may,8,new moon,1
+2005,5,may,16,half full,1.5
+2005,5,may,23,full moon,0
+2005,5,may,30,half new,0.5
+2005,6,jun,6,new moon,1
+2005,6,jun,15,half full,1.5
+2005,6,jun,22,full moon,0
+2005,6,jun,28,half new,0.5
+2005,7,jul,6,new moon,1
+2005,7,jul,14,half full,1.5
+2005,7,jul,21,full moon,0
+2005,7,jul,28,half new,0.5
+2005,8,aug,5,new moon,1
+2005,8,aug,13,half full,1.5
+2005,8,aug,19,full moon,0
+2005,8,aug,26,half new,0.5
+2005,9,sep,3,new moon,1
+2005,9,sep,11,half full,1.5
+2005,9,sep,18,full moon,0
+2005,9,sep,25,half new,0.5
+2005,10,oct,3,new moon,1
+2005,10,oct,10,half full,1.5
+2005,10,oct,17,full moon,0
+2005,10,oct,25,half new,0.5
+2005,11,nov,2,new moon,1
+2005,11,nov,9,half full,1.5
+2005,11,nov,16,full moon,0
+2005,11,nov,23,half new,0.5
+2005,12,dec,1,new moon,1
+2005,12,dec,8,half full,1.5
+2005,12,dec,15,full moon,0
+2005,12,dec,23,half new,0.5
+2005,12,dec,31,new moon,1
+2006,1,jan,6,half full,1.5
+2006,1,jan,14,full moon,0
+2006,1,jan,22,half new,0.5
+2006,1,jan,29,new moon,1
+2006,2,feb,5,half full,1.5
+2006,2,feb,13,full moon,0
+2006,2,feb,21,half new,0.5
+2006,2,feb,28,new moon,1
+2006,3,mar,6,half full,1.5
+2006,3,mar,15,full moon,0
+2006,3,mar,22,half new,0.5
+2006,3,mar,28,new moon,1
+2006,4,apr,5,half full,1.5
+2006,4,apr,13,full moon,0
+2006,4,apr,21,half new,0.5
+2006,4,apr,27,new moon,1
+2006,5,may,5,half full,1.5
+2006,5,may,13,full moon,0
+2006,5,may,20,half new,0.5
+2006,5,may,27,new moon,1
+2006,6,jun,4,half full,1.5
+2006,6,jun,11,full moon,0
+2006,6,jun,18,half new,0.5
+2006,6,jun,25,new moon,1
+2006,7,jul,3,half full,1.5
+2006,7,jul,11,full moon,0
+2006,7,jul,17,half new,0.5
+2006,7,jul,25,new moon,1
+2006,8,aug,2,half full,1.5
+2006,8,aug,9,full moon,0
+2006,8,aug,16,half new,0.5
+2006,8,aug,23,new moon,1
+2006,9,sep,1,half full,1.5
+2006,9,sep,7,full moon,0
+2006,9,sep,14,half new,0.5
+2006,9,sep,22,new moon,1
+2006,9,sep,30,half full,1.5
+2006,10,oct,7,full moon,0
+2006,10,oct,14,half new,0.5
+2006,10,oct,22,new moon,1
+2006,10,oct,29,half full,1.5
+2006,11,nov,5,full moon,0
+2006,11,nov,12,half new,0.5
+2006,11,nov,20,new moon,1
+2006,11,nov,28,half full,1.5
+2006,12,dec,5,full moon,0
+2006,12,dec,12,half new,0.5
+2006,12,dec,20,new moon,1
+2006,12,dec,27,half full,1.5
+2007,1,jan,3,full moon,0
+2007,1,jan,11,half new,0.5
+2007,1,jan,19,new moon,1
+2007,1,jan,26,half full,1.5
+2007,2,feb,2,full moon,0
+2007,2,feb,10,half new,0.5
+2007,2,feb,17,new moon,1
+2007,2,feb,24,half full,1.5
+2007,3,mar,4,full moon,0
+2007,3,mar,12,half new,0.5
+2007,3,mar,19,new moon,1
+2007,3,mar,25,half full,1.5
+2007,4,apr,2,full moon,0
+2007,4,apr,10,half new,0.5
+2007,4,apr,17,new moon,1
+2007,4,apr,24,half full,1.5
+2007,5,may,2,full moon,0
+2007,5,may,10,half new,0.5
+2007,5,may,16,new moon,1
+2007,5,may,23,half full,1.5
+2007,6,jun,1,full moon,0
+2007,6,jun,8,half new,0.5
+2007,6,jun,15,new moon,1
+2007,6,jun,22,half full,1.5
+2007,6,jun,30,full moon,0
+2007,8,aug,5,half new,0.5
+2007,8,aug,13,new moon,1
+2007,8,aug,21,half full,1.5
+2007,8,aug,28,full moon,0
+2007,9,sep,4,half new,0.5
+2007,9,sep,11,new moon,1
+2007,9,sep,19,half full,1.5
+2007,9,sep,26,full moon,0
+2007,10,oct,3,half new,0.5
+2007,10,oct,11,new moon,1
+2007,10,oct,19,half full,1.5
+2007,10,oct,26,full moon,0
+2007,11,nov,1,half new,0.5
+2007,11,nov,10,new moon,1
+2007,11,nov,17,half full,1.5
+2007,11,nov,24,full moon,0
+2007,12,dec,1,half new,0.5
+2007,12,dec,9,new moon,1
+2007,12,dec,17,half full,1.5
+2007,12,dec,24,full moon,0
+2007,12,dec,31,half new,0.5
+2008,1,jan,8,new moon,1
+2008,1,jan,15,half full,1.5
+2008,1,jan,22,full moon,0
+2008,1,jan,30,half new,0.5
+2008,2,feb,7,new moon,1
+2008,2,feb,14,half full,1.5
+2008,2,feb,21,full moon,0
+2008,2,feb,29,half new,0.5
+2008,3,mar,7,new moon,1
+2008,3,mar,14,half full,1.5
+2008,3,mar,21,full moon,0
+2008,3,mar,29,half new,0.5
+2008,4,apr,6,new moon,1
+2008,4,apr,12,half full,1.5
+2008,4,apr,20,full moon,0
+2008,4,apr,28,half new,0.5
+2008,5,may,5,new moon,1
+2008,5,may,12,half full,1.5
+2008,5,may,20,full moon,0
+2008,5,may,28,half new,0.5
+2008,6,jun,3,new moon,1
+2008,6,jun,10,half full,1.5
+2008,6,jun,18,full moon,0
+2008,6,jun,26,half new,0.5
+2008,7,jul,3,new moon,1
+2008,7,jul,10,half full,1.5
+2008,7,jul,18,full moon,0
+2008,7,jul,25,half new,0.5
+2008,8,aug,1,new moon,1
+2008,8,aug,8,half full,1.5
+2008,8,aug,16,full moon,0
+2008,8,aug,24,half new,0.5
+2008,8,aug,30,new moon,1
+2008,9,sep,7,half full,1.5
+2008,9,sep,15,full moon,0
+2008,9,sep,22,half new,0.5
+2008,9,sep,29,new moon,1
+2008,10,oct,7,half full,1.5
+2008,10,oct,14,full moon,0
+2008,10,oct,21,half new,0.5
+2008,10,oct,29,new moon,1
+2008,11,nov,6,half full,1.5
+2008,11,nov,13,full moon,0
+2008,11,nov,19,half new,0.5
+2008,11,nov,27,new moon,1
+2008,12,dec,5,half full,1.5
+2008,12,dec,12,full moon,0
+2008,12,dec,19,half new,0.5
+2008,12,dec,27,new moon,1
+2009,1,jan,4,half full,1.5
+2009,1,jan,11,full moon,0
+2009,1,jan,18,half new,0.5
+2009,1,jan,26,new moon,1
+2009,2,feb,3,half full,1.5
+2009,2,feb,9,full moon,0
+2009,2,feb,16,half new,0.5
+2009,2,feb,25,new moon,1
+2009,3,mar,4,half full,1.5
+2009,3,mar,11,full moon,0
+2009,3,mar,18,half new,0.5
+2009,3,mar,26,new moon,1
+2009,4,apr,2,half full,1.5
+2009,4,apr,9,full moon,0
+2009,4,apr,17,half new,0.5
+2009,4,apr,25,new moon,1
+2009,5,may,1,half full,1.5
+2009,5,may,9,full moon,0
+2009,5,may,17,half new,0.5
+2009,5,may,24,new moon,1
+2009,5,may,31,half full,1.5
+2009,6,jun,7,full moon,0
+2009,6,jun,16,half new,0.5
+2009,6,jun,22,new moon,1
+2009,6,jun,29,half full,1.5
+2009,7,jul,7,full moon,0
+2009,7,jul,15,half new,0.5
+2009,7,jul,22,new moon,1
+2009,7,jul,28,half full,1.5
+2009,8,aug,6,full moon,0
+2009,8,aug,13,half new,0.5
+2009,8,aug,20,new moon,1
+2009,8,aug,27,half full,1.5
+2009,9,sep,4,full moon,0
+2009,9,sep,12,half new,0.5
+2009,9,sep,18,new moon,1
+2009,9,sep,26,half full,1.5
+2009,10,oct,4,full moon,0
+2009,10,oct,11,half new,0.5
+2009,10,oct,18,new moon,1
+2009,10,oct,26,half full,1.5
+2009,11,nov,2,full moon,0
+2009,11,nov,9,half new,0.5
+2009,11,nov,16,new moon,1
+2009,11,nov,24,half full,1.5
+2009,12,dec,2,full moon,0
+2009,12,dec,9,half new,0.5
+2009,12,dec,16,new moon,1
+2009,12,dec,24,half full,1.5
+2009,12,dec,31,full moon,0
+2010,1,jan,7,half new,0.5
+2010,1,jan,15,new moon,1
+2010,1,jan,23,half full,1.5
+2010,1,jan,30,full moon,0
+2010,2,feb,6,half new,0.5
+2010,2,feb,14,new moon,1
+2010,2,feb,22,half full,1.5
+2010,2,feb,28,full moon,0
+2010,3,mar,7,half new,0.5
+2010,3,mar,15,new moon,1
+2010,3,mar,23,half full,1.5
+2010,3,mar,30,full moon,0
+2010,4,apr,6,half new,0.5
+2010,4,apr,14,new moon,1
+2010,4,apr,21,half full,1.5
+2010,4,apr,28,full moon,0
+2010,5,may,6,half new,0.5
+2010,5,may,14,new moon,1
+2010,5,may,21,half full,1.5
+2010,5,may,28,full moon,0
+2010,6,jun,5,half new,0.5
+2010,6,jun,12,new moon,1
+2010,6,jun,19,half full,1.5
+2010,6,jun,26,full moon,0
+2010,7,jul,4,half new,0.5
+2010,7,jul,11,new moon,1
+2010,7,jul,18,half full,1.5
+2010,7,jul,26,full moon,0
+2010,8,aug,3,half new,0.5
+2010,8,aug,10,new moon,1
+2010,8,aug,16,half full,1.5
+2010,8,aug,24,full moon,0
+2010,9,sep,1,half new,0.5
+2010,9,sep,8,new moon,1
+2010,9,sep,15,half full,1.5
+2010,9,sep,23,full moon,0
+2010,10,oct,1,half new,0.5
+2010,10,oct,7,new moon,1
+2010,10,oct,14,half full,1.5
+2010,10,oct,23,full moon,0
+2010,10,oct,30,half new,0.5
+2010,11,nov,6,new moon,1
+2010,11,nov,12,half full,1.5
+2010,11,nov,21,full moon,0
+2010,11,nov,28,half new,0.5
+2010,12,dec,5,new moon,1
+2010,12,dec,13,half full,1.5
+2010,12,dec,21,full moon,0
+2010,12,dec,28,half new,0.5
+2011,1,jan,4,new moon,1
+2011,1,jan,12,half full,1.5
+2011,1,jan,19,full moon,0
+2011,1,jan,26,half new,0.5
+2011,2,feb,3,new moon,1
+2011,2,feb,11,half full,1.5
+2011,2,feb,18,full moon,0
+2011,2,feb,25,half new,0.5
+2011,3,mar,4,new moon,1
+2011,3,mar,13,half full,1.5
+2011,3,mar,19,full moon,0
+2011,3,mar,26,half new,0.5
+2011,4,apr,3,new moon,1
+2011,4,apr,11,half full,1.5
+2011,4,apr,18,full moon,0
+2011,4,apr,25,half new,0.5
+2011,5,may,3,new moon,1
+2011,5,may,10,half full,1.5
+2011,5,may,17,full moon,0
+2011,5,may,24,half new,0.5
+2011,6,jun,1,new moon,1
+2011,6,jun,9,half full,1.5
+2011,6,jun,15,full moon,0
+2011,6,jun,23,half new,0.5
+2011,7,jul,1,new moon,1
+2011,7,jul,8,half full,1.5
+2011,7,jul,15,full moon,0
+2011,7,jul,23,half new,0.5
+2011,7,jul,30,new moon,1
+2011,8,aug,6,half full,1.5
+2011,8,aug,13,full moon,0
+2011,8,aug,21,half new,0.5
+2011,8,aug,29,new moon,1
+2011,9,sep,4,half full,1.5
+2011,9,sep,12,full moon,0
+2011,9,sep,20,half new,0.5
+2011,9,sep,27,new moon,1
+2011,10,oct,4,half full,1.5
+2011,10,oct,12,full moon,0
+2011,10,oct,20,half new,0.5
+2011,10,oct,26,new moon,1
+2011,11,nov,2,half full,1.5
+2011,11,nov,10,full moon,0
+2011,11,nov,18,half new,0.5
+2011,11,nov,25,new moon,1
+2011,12,dec,2,half full,1.5
+2011,12,dec,10,full moon,0
+2011,12,dec,18,half new,0.5
+2011,12,dec,24,new moon,1
+2012,1,jan,1,half full,1.5
+2012,1,jan,9,full moon,0
+2012,1,jan,16,half new,0.5
+2012,1,jan,23,new moon,1
+2012,1,jan,31,half full,1.5
+2012,2,feb,7,full moon,0
+2012,2,feb,14,half new,0.5
+2012,2,feb,21,new moon,1
+2012,3,mar,1,half full,1.5
+2012,3,mar,8,full moon,0
+2012,3,mar,15,half new,0.5
+2012,3,mar,22,new moon,1
+2012,3,mar,30,half full,1.5
+2012,4,apr,6,full moon,0
+2012,4,apr,13,half new,0.5
+2012,4,apr,21,new moon,1
+2012,4,apr,29,half full,1.5
+2012,5,may,6,full moon,0
+2012,5,may,12,half new,0.5
+2012,5,may,21,new moon,1
+2012,5,may,28,half full,1.5
+2012,6,jun,4,full moon,0
+2012,6,jun,11,half new,0.5
+2012,6,jun,19,new moon,1
+2012,6,jun,27,half full,1.5
+2012,7,jul,3,full moon,0
+2012,7,jul,11,half new,0.5
+2012,7,jul,19,new moon,1
+2012,7,jul,26,half full,1.5
+2012,8,aug,2,full moon,0
+2012,8,aug,9,half new,0.5
+2012,8,aug,17,new moon,1
+2012,8,aug,24,half full,1.5
+2012,8,aug,31,full moon,0
+2012,9,sep,8,half new,0.5
+2012,9,sep,16,new moon,1
+2012,9,sep,22,half full,1.5
+2012,9,sep,30,full moon,0
+2012,10,oct,8,half new,0.5
+2012,10,oct,15,new moon,1
+2012,10,oct,22,half full,1.5
+2012,10,oct,29,full moon,0
+2012,11,nov,7,half new,0.5
+2012,11,nov,13,new moon,1
+2012,11,nov,20,half full,1.5
+2012,11,nov,28,full moon,0
+2012,12,dec,6,half new,0.5
+2012,12,dec,13,new moon,1
+2012,12,dec,20,half full,1.5
+2012,12,dec,28,full moon,0
+2013,1,jan,5,half new,0.5
+2013,1,jan,11,new moon,1
+2013,1,jan,19,half full,1.5
+2013,1,jan,27,full moon,0
+2013,2,feb,3,half new,0.5
+2013,2,feb,10,new moon,1
+2013,2,feb,17,half full,1.5
+2013,2,feb,25,full moon,0
+2013,3,mar,4,half new,0.5
+2013,3,mar,11,new moon,1
+2013,3,mar,19,half full,1.5
+2013,3,mar,27,full moon,0
+2013,4,apr,3,half new,0.5
+2013,4,apr,10,new moon,1
+2013,4,apr,18,half full,1.5
+2013,4,apr,25,full moon,0
+2013,5,may,2,half new,0.5
+2013,5,may,10,new moon,1
+2013,5,may,18,half full,1.5
+2013,5,may,25,full moon,0
+2013,5,may,31,half new,0.5
+2013,6,jun,8,new moon,1
+2013,6,jun,16,half full,1.5
+2013,6,jun,23,full moon,0
+2013,6,jun,30,half new,0.5
+2013,7,jul,7,new moon,1
+2013,7,jul,16,half full,1.5
+2013,7,jul,22,full moon,0
+2013,7,jul,29,half new,0.5
+2013,8,aug,6,new moon,1
+2013,8,aug,14,half full,1.5
+2013,8,aug,21,full moon,0
+2013,8,aug,28,half new,0.5
+2013,9,sep,5,new moon,1
+2013,9,sep,12,half full,1.5
+2013,9,sep,19,full moon,0
+2013,9,sep,27,half new,0.5
+2013,10,oct,5,new moon,1
+2013,10,oct,12,half full,1.5
+2013,10,oct,19,full moon,0
+2013,10,oct,27,half new,0.5
+2013,11,nov,3,new moon,1
+2013,11,nov,10,half full,1.5
+2013,11,nov,17,full moon,0
+2013,11,nov,25,half new,0.5
+2013,12,dec,3,new moon,1
+2013,12,dec,9,half full,1.5
+2013,12,dec,17,full moon,0
+2013,12,dec,25,half new,0.5
+2014,1,jan,1,new moon,1
+2014,1,jan,8,half full,1.5
+2014,1,jan,16,full moon,0
+2014,1,jan,24,half new,0.5
+2014,1,jan,30,new moon,1
+2014,2,feb,6,half full,1.5
+2014,2,feb,15,full moon,0
+2014,2,feb,22,half new,0.5
+2014,3,mar,1,new moon,1
+2014,3,mar,8,half full,1.5
+2014,3,mar,16,full moon,0
+2014,3,mar,24,half new,0.5
+2014,3,mar,30,new moon,1
+2014,4,apr,7,half full,1.5
+2014,4,apr,15,full moon,0
+2014,4,apr,22,half new,0.5
+2014,4,apr,29,new moon,1
+2014,5,may,7,half full,1.5
+2014,5,may,14,full moon,0
+2014,5,may,21,half new,0.5
+2014,5,may,28,new moon,1
+2014,6,jun,5,half full,1.5
+2014,6,jun,13,full moon,0
+2014,6,jun,19,half new,0.5
+2014,6,jun,27,new moon,1
+2014,7,jul,5,half full,1.5
+2014,7,jul,12,full moon,0
+2014,7,jul,19,half new,0.5
+2014,7,jul,27,new moon,1
+2014,8,aug,4,half full,1.5
+2014,8,aug,10,full moon,0
+2014,8,aug,17,half new,0.5
+2014,8,aug,25,new moon,1
+2014,9,sep,2,half full,1.5
+2014,9,sep,9,full moon,0
+2014,9,sep,16,half new,0.5
+2014,9,sep,24,new moon,1
+2014,10,oct,1,half full,1.5
+2014,10,oct,8,full moon,0
+2014,10,oct,15,half new,0.5
+2014,10,oct,23,new moon,1
+2014,10,oct,31,half full,1.5
+2014,11,nov,6,full moon,0
+2014,11,nov,14,half new,0.5
+2014,11,nov,22,new moon,1
+2014,11,nov,29,half full,1.5
+2014,12,dec,6,full moon,0
+2014,12,dec,14,half new,0.5
+2014,12,dec,22,new moon,1
+2014,12,dec,28,half full,1.5
+2015,1,jan,5,full moon,0
+2015,1,jan,13,half new,0.5
+2015,1,jan,20,new moon,1
+2015,1,jan,27,half full,1.5
+2015,2,feb,4,full moon,0
+2015,2,feb,12,half new,0.5
+2015,2,feb,19,new moon,1
+2015,2,feb,25,half full,1.5
+2015,3,mar,5,full moon,0
+2015,3,mar,13,half new,0.5
+2015,3,mar,20,new moon,1
+2015,3,mar,27,half full,1.5
+2015,4,apr,4,full moon,0
+2015,4,apr,12,half new,0.5
+2015,4,apr,18,new moon,1
+2015,4,apr,26,half full,1.5
+2015,5,may,4,full moon,0
+2015,5,may,11,half new,0.5
+2015,5,may,18,new moon,1
+2015,5,may,25,half full,1.5
+2015,6,jun,2,full moon,0
+2015,6,jun,9,half new,0.5
+2015,6,jun,16,new moon,1
+2015,6,jun,24,half full,1.5
+2015,7,jul,2,full moon,0
+2015,7,jul,8,half new,0.5
+2015,7,jul,16,new moon,1
+2015,7,jul,24,half full,1.5
+2015,7,jul,31,full moon,0
+2015,8,aug,7,half new,0.5
+2015,8,aug,14,new moon,1
+2015,8,aug,22,half full,1.5
+2015,8,aug,29,full moon,0
+2015,9,sep,5,half new,0.5
+2015,9,sep,13,new moon,1
+2015,9,sep,21,half full,1.5
+2015,9,sep,28,full moon,0
+2015,10,oct,4,half new,0.5
+2015,10,oct,13,new moon,1
+2015,10,oct,20,half full,1.5
+2015,10,oct,27,full moon,0
+2015,11,nov,3,half new,0.5
+2015,11,nov,11,new moon,1
+2015,11,nov,19,half full,1.5
+2015,11,nov,25,full moon,0
+2015,12,dec,3,half new,0.5
+2015,12,dec,11,new moon,1
+2015,12,dec,18,half full,1.5
+2015,12,dec,25,full moon,0
+2016,1,jan,2,half new,0.5
+2016,1,jan,10,new moon,1
+2016,1,jan,17,half full,1.5
+2016,1,jan,24,full moon,0
+2016,2,feb,1,half new,0.5
+2016,2,feb,8,new moon,1
+2016,2,feb,15,half full,1.5
+2016,2,feb,22,full moon,0
+2016,3,mar,2,half new,0.5
+2016,3,mar,9,new moon,1
+2016,3,mar,15,half full,1.5
+2016,3,mar,23,full moon,0
+2016,3,mar,31,half new,0.5
+2016,4,apr,7,new moon,1
+2016,4,apr,14,half full,1.5
+2016,4,apr,22,full moon,0
+2016,4,apr,30,half new,0.5
+2016,5,may,7,new moon,1
+2016,5,may,13,half full,1.5
+2016,5,may,21,full moon,0
+2016,5,may,29,half new,0.5
+2016,6,jun,5,new moon,1
+2016,6,jun,12,half full,1.5
+2016,6,jun,20,full moon,0
+2016,6,jun,27,half new,0.5
+2016,7,jul,4,new moon,1
+2016,7,jul,12,half full,1.5
+2016,7,jul,20,full moon,0
+2016,7,jul,27,half new,0.5
+2016,8,aug,2,new moon,1
+2016,8,aug,10,half full,1.5
+2016,8,aug,18,full moon,0
+2016,8,aug,25,half new,0.5
+2016,9,sep,1,new moon,1
+2016,9,sep,9,half full,1.5
+2016,9,sep,16,full moon,0
+2016,9,sep,23,half new,0.5
+2016,10,oct,1,new moon,1
+2016,10,oct,9,half full,1.5
+2016,10,oct,16,full moon,0
+2016,10,oct,22,half new,0.5
+2016,10,oct,30,new moon,1
+2016,11,nov,7,half full,1.5
+2016,11,nov,14,full moon,0
+2016,11,nov,21,half new,0.5
+2016,11,nov,29,new moon,1
+2016,12,dec,7,half full,1.5
+2016,12,dec,14,full moon,0
+2016,12,dec,21,half new,0.5
+2016,12,dec,29,new moon,1
+2017,1,jan,5,half full,1.5
+2017,1,jan,12,full moon,0
+2017,1,jan,19,half new,0.5
+2017,1,jan,28,new moon,1
+2017,2,feb,4,half full,1.5
+2017,2,feb,11,full moon,0
+2017,2,feb,18,half new,0.5
+2017,2,feb,26,new moon,1
+2017,3,mar,5,half full,1.5
+2017,3,mar,12,full moon,0
+2017,3,mar,20,half new,0.5
+2017,3,mar,28,new moon,1
+2017,4,apr,3,half full,1.5
+2017,4,apr,11,full moon,0
+2017,4,apr,19,half new,0.5
+2017,4,apr,26,new moon,1
+2017,5,may,3,half full,1.5
+2017,5,may,10,full moon,0
+2017,5,may,19,half new,0.5
+2017,5,may,25,new moon,1
+2017,6,jun,1,half full,1.5
+2017,6,jun,9,full moon,0
+2017,6,jun,17,half new,0.5
+2017,6,jun,24,new moon,1
+2017,7,jul,1,half full,1.5
+2017,7,jul,9,full moon,0
+2017,7,jul,16,half new,0.5
+2017,7,jul,23,new moon,1
+2017,7,jul,30,half full,1.5
+2017,8,aug,7,full moon,0
+2017,8,aug,15,half new,0.5
+2017,8,aug,21,new moon,1
+2017,8,aug,29,half full,1.5
+2017,9,sep,6,full moon,0
+2017,9,sep,13,half new,0.5
+2017,9,sep,20,new moon,1
+2017,9,sep,28,half full,1.5
+2017,10,oct,5,full moon,0
+2017,10,oct,12,half new,0.5
+2017,10,oct,19,new moon,1
+2017,10,oct,28,half full,1.5
+2017,11,nov,4,full moon,0
+2017,11,nov,10,half new,0.5
+2017,11,nov,18,new moon,1
+2017,11,nov,26,half full,1.5
+2017,12,dec,3,full moon,0
+2017,12,dec,10,half new,0.5
+2017,12,dec,18,new moon,1
+2017,12,dec,26,half full,1.5
+2018,1,jan,2,full moon,0
+2018,1,jan,8,half new,0.5
+2018,1,jan,17,new moon,1
+2018,1,jan,24,half full,1.5
+2018,1,jan,31,full moon,0
+2018,2,feb,7,half new,0.5
+2018,2,feb,15,new moon,1
+2018,2,feb,23,half full,1.5
+2018,3,mar,2,full moon,0
+2018,3,mar,9,half new,0.5
+2018,3,mar,17,new moon,1
+2018,3,mar,24,half full,1.5
+2018,3,mar,31,full moon,0
+2018,4,apr,8,half new,0.5
+2018,4,apr,16,new moon,1
+2018,4,apr,22,half full,1.5
+2018,4,apr,30,full moon,0
+2018,5,may,8,half new,0.5
+2018,5,may,15,new moon,1
+2018,5,may,22,half full,1.5
+2018,5,may,29,full moon,0
+2018,6,jun,6,half new,0.5
+2018,6,jun,13,new moon,1
+2018,6,jun,20,half full,1.5
+2018,6,jun,28,full moon,0
+2018,7,jul,6,half new,0.5
+2018,7,jul,13,new moon,1
+2018,7,jul,19,half full,1.5
+2018,7,jul,27,full moon,0
+2018,8,aug,4,half new,0.5
+2018,8,aug,11,new moon,1
+2018,8,aug,18,half full,1.5
+2018,8,aug,26,full moon,0
+2018,9,sep,3,half new,0.5
+2018,9,sep,9,new moon,1
+2018,9,sep,17,half full,1.5
+2018,9,sep,25,full moon,0
+2018,10,oct,2,half new,0.5
+2018,10,oct,9,new moon,1
+2018,10,oct,16,half full,1.5
+2018,10,oct,24,full moon,0
+2018,10,oct,31,half new,0.5
+2018,11,nov,7,new moon,1
+2018,11,nov,15,half full,1.5
+2018,11,nov,23,full moon,0
+2018,11,nov,30,half new,0.5
+2018,12,dec,7,new moon,1
+2018,12,dec,15,half full,1.5
+2018,12,dec,22,full moon,0
+2018,12,dec,29,half new,0.5
+2019,1,jan,6,new moon,1
+2019,1,jan,14,half full,1.5
+2019,1,jan,21,full moon,0
+2019,1,jan,27,half new,0.5
+2019,2,feb,4,new moon,1
+2019,2,feb,12,half full,1.5
+2019,2,feb,19,full moon,0
+2019,2,feb,26,half new,0.5
+2019,3,mar,6,new moon,1
+2019,3,mar,14,half full,1.5
+2019,3,mar,21,full moon,0
+2019,3,mar,28,half new,0.5
+2019,4,apr,5,new moon,1
+2019,4,apr,12,half full,1.5
+2019,4,apr,19,full moon,0
+2019,4,apr,27,half new,0.5
+2019,5,may,5,new moon,1
+2019,5,may,12,half full,1.5
+2019,5,may,18,full moon,0
+2019,5,may,26,half new,0.5
+2019,6,jun,3,new moon,1
+2019,6,jun,10,half full,1.5
+2019,6,jun,17,full moon,0
+2019,6,jun,25,half new,0.5
+2019,7,jul,2,new moon,1
+2019,7,jul,9,half full,1.5
+2019,7,jul,16,full moon,0
+2019,7,jul,25,half new,0.5
+2019,8,aug,1,new moon,1
+2019,8,aug,7,half full,1.5
+2019,8,aug,15,full moon,0
+2019,8,aug,23,half new,0.5
+2019,8,aug,30,new moon,1
+2019,9,sep,6,half full,1.5
+2019,9,sep,14,full moon,0
+2019,9,sep,22,half new,0.5
+2019,9,sep,28,new moon,1
+2019,10,oct,5,half full,1.5
+2019,10,oct,13,full moon,0
+2019,10,oct,21,half new,0.5
+2019,10,oct,28,new moon,1
+2019,11,nov,4,half full,1.5
+2019,11,nov,12,full moon,0
+2019,11,nov,19,half new,0.5
+2019,11,nov,26,new moon,1
+2019,12,dec,4,half full,1.5
+2019,12,dec,12,full moon,0
+2019,12,dec,19,half new,0.5
+2019,12,dec,26,new moon,1
+2020,1,jan,3,half full,1.5
+2020,1,jan,10,full moon,0
+2020,1,jan,17,half new,0.5
+2020,1,jan,24,new moon,1
+2020,2,feb,2,half full,1.5
+2020,2,feb,9,full moon,0
+2020,2,feb,15,half new,0.5
+2020,2,feb,23,new moon,1
+2020,3,mar,2,half full,1.5
+2020,3,mar,9,full moon,0
+2020,3,mar,16,half new,0.5
+2020,3,mar,24,new moon,1
+2020,4,apr,1,half full,1.5
+2020,4,apr,8,full moon,0
+2020,4,apr,15,half new,0.5
+2020,4,apr,23,new moon,1
+2020,4,apr,30,half full,1.5
+2020,5,may,7,full moon,0
+2020,5,may,14,half new,0.5
+2020,5,may,22,new moon,1
+2020,5,may,30,half full,1.5
+2020,6,jun,5,full moon,0
+2020,6,jun,13,half new,0.5
+2020,6,jun,21,new moon,1
+2020,6,jun,28,half full,1.5
+2020,7,jul,5,full moon,0
+2020,7,jul,13,half new,0.5
+2020,7,jul,20,new moon,1
+2020,7,jul,27,half full,1.5
+2020,8,aug,3,full moon,0
+2020,8,aug,11,half new,0.5
+2020,8,aug,19,new moon,1
+2020,8,aug,25,half full,1.5
+2020,9,sep,2,full moon,0
+2020,9,sep,10,half new,0.5
+2020,9,sep,17,new moon,1
+2020,9,sep,24,half full,1.5
+2020,10,oct,1,full moon,0
+2020,10,oct,10,half new,0.5
+2020,10,oct,16,new moon,1
+2020,10,oct,23,half full,1.5
+2020,10,oct,31,full moon,0
+2020,11,nov,8,half new,0.5
+2020,11,nov,15,new moon,1
+2020,11,nov,22,half full,1.5
+2020,11,nov,30,full moon,0
+2020,12,dec,8,half new,0.5
+2020,12,dec,14,new moon,1
+2020,12,dec,22,half full,1.5
+2020,12,dec,30,full moon,0
+2021,1,jan,6,half new,0.5
+2021,1,jan,13,new moon,1
+2021,1,jan,20,half full,1.5
+2021,1,jan,28,full moon,0
+2021,2,feb,4,half new,0.5
+2021,2,feb,11,new moon,1
+2021,2,feb,19,half full,1.5
+2021,2,feb,27,full moon,0
+2021,3,mar,6,half new,0.5
+2021,3,mar,13,new moon,1
+2021,3,mar,21,half full,1.5
+2021,3,mar,28,full moon,0
+2021,4,apr,4,half new,0.5
+2021,4,apr,12,new moon,1
+2021,4,apr,20,half full,1.5
+2021,4,apr,27,full moon,0
+2021,5,may,3,half new,0.5
+2021,5,may,11,new moon,1
+2021,5,may,19,half full,1.5
+2021,5,may,26,full moon,0
+2021,6,jun,2,half new,0.5
+2021,6,jun,10,new moon,1
+2021,6,jun,18,half full,1.5
+2021,6,jun,24,full moon,0
+2021,7,jul,1,half new,0.5
+2021,7,jul,10,new moon,1
+2021,7,jul,17,half full,1.5
+2021,7,jul,24,full moon,0
+2021,7,jul,31,half new,0.5
+2021,8,aug,8,new moon,1
+2021,8,aug,15,half full,1.5
+2021,8,aug,22,full moon,0
+2021,8,aug,30,half new,0.5
+2021,9,sep,7,new moon,1
+2021,9,sep,13,half full,1.5
+2021,9,sep,21,full moon,0
+2021,9,sep,29,half new,0.5
+2021,10,oct,6,new moon,1
+2021,10,oct,13,half full,1.5
+2021,10,oct,20,full moon,0
+2021,10,oct,28,half new,0.5
+2021,11,nov,4,new moon,1
+2021,11,nov,11,half full,1.5
+2021,11,nov,19,full moon,0
+2021,11,nov,27,half new,0.5
+2021,12,dec,4,new moon,1
+2021,12,dec,11,half full,1.5
+2021,12,dec,19,full moon,0
+2021,12,dec,27,half new,0.5
+2022,1,jan,2,new moon,1
+2022,1,jan,9,half full,1.5
+2022,1,jan,18,full moon,0
+2022,1,jan,25,half new,0.5
+2022,2,feb,1,new moon,1
+2022,2,feb,8,half full,1.5
+2022,2,feb,16,full moon,0
+2022,2,feb,23,half new,0.5
+2022,3,mar,2,new moon,1
+2022,3,mar,10,half full,1.5
+2022,3,mar,18,full moon,0
+2022,3,mar,25,half new,0.5
+2022,4,apr,1,new moon,1
+2022,4,apr,9,half full,1.5
+2022,4,apr,16,full moon,0
+2022,4,apr,23,half new,0.5
+2022,4,apr,30,new moon,1
+2022,5,may,9,half full,1.5
+2022,5,may,16,full moon,0
+2022,5,may,22,half new,0.5
+2022,5,may,30,new moon,1
+2022,6,jun,7,half full,1.5
+2022,6,jun,14,full moon,0
+2022,6,jun,21,half new,0.5
+2022,6,jun,29,new moon,1
+2022,7,jul,7,half full,1.5
+2022,7,jul,13,full moon,0
+2022,7,jul,20,half new,0.5
+2022,7,jul,28,new moon,1
+2022,8,aug,5,half full,1.5
+2022,8,aug,12,full moon,0
+2022,8,aug,19,half new,0.5
+2022,8,aug,27,new moon,1
+2022,9,sep,3,half full,1.5
+2022,9,sep,10,full moon,0
+2022,9,sep,17,half new,0.5
+2022,9,sep,25,new moon,1
+2022,10,oct,3,half full,1.5
+2022,10,oct,9,full moon,0
+2022,10,oct,17,half new,0.5
+2022,10,oct,25,new moon,1
+2022,11,nov,1,half full,1.5
+2022,11,nov,8,full moon,0
+2022,11,nov,16,half new,0.5
+2022,11,nov,23,new moon,1
+2022,11,nov,30,half full,1.5
+2022,12,dec,8,full moon,0
+2022,12,dec,16,half new,0.5
+2022,12,dec,23,new moon,1
+2022,12,dec,30,half full,1.5
