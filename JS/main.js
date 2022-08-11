@@ -188,11 +188,6 @@ function moonCalendarDisplay(txt) {
         .transition().delay((d, i) => 500 + (50 * i)).duration(500).style("opacity", "1")
 }
 
-function leapYear(year) {
-    if (year % 400 == 0 && year % 100 == 0 && year % 4 == 0) return true;
-    else return false;
-}
-
 /* TITLE PAGE */
 let myMoon = svgSpace           // variable for the giant moon
     .append("path")
@@ -294,7 +289,7 @@ let backTxtMonths = svgSpace    // the text to go back to the month selection
     .style("display", "none")
     .on("click", () => {            // the onClick where we:
         backTxtMonths                   // 1. remove the back button
-            .transition().delay(1000).duration(500).style("opacity", "0")
+            .transition().duration(500).style("opacity", "0")
             .transition().style("display", "none");
 
         myMoon                          // 2. place the moon back slightly above the middle of the screen
