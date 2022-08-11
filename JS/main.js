@@ -65,12 +65,18 @@ let monCSV = d3.csv("Data/Moonphases.csv", function (d) {
         .style("opacity", "0")
         .style("display", "none")
         .on("click", (e) => {
-            d3.selectAll(".txtCalendarYear").transition().delay((d, i) => 50 * i).duration(500).style("opacity", "0")
+            d3.selectAll(".txtCalendarYear")
+                .transition().delay((d, i) => 50 * i).duration(500).style("opacity", "0")
                 .transition().style("display", "none");
 
-            d3.selectAll(".txtCalendarMonth").transition().delay((d, i) => 1000 + 100 * i).duration(1000).style("display", "block").style("opacity", "1");
-            yearSelected.transition().delay(1000).duration(1000).style("display", "block").style("opacity", "1").text(e.path[0].__data__[0]);
-            backTxtYears.transition().delay(2000).duration(1000).style("display", "block").style("opacity", "1");
+            d3.selectAll(".txtCalendarMonth")
+                .transition().delay((d, i) => 1000 + 100 * i).duration(1000).style("display", "block").style("opacity", "1");
+            
+            yearSelected
+                .transition().delay(1000).duration(1000).style("display", "block").style("opacity", "1").text(e.path[0].__data__[0]);
+            
+            backTxtYears
+                .transition().delay(2000).duration(1000).style("display", "block").style("opacity", "1");
         });
 
     let monthTable = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
@@ -126,15 +132,13 @@ let monCSV = d3.csv("Data/Moonphases.csv", function (d) {
         });
 });
 
-/* MAIN CODE WILL GO THERE */
-
 /* TITLE PAGE */
-let myMoon = svgSpace
+let myMoon = svgSpace           // variable for the giant moon
     .append("path")
     .attr("fill", "white")
     .attr("transform", "translate(" + largeur / 2 + "," + hauteur / 2 + ") scale(-1,1)");
 
-let titleApp = svgSpace
+let titleApp = svgSpace         // the title
     .append("text")
     .text("Moon Phases")
     .attr("fill", "white")
@@ -143,7 +147,7 @@ let titleApp = svgSpace
     .style("font-size", "3em")
     .style("cursor", "default");
 
-let subTitleApp = svgSpace
+let subTitleApp = svgSpace      // the subtitle
     .append("text")
     .text("By Joël Rimaz")
     .attr("fill", "white")
@@ -151,7 +155,7 @@ let subTitleApp = svgSpace
     .attr("y", hauteur / 2 + 25)
     .style("cursor", "default");
 
-let startUpButton = svgSpace
+let startUpButton = svgSpace    // the start button
     .append("text")
     .text("start.")
     .attr("fill", "white")
@@ -177,37 +181,35 @@ let startUpButton = svgSpace
             .transition().delay((d, i) => 100 * i).duration(1000).style("display", "block").style("opacity", "1");
     });
 
-d3.timer(changeMoon);
+d3.timer(changeMoon);   // timer for the giant moon to move continually
 
-// lune centrale animée
-function changeMoon(e) {
+function changeMoon(e) {    // central animated moon
     myMoon
         .attr("d", function () {
-            return moon((2 * pi + (e / 10000 * pi)) % (2 * pi));
+            return moon((2 * pi + (e / 10000 * pi)) % (2 * pi));    // call of the moon function to determine the angle of the SVG elliptic arcs
         });
 }
 
-// function to display the moon according to its phase
-function moon(m) {
-    let rotation1;
+function moon(m) {      // function to display the moon according to its phase by calculating 2 elliptic arcs
+    let rotation1;      // the angle of the first arc (the outside of the moon)
     if (m < pi) rotation1 = rayon;
     else rotation1 = -rayon;
 
-    let flip1;
+    let flip1;          // if the first arc is flipped
     if (m < pi) flip1 = 0;
     else flip1 = 1;
+                        // the angle of the second arc (the "croissant")
+    let rotation2 = Math.round(((rayon * Math.cos(m)) + Number.EPSILON) * 100) / 100; // i tested with sin and tan, but neither did allow for m = 0 to be a full moon
 
-    let rotation2 = Math.round(((rayon * Math.cos(m)) + Number.EPSILON) * 100) / 100; // i tested with sin and tan, but both did not allow for m=0 to be a full moon
-
-    let flip2;
+    let flip2;          // if the second arc is flipped
     if (m < pi / 2 || (pi <= m && m < 3 * pi / 2)) flip2 = 0;
     else flip2 = 1;
 
-    return "M" + [0, rayon] + " A" + [rotation1, rayon, 0, 0, flip1, 0, -rayon] + " A" + [rotation2, rayon, 0, 0, flip2, 0, rayon];
+    return "M" + [0, rayon] + " A" + [rotation1, rayon, 0, 0, flip1, 0, -rayon] + " A" + [rotation2, rayon, 0, 0, flip2, 0, rayon]; // return the SVG "d" attribute to be set
 }
 
 /* OTHER TEXTS */
-let yearSelected = svgSpace
+let yearSelected = svgSpace     // the text displaying the year and month selected
     .append("text")
     .text("")
     .attr("fill", "white")
@@ -219,7 +221,7 @@ let yearSelected = svgSpace
     .style("opacity", "0")
     .style("display", "none");
 
-let backTxtMonths = svgSpace
+let backTxtMonths = svgSpace    // the text to go back to the month selection
     .append("text")
     .text("back to months.")
     .attr("fill", "white")
@@ -229,31 +231,34 @@ let backTxtMonths = svgSpace
     .style("font-size", "4em")
     .style("opacity", "0")
     .style("display", "none")
-    .on("click", () => {
-        backTxtMonths
+    .on("click", () => {            // the onClick where we:
+        backTxtMonths                   // 1. remove the back button
             .transition().duration(500).style("opacity", "0")
             .transition().style("display", "none");
 
-        myMoon
+        myMoon                          // 2. place the moon back slightly above the middle of the screen
             .transition().duration(1000).attr("transform", "translate(" + largeur / 2 + "," + ((hauteur / 2) - (hauteur / 10)) + ") scale(-1,1)");
-        titleApp
+        
+        titleApp                        // 3. make the title re-appear
             .transition().delay(500).duration(500).style("opacity", "1");
 
+                                        // 4. bring back the months, first by displaying them, then by increasing their opacity
         d3.selectAll(".txtCalendarMonth").transition().delay((d, i) => 100 * i).duration(1000).style("display", "block").style("opacity", "1");
 
-        let txt = yearSelected.text();
+        let txt = yearSelected.text();  // 5. isolate the year from the text displaying previously "month year"
         let yearTxt = txt.split(" ").pop();
-        yearSelected
+
+        yearSelected                    // 6. place the yearSelected text back at the bottom of the screen, and display only the year selected
             .transition().duration(500).style("opacity", "0")
             .transition().duration(100).attr("y", hauteur / 10 * 8)
             .transition().duration(1000).style("opacity", "1").text(yearTxt);
 
-        backTxtYears
+        backTxtYears                    // 7. make the "back to years" button re-appear
             .transition().duration(1000).style("display", "block")
             .transition().duration(1000).style("opacity", "1");
     });
 
-let backTxtYears = svgSpace
+let backTxtYears = svgSpace     // the text to go back to the year selection
     .append("text")
     .text("back to years.")
     .attr("fill", "white")
@@ -263,17 +268,19 @@ let backTxtYears = svgSpace
     .style("font-size", "4em")
     .style("opacity", "0")
     .style("display", "none")
-    .on("click", () => {
-        backTxtYears
+    .on("click", () => {            // the onClick where we:
+        backTxtYears                    // 1. remove the "back to years" button
             .transition().duration(500).style("opacity", "0")
             .transition().style("display", "none");
 
+                                        // 2. remove the months
         d3.selectAll(".txtCalendarMonth").transition().delay((d, i) => 50 * i).duration(500).style("opacity", "0")
             .transition().style("display", "none");
 
-        yearSelected
+        yearSelected                    // 3. remove the yearSelected text and reset its value
             .transition().duration(500).style("opacity", "0")
             .transition().duration(50).text("");
 
+                                        // 4. make the years re-appear
         d3.selectAll(".txtCalendarYear").transition().delay((d, i) => 1000 + 100 * i).duration(1000).style("display", "block").style("opacity", "1")
     });
