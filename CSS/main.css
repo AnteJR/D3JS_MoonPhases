@@ -1,0 +1,8 @@
+svg{
+    background-color: black;
+}
+text {
+    fill: white;
+    font-family: times;
+    mix-blend-mode: difference;
+}
