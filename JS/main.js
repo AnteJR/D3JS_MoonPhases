@@ -123,7 +123,7 @@ let monCSV = d3.csv("Data/Moonphases.csv", function (d) {
             yearSelected
                 .transition().duration(500).style("opacity", "0")
                 .transition().duration(100).attr("y", hauteur / 10)
-                .transition().duration(1000).style("opacity", "1").text(txtToApply + ".");
+                .transition().duration(1000).style("opacity", "1").text(txtToApply);
 
             backTxtMonths
                 .transition().duration(1000).style("display", "block")
@@ -168,6 +168,9 @@ function moonCalendarDisplay(txt) {
         .text((d) => d[0])
         .attr("x", (d, i) => largeur / (mainMoons.length + 1) * (i + 1))
         .attr("y", hauteur / 10 * 3)
+        .attr("class", "lunarCalendarDates")
+        .style("opacity", "0")
+        .transition().delay((d, i) => 500 + (50 * i)).duration(500).style("opacity", "1")
 
     const lunarCalendarMoons = svgSpace.append("g")
         .attr("id", "calendarM")
@@ -175,11 +178,14 @@ function moonCalendarDisplay(txt) {
         .data(mainMoons)
         .enter()
         .append("path")
+        .attr("class", "lunarCalendarMoons")
         .attr("fill", "white")
-        .attr("transform", (d,i) => "translate(" + (largeur / (mainMoons.length + 1) * (i + 1) + 7) + "," + (hauteur / 10 * 3 + 25) + ") scale(-1,1)")
+        .attr("transform", (d, i) => "translate(" + (largeur / (mainMoons.length + 1) * (i + 1) + 7) + "," + (hauteur / 10 * 3 + 25) + ") scale(-1,1)")
         .attr("d", (d) => {
             return moon((2 * pi + d[2]) % (2 * pi), 12.5);    // call of the moon function to determine the angle of the SVG elliptic arcs
         })
+        .style("opacity", "0")
+        .transition().delay((d, i) => 500 + (50 * i)).duration(500).style("opacity", "1")
 }
 
 function leapYear(year) {
@@ -288,29 +294,39 @@ let backTxtMonths = svgSpace    // the text to go back to the month selection
     .style("display", "none")
     .on("click", () => {            // the onClick where we:
         backTxtMonths                   // 1. remove the back button
-            .transition().duration(500).style("opacity", "0")
+            .transition().delay(1000).duration(500).style("opacity", "0")
             .transition().style("display", "none");
 
         myMoon                          // 2. place the moon back slightly above the middle of the screen
-            .transition().duration(1000).attr("transform", "translate(" + largeur / 2 + "," + ((hauteur / 2) - (hauteur / 10)) + ") scale(-1,1)");
+            .transition().delay(1000).duration(1000).attr("transform", "translate(" + largeur / 2 + "," + ((hauteur / 2) - (hauteur / 10)) + ") scale(-1,1)");
 
         titleApp                        // 3. make the title re-appear
-            .transition().delay(500).duration(500).style("opacity", "1");
+            .transition().delay(1500).duration(500).style("opacity", "1");
 
-        // 4. bring back the months, first by displaying them, then by increasing their opacity
-        d3.selectAll(".txtCalendarMonth").transition().delay((d, i) => 100 * i).duration(1000).style("display", "block").style("opacity", "1");
+                                        // 4. bring back the months, first by displaying them, then by increasing their opacity
+        d3.selectAll(".txtCalendarMonth")
+            .transition().delay((d, i) => 1000 + (100 * i)).duration(1000).style("display", "block").style("opacity", "1");
 
         let txt = yearSelected.text();  // 5. isolate the year from the text displaying previously "month year"
         let yearTxt = txt.split(" ").pop();
 
         yearSelected                    // 6. place the yearSelected text back at the bottom of the screen, and display only the year selected
             .transition().duration(500).style("opacity", "0")
-            .transition().duration(100).attr("y", hauteur / 10 * 8)
+            .transition().duration(1000).attr("y", hauteur / 10 * 8)
             .transition().duration(1000).style("opacity", "1").text(yearTxt);
 
         backTxtYears                    // 7. make the "back to years" button re-appear
             .transition().duration(1000).style("display", "block")
             .transition().duration(1000).style("opacity", "1");
+
+                                        // 8. remvoe the dates
+        d3.selectAll(".lunarCalendarDates")
+            .transition().delay((d, i) => 25 * i).duration(250).style("opacity", "0")
+            .transition().remove();
+                                        // 8. remvoe the dates
+        d3.selectAll(".lunarCalendarMoons")
+            .transition().delay((d, i) => 25 * i).duration(250).style("opacity", "0")
+            .transition().remove();
     });
 
 let backTxtYears = svgSpace     // the text to go back to the year selection
