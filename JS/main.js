@@ -4,14 +4,6 @@ const rayon = (window.innerHeight - 20) / 4;
 const pi = Math.PI;
 
 let dataTable;
-let myMoon;
-
-// SVG canvas setup
-let svgSpace = d3
-    .select("body")
-    .append("svg")
-    .attr("width", largeur)
-    .attr("height", hauteur);
 
 // importing CSV
 let monCSV = d3.csv("Data/Moonphases.csv", function (d) {
@@ -29,19 +21,33 @@ let monCSV = d3.csv("Data/Moonphases.csv", function (d) {
 
 // wait unil CSV is imported into the dataTable var, and then act
 setTimeout(() => {
-    myMoon = svgSpace
-        .append("path")
-        .attr("fill", "white")
-        .attr("transform", "translate(" + largeur / 2 + "," + hauteur / 2 + ") scale(-1,1)");
-    
-    d3.timer(changeMoon);
+    // idk if it'll be useful but i'll keep it for now
 }, 250);
+
+/* MAIN CODE WILL GO THERE */
+
+
+
+/* THIS GOES AT THE BOTTOM OF THE CODE */
+// SVG canvas setup
+let svgSpace = d3
+    .select("body")
+    .append("svg")
+    .attr("width", largeur)
+    .attr("height", hauteur);
+
+let myMoon = svgSpace
+    .append("path")
+    .attr("fill", "white")
+    .attr("transform", "translate(" + largeur / 2 + "," + hauteur / 2 + ") scale(-1,1)");
+
+d3.timer(changeMoon);
 
 // lune centrale animée
 function changeMoon(e) {
     myMoon
         .attr("d", function () {
-            return moon(Math.round((((2 * pi + (e / 10000 * pi)) % (2 * pi)) + Number.EPSILON) * 100) / 100);
+            return moon((2 * pi + (e / 10000 * pi)) % (2 * pi));
         });
 }
 
