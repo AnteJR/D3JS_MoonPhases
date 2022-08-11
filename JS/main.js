@@ -20,7 +20,7 @@ let monCSV = d3.csv("Data/Moonphases.csv", function (d) {
         month: d.month,
         day: +d.day,
         moonphase: d.phase,
-        percentLight: Math.PI / +d.percentage,
+        percentLight: Math.PI * +d.percentage,
         darksDirection: d.darkFaces
     }
 }).then((k) => {
@@ -33,20 +33,21 @@ setTimeout(() => {
         .append("path")
         .attr("fill", "white")
         .attr("transform", "translate(" + largeur / 2 + "," + hauteur / 2 + ") scale(-1,1)");
-
-    d3.interval(changeMoon, 5000);
+    
+    d3.timer(changeMoon);
 }, 250);
 
+// lune centrale animée
 function changeMoon(e) {
-    let time = (Math.round(e / 1000)) / 5;
-    console.log(dataTable[time].year + " "+ dataTable[time].month + " "+ dataTable[time].day + " | time : "+ time + " | phase : "+ dataTable[time].moonphase)
-    myMoon.attr("d", function () { 
-            return moon(Math.round(((((2 * pi) + dataTable[time].percentLight) % (2 * pi)) + Number.EPSILON) * 100) / 100); 
+    myMoon
+        .attr("d", function () {
+            return moon(Math.round((((2 * pi + (e / 10000 * pi)) % (2 * pi)) + Number.EPSILON) * 100) / 100);
         });
 }
 
 // function to display the moon according to its phase
 function moon(m) {
+    console.log(m)
     let rotation1;
     if (m < pi) rotation1 = rayon;
     else rotation1 = -rayon;
