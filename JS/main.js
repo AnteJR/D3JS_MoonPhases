@@ -65,12 +65,12 @@ let monCSV = d3.csv("Data/Moonphases.csv", function (d) {
         .style("opacity", "0")
         .style("display", "none")
         .on("click", (e) => {
-            d3.selectAll(".txtCalendarYear").transition().delay((d, i) => 50 * i).duration(500).style("opacity", "0");
-            setTimeout(() => {
-                d3.selectAll(".txtCalendarYear").style("display", "none");
-                d3.selectAll(".txtCalendarMonth").transition().delay((d, i) => 100 * i).duration(1000).style("display", "block").style("opacity", "0.7");
-                yearSelected.transition().duration(1000).style("display", "block").style("opacity", "1").text(e.path[0].__data__[0]);
-            }, 1500);
+            d3.selectAll(".txtCalendarYear").transition().delay((d, i) => 50 * i).duration(500).style("opacity", "0")
+                .transition().style("display", "none");
+
+            d3.selectAll(".txtCalendarMonth").transition().delay((d, i) => 1000 + 100 * i).duration(1000).style("display", "block").style("opacity", "1");
+            yearSelected.transition().delay(1000).duration(1000).style("display", "block").style("opacity", "1").text(e.path[0].__data__[0]);
+            backTxtYears.transition().delay(2000).duration(1000).style("display", "block").style("opacity", "1");
         });
 
     let monthTable = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
@@ -101,24 +101,34 @@ let monCSV = d3.csv("Data/Moonphases.csv", function (d) {
         .style("opacity", "0")
         .style("display", "none")
         .on("click", (e) => {
-            myMoon.transition().duration(1000).attr("transform", "translate(" + largeur / 2 + "," + 0 + ") scale(-1,1)");
-            titleApp.transition().duration(500).style("opacity","0");
+            myMoon
+                .transition().duration(1000).attr("transform", "translate(" + largeur / 2 + "," + 0 + ") scale(-1,1)");
+            titleApp
+                .transition().duration(500).style("opacity", "0");
 
-            d3.selectAll(".txtCalendarMonth").transition().delay((d, i) => 50 * i).duration(500).style("opacity", "0");
-            setTimeout(() => {
-                d3.selectAll(".txtCalendarMonth").style("display", "none");
-            }, 2400);
+            d3.selectAll(".txtCalendarMonth")
+                .transition().delay((d, i) => 50 * i).duration(500).style("opacity", "0")
+                .transition().style("display", "none");
 
             let yearTxt = yearSelected.text();
-            yearSelected.transition().duration(1000).style("opacity", "0").transition().duration(100).attr("y", hauteur / 10).transition().duration(1000).style("opacity", "1").text(e.path[0].__data__ + " " + yearTxt);
+            yearSelected
+                .transition().duration(500).style("opacity", "0")
+                .transition().duration(100).attr("y", hauteur / 10)
+                .transition().duration(1000).style("opacity", "1").text(e.path[0].__data__ + " " + yearTxt);
+
+            backTxtMonths
+                .transition().duration(1000).style("display", "block")
+                .transition().duration(1000).style("opacity", "1");
+
+            backTxtYears
+                .transition().duration(500).style("opacity", "0")
+                .transition().style("display", "none");
         });
 });
 
 /* MAIN CODE WILL GO THERE */
 
-
-
-/* TITLE */
+/* TITLE PAGE */
 let myMoon = svgSpace
     .append("path")
     .attr("fill", "white")
@@ -152,25 +162,20 @@ let startUpButton = svgSpace
     .style("opacity", "1")
     .style("cursor", "pointer")
     .on("click", () => {
-        startUpButton.transition().duration(200).style("opacity", "0");
-        setTimeout(() => { startUpButton.remove() }, 200);
-        myMoon.transition().duration(1000).attr("transform", "translate(" + largeur / 2 + "," + ((hauteur / 2) - (hauteur / 10)) + ") scale(-1,1)");
-        titleApp.transition().duration(1000).attr("y", (hauteur / 2) - (hauteur / 10));
-        subTitleApp.transition().duration(1000).attr("y", (hauteur / 2) - (hauteur / 10) + 25).style("opacity", "0");
-        d3.selectAll(".txtCalendarYear").transition().delay((d, i) => 100 * i).duration(1000).style("display", "block").style("opacity", "0.7");
-    });
+        startUpButton
+            .transition().duration(200).style("opacity", "0")
+            .transition().remove();
 
-let yearSelected = svgSpace
-    .append("text")
-    .text("")
-    .attr("fill", "white")
-    .attr("x", largeur / 2)
-    .attr("y", hauteur / 10 * 8)
-    .style("cursor", "pointer")
-    .style("text-anchor", "middle")
-    .style("font-size", "5em")
-    .style("opacity", "0")
-    .style("display", "none");
+        myMoon
+            .transition().duration(1000).attr("transform", "translate(" + largeur / 2 + "," + ((hauteur / 2) - (hauteur / 10)) + ") scale(-1,1)");
+        titleApp
+            .transition().duration(1000).attr("y", (hauteur / 2) - (hauteur / 10));
+        subTitleApp
+            .transition().duration(1000).attr("y", (hauteur / 2) - (hauteur / 10) + 25).style("opacity", "0");
+
+        d3.selectAll(".txtCalendarYear")
+            .transition().delay((d, i) => 100 * i).duration(1000).style("display", "block").style("opacity", "1");
+    });
 
 d3.timer(changeMoon);
 
@@ -200,3 +205,75 @@ function moon(m) {
 
     return "M" + [0, rayon] + " A" + [rotation1, rayon, 0, 0, flip1, 0, -rayon] + " A" + [rotation2, rayon, 0, 0, flip2, 0, rayon];
 }
+
+/* OTHER TEXTS */
+let yearSelected = svgSpace
+    .append("text")
+    .text("")
+    .attr("fill", "white")
+    .attr("x", largeur / 2)
+    .attr("y", hauteur / 10 * 8)
+    .style("cursor", "default")
+    .style("text-anchor", "middle")
+    .style("font-size", "5em")
+    .style("opacity", "0")
+    .style("display", "none");
+
+let backTxtMonths = svgSpace
+    .append("text")
+    .text("back to months.")
+    .attr("fill", "white")
+    .attr("x", 15)
+    .attr("y", hauteur - 15)
+    .style("cursor", "pointer")
+    .style("font-size", "4em")
+    .style("opacity", "0")
+    .style("display", "none")
+    .on("click", () => {
+        backTxtMonths
+            .transition().duration(500).style("opacity", "0")
+            .transition().style("display", "none");
+
+        myMoon
+            .transition().duration(1000).attr("transform", "translate(" + largeur / 2 + "," + ((hauteur / 2) - (hauteur / 10)) + ") scale(-1,1)");
+        titleApp
+            .transition().delay(500).duration(500).style("opacity", "1");
+
+        d3.selectAll(".txtCalendarMonth").transition().delay((d, i) => 100 * i).duration(1000).style("display", "block").style("opacity", "1");
+
+        let txt = yearSelected.text();
+        let yearTxt = txt.split(" ").pop();
+        yearSelected
+            .transition().duration(500).style("opacity", "0")
+            .transition().duration(100).attr("y", hauteur / 10 * 8)
+            .transition().duration(1000).style("opacity", "1").text(yearTxt);
+
+        backTxtYears
+            .transition().duration(1000).style("display", "block")
+            .transition().duration(1000).style("opacity", "1");
+    });
+
+let backTxtYears = svgSpace
+    .append("text")
+    .text("back to years.")
+    .attr("fill", "white")
+    .attr("x", 15)
+    .attr("y", hauteur - 15)
+    .style("cursor", "pointer")
+    .style("font-size", "4em")
+    .style("opacity", "0")
+    .style("display", "none")
+    .on("click", () => {
+        backTxtYears
+            .transition().duration(500).style("opacity", "0")
+            .transition().style("display", "none");
+
+        d3.selectAll(".txtCalendarMonth").transition().delay((d, i) => 50 * i).duration(500).style("opacity", "0")
+            .transition().style("display", "none");
+
+        yearSelected
+            .transition().duration(500).style("opacity", "0")
+            .transition().duration(50).text("");
+
+        d3.selectAll(".txtCalendarYear").transition().delay((d, i) => 1000 + 100 * i).duration(1000).style("display", "block").style("opacity", "1")
+    });
