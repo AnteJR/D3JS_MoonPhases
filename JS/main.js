@@ -22,8 +22,7 @@ let monCSV = d3.csv("Data/Moonphases.csv", function (d) {
         monthNbr: +d.monthNbr,
         day: +d.day,
         moonphase: d.phase,
-        percentLight: Math.PI * +d.percentage,
-        darksDirection: d.darkFaces
+        piTimes: Math.PI * +d.piTimesX
     }
 }).then((dataMoon) => {
     dataTable = dataMoon;
@@ -162,7 +161,7 @@ function moonCalendarDisplay(txt) {
 
     dataTable.forEach((e) => {
         if (e.year == yearToTest && e.month == monthToTest) {
-            mainMoons.push([e.day, e.moonphase, e.percentLight]);
+            mainMoons.push([e.day, e.moonphase, e.piTimes]);
             monthNumber = e.monthNbr;
         }
     });
