@@ -2,6 +2,8 @@
 
  A D3.js stylish data-driven moon calendar project that displays the phases of the moon from my birth year of 1997 to the present day of 2022.
 
+ ![Moon Phases](Images/Screenshot_1.png)
+
 ## Data and its collection
 
 [Time and Date](https://www.timeanddate.com/moon/phases/?year=20229) was used to get the data from the moon phases. [Kalender-365](https://kalender-365.de/calendrier-lunaire.php) was used to confirm findings on the first site. I thus had to enter manually all the 4 phases of the moon, and the year, month and day they occured in a CSV file.
