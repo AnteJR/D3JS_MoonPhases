@@ -2,7 +2,9 @@
 
  A D3.js stylish data-driven moon calendar project that displays the phases of the moon from my birth year of 1997 to the present day of 2022.
 
- ![Moon Phases](Images/MoonPhases.gif)
+<p align="center">
+  <img src="Images/MoonPhases.gif" alt="Sublime's custom image"/>
+</p>
 
 ## Data and its collection
 
