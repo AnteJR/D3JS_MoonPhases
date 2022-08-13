@@ -4,6 +4,8 @@
 
 ## Data and its collection
 
-[Time and Date](https://www.timeanddate.com/moon/phases/?year=20229) was used to get the data from the moon phases. I had to enter manually all the 4 phases of the moon, and the year, month and day they occured.
+[Time and Date](https://www.timeanddate.com/moon/phases/?year=20229) was used to get the data from the moon phases. [Kalender-365](https://kalender-365.de/calendrier-lunaire.php) was used to confirm findings on the first site. I had to enter manually all the 4 phases of the moon, and the year, month and day they occured.
 
-I also took a note of the percentage of lighting the moon is recieving, which I converted to a multiple of pi (from 0 to 2), and what direction the shadow faces.
+I also took a note of the percentage of lighting the moon is recieving (0, 50, 100), which I converted to a multiple of pi (0, 0.5, 1, 1.5) in a CSV file. The CSV file was about 1'200 rows long.
+
+I first tried to automate the display of the moon between the 4 phases, but soon realised the time between them was not regular; it could vary from 5 to 8 days in-between two phases. As such, I calculated by hand the multiples of pi for the moon in-between the 4 phases. All is put in the CSV file, on which I then iterate to display the lunar calendar for each months. In the end, pi multiples span from 0 to 1.999, and the CSV file is 9'496 rows long.
