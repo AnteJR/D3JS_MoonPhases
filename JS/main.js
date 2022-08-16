@@ -166,6 +166,11 @@ function moonCalendarDisplay(txt) {
         }
     });
 
+    let monthPreceding = monthNumber - 1 >= 1 ? monthNumber - 1 : 0,
+        monthFollowing = monthNumber + 1 <= 12 ? monthNumber + 1 : 0;
+
+    console.log("month order : " + monthPreceding + ", " + monthNumber + ", " + monthFollowing)
+
     if (monthToTest == "feb" || monthToTest == "apr") lineHoroscope = 19;
     else if (monthToTest == "jan" || monthToTest == "mar" || monthToTest == "may") lineHoroscope = 20;
     else if (monthToTest == "jun") lineHoroscope = 21;
@@ -248,7 +253,7 @@ function moonCalendarDisplay(txt) {
         .style("opacity", "0")
         .style("font-size", "1em")
         .transition().delay(1500).duration(500).style("opacity", "1");
-    
+
     const lunarCalendarAstroRight = svgSpace.append("text")
         .text(horoscopes[monthNumber - 1][2])
         .attr("class", "astroTxt")
@@ -260,6 +265,132 @@ function moonCalendarDisplay(txt) {
         .style("opacity", "0")
         .style("font-size", "1em")
         .transition().delay(1500).duration(500).style("opacity", "1");
+
+    const monthBefore = svgSpace.append("text")
+        .text(() => {
+            if (monthPreceding == 1) return "<  january"
+            if (monthPreceding == 2) return "<  february"
+            if (monthPreceding == 3) return "<  march"
+            if (monthPreceding == 4) return "<  april"
+            if (monthPreceding == 5) return "<  may"
+            if (monthPreceding == 6) return "<  june"
+            if (monthPreceding == 7) return "<  july"
+            if (monthPreceding == 8) return "<  august"
+            if (monthPreceding == 9) return "<  september"
+            if (monthPreceding == 10) return "<  october"
+            if (monthPreceding == 11) return "<  november"
+            if (monthPreceding == 12) return "<  december"
+        })
+        .attr("class", "monthButton")
+        .attr("id", "monthBack")
+        .attr("fill", "white")
+        .attr("x", 25)
+        .attr("y", hauteur / 10 * 2.25)
+        .style("cursor", "pointer")
+        .style("text-anchor", "start")
+        .style("opacity", "0")
+        .style("font-size", "2em")
+        .on("click", (e) => {            // the onClick where we:
+            let txt = yearSelected.text(),  //  1. isolate the year and the month from the texts
+                yearTxt = txt.split(" ").pop();
+            
+            let txtClicked = e.path[0].firstChild.data,
+                monthIsolated = txtClicked.split(" ").pop();
+
+            yearSelected                    //  2. change the yearSelected text
+                .transition().duration(500).style("opacity", "0")
+                .transition().delay(450).duration(1000).style("opacity", "1").text(monthIsolated + " " + yearTxt);
+            //                                  3. remove the dates
+            d3.selectAll(".lunarCalendarDates")
+                .transition().delay((d, i) => 15 * i).duration(150).style("opacity", "0")
+                .transition().remove();
+            //                                  4. remove the mini-moons
+            d3.selectAll(".lunarCalendarMoons")
+                .transition().delay((d, i) => 15 * i).duration(150).style("opacity", "0")
+                .transition().remove();
+            //                                  5. remove the texts
+            d3.selectAll(".lunarCalendarTexts")
+                .transition().delay((d, i) => 15 * i).duration(150).style("opacity", "0")
+                .transition().remove();
+            //                                  6. remove the line
+            d3.selectAll(".astroLine")
+                .transition().delay((d, i) => 15 * i).duration(150).style("opacity", "0")
+                .transition().remove();
+            //                                  7. remove the horoscropes texts
+            d3.selectAll(".astroTxt")
+                .transition().delay((d, i) => 15 * i).duration(150).style("opacity", "0")
+                .transition().remove();
+            //                                  8. remove buttons to switch months
+            d3.selectAll(".monthButton")
+                .transition().delay((d, i) => 300 * i).duration(150).style("opacity", "0")
+                .transition().remove();
+            //                                  9. call this function back
+            setTimeout(() => moonCalendarDisplay(monthIsolated + " " + yearTxt), 450)
+        })
+        .transition().delay(1000).duration(500).style("opacity", "1");
+
+    const monthAfter = svgSpace.append("text")
+        .text(() => {
+            if (monthFollowing == 1) return "january  >"
+            if (monthFollowing == 2) return "february  >"
+            if (monthFollowing == 3) return "march  >"
+            if (monthFollowing == 4) return "april  >"
+            if (monthFollowing == 5) return "may  >"
+            if (monthFollowing == 6) return "june  >"
+            if (monthFollowing == 7) return "july  >"
+            if (monthFollowing == 8) return "august  >"
+            if (monthFollowing == 9) return "september  >"
+            if (monthFollowing == 10) return "october  >"
+            if (monthFollowing == 11) return "november  >"
+            if (monthFollowing == 12) return "december  >"
+        })
+        .attr("class", "monthButton")
+        .attr("id", "monthBack")
+        .attr("fill", "white")
+        .attr("x", largeur - 25)
+        .attr("y", hauteur / 10 * 2.25)
+        .style("cursor", "pointer")
+        .style("text-anchor", "end")
+        .style("opacity", "0")
+        .style("font-size", "2em")
+        .on("click", (e) => {            // the onClick where we:
+            let txt = yearSelected.text(),  //  1. isolate the year and the month from the texts
+                yearTxt = txt.split(" ").pop();
+            
+            let txtClicked = e.path[0].firstChild.data,
+                monthIsolated = txtClicked.split(" ")[0];
+
+            yearSelected                    //  2. change the yearSelected text
+                .transition().duration(500).style("opacity", "0")
+                .transition().delay(450).duration(1000).style("opacity", "1").text(monthIsolated + " " + yearTxt);
+            //                                  3. remove the dates
+            d3.selectAll(".lunarCalendarDates")
+                .transition().delay((d, i) => 15 * i).duration(150).style("opacity", "0")
+                .transition().remove();
+            //                                  4. remove the mini-moons
+            d3.selectAll(".lunarCalendarMoons")
+                .transition().delay((d, i) => 15 * i).duration(150).style("opacity", "0")
+                .transition().remove();
+            //                                  5. remove the texts
+            d3.selectAll(".lunarCalendarTexts")
+                .transition().delay((d, i) => 15 * i).duration(150).style("opacity", "0")
+                .transition().remove();
+            //                                  6. remove the line
+            d3.selectAll(".astroLine")
+                .transition().delay((d, i) => 15 * i).duration(150).style("opacity", "0")
+                .transition().remove();
+            //                                  7. remove the horoscropes texts
+            d3.selectAll(".astroTxt")
+                .transition().delay((d, i) => 15 * i).duration(150).style("opacity", "0")
+                .transition().remove();
+            //                                  8. remove buttons to switch months
+            d3.selectAll(".monthButton")
+                .transition().delay((d, i) => 300 * i).duration(150).style("opacity", "0")
+                .transition().remove();
+            //                                  9. call this function back
+            setTimeout(() => moonCalendarDisplay(monthIsolated + " " + yearTxt), 450)
+        })
+        .transition().delay(2000).duration(500).style("opacity", "1");
 
 }
 
@@ -363,50 +494,54 @@ let backTxtMonths = svgSpace    // the text to go back to the month selection
     .style("opacity", "0")
     .style("display", "none")
     .on("click", () => {            // the onClick where we:
-        backTxtMonths                   // 1. remove the back button
+        backTxtMonths                   //  1. remove the back button
             .transition().duration(500).style("opacity", "0")
             .transition().style("display", "none");
 
-        myMoon                          // 2. place the moon back slightly above the middle of the screen
+        myMoon                          //  2. place the moon back slightly above the middle of the screen
             .transition().delay(1000).duration(1000).attr("transform", "translate(" + largeur / 2 + "," + ((hauteur / 2) - (hauteur / 10)) + ") scale(-1,1)");
 
-        titleApp                        // 3. make the title re-appear
+        titleApp                        //  3. make the title re-appear
             .transition().delay(1500).duration(500).style("opacity", "1");
 
-        // 4. bring back the months, first by displaying them, then by increasing their opacity
+        //                                  4. bring back the months, first by displaying them, then by increasing their opacity
         d3.selectAll(".txtCalendarMonth")
             .transition().delay((d, i) => 1000 + (100 * i)).duration(1000).style("display", "block").style("opacity", "1");
 
-        let txt = yearSelected.text();  // 5. isolate the year from the text displaying previously "month year"
+        let txt = yearSelected.text();  //  5. isolate the year from the text displaying previously "month year"
         let yearTxt = txt.split(" ").pop();
 
-        yearSelected                    // 6. place the yearSelected text back at the bottom of the screen, and display only the year selected
+        yearSelected                    //  6. place the yearSelected text back at the bottom of the screen, and display only the year selected
             .transition().duration(500).style("opacity", "0")
             .transition().duration(1000).attr("y", hauteur / 10 * 8)
             .transition().duration(1000).style("opacity", "1").text(yearTxt);
 
-        backTxtYears                    // 7. make the "back to years" button re-appear
+        backTxtYears                    //  7. make the "back to years" button re-appear
             .transition().duration(1000).style("display", "block")
             .transition().duration(1000).style("opacity", "1");
 
-                                        // 8. remove the dates
+        //                                  8. remove the dates
         d3.selectAll(".lunarCalendarDates")
             .transition().delay((d, i) => 25 * i).duration(250).style("opacity", "0")
             .transition().remove();
-                                        // 9. remove the mini-moons
+        //                                  9. remove the mini-moons
         d3.selectAll(".lunarCalendarMoons")
             .transition().delay((d, i) => 25 * i).duration(250).style("opacity", "0")
             .transition().remove();
-                                        // 10. remove the texts
+        //                                  10. remove the texts
         d3.selectAll(".lunarCalendarTexts")
             .transition().delay((d, i) => 25 * i).duration(250).style("opacity", "0")
             .transition().remove();
-                                        // 11. remove the line
+        //                                  11. remove the line
         d3.selectAll(".astroLine")
             .transition().delay((d, i) => 25 * i).duration(250).style("opacity", "0")
             .transition().remove();
-                                        // 12. remove the horoscropes texts
+        //                                  12. remove the horoscropes texts
         d3.selectAll(".astroTxt")
+            .transition().delay((d, i) => 25 * i).duration(250).style("opacity", "0")
+            .transition().remove();
+        //                                  13. remove buttons to switch months
+        d3.selectAll(".monthButton")
             .transition().delay((d, i) => 25 * i).duration(250).style("opacity", "0")
             .transition().remove();
     });
