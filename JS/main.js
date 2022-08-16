@@ -407,7 +407,7 @@ let myMoon = svgSpace           // variable for the giant moon
 
 let titleApp = svgSpace         // the title
     .append("text")
-    .text("Moon Phases")
+    .text("moon phases.")
     .attr("fill", "white")
     .attr("x", largeur / 2)
     .attr("y", hauteur / 2)
@@ -416,7 +416,7 @@ let titleApp = svgSpace         // the title
 
 let subTitleApp = svgSpace      // the subtitle
     .append("text")
-    .text("By Joël Rimaz")
+    .text("> by joël rimaz")
     .attr("fill", "white")
     .attr("x", largeur / 2)
     .attr("y", hauteur / 2 + 25)
@@ -535,7 +535,7 @@ let myMoonGraphs = svgSpace    // the moon graphs button
 
 let backMenu = svgSpace    // the button to go back to the main menu
     .append("text")
-    .text("main menu.")
+    .text("< main menu.")
     .attr("fill", "white")
     .attr("fill", "white")
     .attr("x", largeur / 2)
@@ -573,7 +573,7 @@ let yearSelected = svgSpace     // the text displaying the year and month select
     .text("")
     .attr("fill", "white")
     .attr("x", largeur / 2)
-    .attr("y", hauteur / 10 * 4)
+    .attr("y", hauteur / 10 * 4.5)
     .style("cursor", "default")
     .style("text-anchor", "middle")
     .style("font-size", "5em")
