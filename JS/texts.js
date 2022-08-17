@@ -6,7 +6,6 @@ let myMoonCalendar = svgSpace    // the moon calendar button
     .attr("fill", "white")
     .attr("x", largeur / 20)
     .attr("y", hauteur / 10 * 5)
-    .style("cursor", "pointer")
     .style("text-anchor", "start")
     .style("font-size", "3em")
     .style("opacity", "0")
@@ -38,11 +37,10 @@ let myMoonCalendar = svgSpace    // the moon calendar button
 
 let myMoonGraphs = svgSpace    // the moon graphs button
     .append("text")
-    .text("moon graphs. ∨")
+    .text("pick a moon. ∨")
     .attr("fill", "white")
     .attr("x", largeur / 20 * 19)
     .attr("y", hauteur / 10 * 5)
-    .style("cursor", "pointer")
     .style("text-anchor", "end")
     .style("font-size", "3em")
     .style("opacity", "0")
@@ -68,7 +66,7 @@ let myMoonGraphs = svgSpace    // the moon graphs button
             .attr("y", (hauteur - hauteur / 20) + 25)
             .transition().delay(500).duration(1000).style("display", "block").style("opacity", "1");
 
-        historyData(dataTable);
+        pickChoice();
     });
 
 let backMenu = svgSpace    // the button to go back to the main menu
@@ -78,15 +76,20 @@ let backMenu = svgSpace    // the button to go back to the main menu
     .attr("fill", "white")
     .attr("x", largeur / 2)
     .attr("y", hauteur / 2)
-    .style("cursor", "pointer")
     .style("font-size", "1em")
     .style("opacity", "0")
     .style("display", "none")
     .style("cursor", "pointer")
     .on("click", () => {
+        d3.selectAll(".menuPick")
+            .transition().delay((d, i) => 25 * i).duration(500).style("opacity", "0")
+            .transition().remove();
+        
         d3.selectAll(".txtCalendarYear")
             .transition().delay((d, i) => 25 * i).duration(500).style("opacity", "0")
             .transition().style("display", "none");
+
+        deleteSelection()
 
         backMenu
             .transition().delay(500).duration(200).style("opacity", "0")
