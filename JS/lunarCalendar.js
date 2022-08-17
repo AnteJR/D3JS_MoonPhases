@@ -155,7 +155,7 @@ function moonCalendarDisplay(txt) {
             let txt = yearSelected.text(),  //  1. isolate the year and the month from the texts
                 yearTxt = txt.split(" ").pop();
             
-            let txtClicked = e.path[0].firstChild.data,
+            let txtClicked = d3.select(e.currentTarget).text(),
                 monthIsolated = txtClicked.split(" ").pop();
 
             yearSelected                    //  2. change the yearSelected text
@@ -206,7 +206,7 @@ function moonCalendarDisplay(txt) {
             if (monthFollowing == 12) return "december  >"
         })
         .attr("class", "monthButton")
-        .attr("id", "monthBack")
+        .attr("id", "monthForward")
         .attr("fill", "white")
         .attr("x", largeur - 25)
         .attr("y", hauteur / 10 * 2.25)
@@ -218,7 +218,7 @@ function moonCalendarDisplay(txt) {
             let txt = yearSelected.text(),  //  1. isolate the year and the month from the texts
                 yearTxt = txt.split(" ").pop();
             
-            let txtClicked = e.path[0].firstChild.data,
+            let txtClicked = d3.select(e.currentTarget).text(),
                 monthIsolated = txtClicked.split(" ")[0];
 
             yearSelected                    //  2. change the yearSelected text

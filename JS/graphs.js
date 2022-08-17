@@ -42,9 +42,8 @@ function historyData(moonArray) {
         )
         .attr("class", "histoGraph")
         .style("opacity", 0.5)
-        .on("mouseover", (e) => {
-            console.log(e.target.__data__[0][0])
-            e.attr("opacity", 1);
+        .on("mouseover", (d, i) => {
+            console.log(this)
         })
     }
 }

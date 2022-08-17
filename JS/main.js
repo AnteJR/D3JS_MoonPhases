@@ -77,7 +77,7 @@ let monCSV = d3.csv("Data/Moonphases.csv", function (d) {
                 .transition().delay(500).duration(200).style("opacity", "0");
 
             yearSelected
-                .transition().delay(1000).duration(1000).style("display", "block").style("opacity", "1").text(e.path[0].__data__[0]);
+                .transition().delay(1000).duration(1000).style("display", "block").style("opacity", "1").text(d3.select(e.currentTarget).text());
 
             backTxtYears
                 .transition().duration(1000).style("display", "block").style("opacity", "1");
@@ -123,7 +123,7 @@ let monCSV = d3.csv("Data/Moonphases.csv", function (d) {
                 .transition().style("display", "none");
 
             let yearTxt = yearSelected.text(),
-                txtToApply = e.path[0].__data__ + " " + yearTxt;
+                txtToApply = d3.select(e.currentTarget).text() + " " + yearTxt;
 
             yearSelected
                 .transition().duration(500).style("opacity", "0")
