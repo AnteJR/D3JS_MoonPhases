@@ -68,7 +68,10 @@ backMenu
             .transition().delay((d, i) => 25 * i).duration(500).style("opacity", "0")
             .transition().style("display", "none");
 
-        deleteSelection()
+        deleteSelection();
+            
+        d3.selectAll(".changeDayText")
+            .transition().duration(1000).style("opacity", "0");
 
         backMenu
             .transition().delay(500).duration(200).style("opacity", "0")
