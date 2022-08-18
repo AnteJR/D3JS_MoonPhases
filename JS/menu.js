@@ -21,7 +21,7 @@ startUpButton
         myMoonCalendar
             .transition().delay(200).duration(1000).style("display", "block").style("opacity", "1")
 
-        myMoonGraphs
+        myPickedMoon
             .transition().delay(200).duration(1000).style("display", "block").style("opacity", "1")
     });
 

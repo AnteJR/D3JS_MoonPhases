@@ -9,7 +9,7 @@ myMoonCalendar
             .transition().duration(200).style("opacity", "0")
             .transition().style("display", "none");
 
-        myMoonGraphs
+        myPickedMoon
             .transition().duration(200).style("opacity", "0")
             .transition().style("display", "none");
 
@@ -28,16 +28,16 @@ myMoonCalendar
             .transition().delay((d, i) => 100 * i).duration(1000).style("display", "block").style("opacity", "1");
     });
 
-// the moon pick button (before : a button for the scrapped graphs project)
-let myMoonGraphs = addText("pick a moon. ∨", largeur / 20 * 19, hauteur / 2, "pickBtnChoose", "pointer", "end", "3em", 0);
-myMoonGraphs
+// the moon pick button
+let myPickedMoon = addText("pick a moon. ∨", largeur / 20 * 19, hauteur / 2, "pickBtnChoose", "pointer", "end", "3em", 0);
+myPickedMoon
     .style("display", "none")
     .on("click", () => {
         myMoonCalendar
             .transition().duration(200).style("opacity", "0")
             .transition().style("display", "none");
 
-        myMoonGraphs
+        myPickedMoon
             .transition().duration(200).style("opacity", "0")
             .transition().style("display", "none");
 
@@ -77,7 +77,7 @@ backMenu
         myMoonCalendar
             .transition().delay(700).duration(1000).style("display", "block").style("opacity", "1")
 
-        myMoonGraphs
+        myPickedMoon
             .transition().delay(700).duration(1000).style("display", "block").style("opacity", "1")
 
         myMoon
