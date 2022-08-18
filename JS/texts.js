@@ -1,16 +1,9 @@
 /* MENU TEXTS */
 
-let myMoonCalendar = svgSpace    // the moon calendar button
-    .append("text")
-    .text("∧ moon calendar.")
-    .attr("fill", "white")
-    .attr("x", largeur / 20)
-    .attr("y", hauteur / 10 * 5)
-    .style("text-anchor", "start")
-    .style("font-size", "3em")
-    .style("opacity", "0")
+// the moon calendar button
+let myMoonCalendar = addText("∧ moon calendar.", largeur / 20, hauteur / 2, "calendarBtnChoose", "pointer", "start", "3em", 0);
+myMoonCalendar
     .style("display", "none")
-    .style("cursor", "pointer")
     .on("click", () => {
         myMoonCalendar
             .transition().duration(200).style("opacity", "0")
@@ -35,17 +28,10 @@ let myMoonCalendar = svgSpace    // the moon calendar button
             .transition().delay((d, i) => 100 * i).duration(1000).style("display", "block").style("opacity", "1");
     });
 
-let myMoonGraphs = svgSpace    // the moon graphs button
-    .append("text")
-    .text("pick a moon. ∨")
-    .attr("fill", "white")
-    .attr("x", largeur / 20 * 19)
-    .attr("y", hauteur / 10 * 5)
-    .style("text-anchor", "end")
-    .style("font-size", "3em")
-    .style("opacity", "0")
+// the moon pick button (before : a button for the scrapped graphs project)
+let myMoonGraphs = addText("pick a moon. ∨", largeur / 20 * 19, hauteur / 2, "pickBtnChoose", "pointer", "end", "3em", 0);
+myMoonGraphs
     .style("display", "none")
-    .style("cursor", "pointer")
     .on("click", () => {
         myMoonCalendar
             .transition().duration(200).style("opacity", "0")
@@ -69,22 +55,15 @@ let myMoonGraphs = svgSpace    // the moon graphs button
         pickChoice();
     });
 
-let backMenu = svgSpace    // the button to go back to the main menu
-    .append("text")
-    .text("< main menu.")
-    .attr("fill", "white")
-    .attr("fill", "white")
-    .attr("x", largeur / 2)
-    .attr("y", hauteur / 2)
-    .style("font-size", "1em")
-    .style("opacity", "0")
+// the button to go back to the main menu
+let backMenu = addText("< main menu.", largeur / 2, hauteur / 2, "backBtn", "pointer", "start", "1em", 0);
+backMenu
     .style("display", "none")
-    .style("cursor", "pointer")
     .on("click", () => {
         d3.selectAll(".menuPick")
             .transition().delay((d, i) => 25 * i).duration(500).style("opacity", "0")
             .transition().remove();
-        
+
         d3.selectAll(".txtCalendarYear")
             .transition().delay((d, i) => 25 * i).duration(500).style("opacity", "0")
             .transition().style("display", "none");
@@ -109,27 +88,14 @@ let backMenu = svgSpace    // the button to go back to the main menu
             .transition().delay(500).duration(1000).attr("y", hauteur / 2 + 25).style("opacity", "1");
     });
 
-let yearSelected = svgSpace     // the text displaying the year and month selected
-    .append("text")
-    .text("")
-    .attr("fill", "white")
-    .attr("x", largeur / 2)
-    .attr("y", hauteur / 10 * 4.5)
-    .style("cursor", "default")
-    .style("text-anchor", "middle")
-    .style("font-size", "5em")
-    .style("opacity", "0")
+// the text displaying the year and month selected
+let yearSelected = addText("", largeur / 2, hauteur / 10 * 4.5, "selectedYear", "default", "middle", "5em", 0);
+yearSelected
     .style("display", "none");
 
-let backTxtMonths = svgSpace    // the text to go back to the month selection
-    .append("text")
-    .text("back to months.")
-    .attr("fill", "white")
-    .attr("x", 15)
-    .attr("y", hauteur - 15)
-    .style("cursor", "pointer")
-    .style("font-size", "4em")
-    .style("opacity", "0")
+// the text to go back to the month selection
+let backTxtMonths = addText("<< back.", 20, hauteur - 20, "backToMonthBtn", "pointer", "start", "4em", 0);
+backTxtMonths
     .style("display", "none")
     .on("click", () => {            // the onClick where we:
         backTxtMonths                   //  1. remove the back button
@@ -181,15 +147,9 @@ let backTxtMonths = svgSpace    // the text to go back to the month selection
             .transition().remove();
     });
 
-let backTxtYears = svgSpace     // the text to go back to the year selection
-    .append("text")
-    .text("back to years.")
-    .attr("fill", "white")
-    .attr("x", 15)
-    .attr("y", hauteur - 15)
-    .style("cursor", "pointer")
-    .style("font-size", "4em")
-    .style("opacity", "0")
+// the text to go back to the year selection
+let backTxtYears = addText("< back.", 20, hauteur - 20, "backToYearsBtn", "pointer", "start", "4em", 0);
+backTxtYears
     .style("display", "none")
     .on("click", () => {            // the onClick where we:
         backTxtYears                    // 1. remove the "back to years" button

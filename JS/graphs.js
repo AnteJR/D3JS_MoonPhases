@@ -3,10 +3,10 @@ function pickChoice() {
         monMonth = "",
         monYear = 0;
 
-    const introTxt = addText("_choose a date.", largeur / 2, hauteur / 10, "menuPick", "default", "middle", "4em");
+    const introTxt = addText("choose a date.", largeur / 2, hauteur / 10, "menuPick", "default", "middle", "4em", 0);
     introTxt.transition().duration(1000).style("opacity", 1);
 
-    const dayTxt = addText("> day.", largeur / 10, hauteur / 10 * 3, "menuPick", "pointer", "start", "3em");
+    const dayTxt = addText("day.", largeur / 10, hauteur / 10 * 3, "menuPick", "pointer", "start", "3em", 0);
     dayTxt
         .attr("id", "daySel")
         .on("click", (e) => {
@@ -34,13 +34,13 @@ function pickChoice() {
 
                     d3.select("#daySel")
                         .transition().delay(250).duration(500).style("opacity", 0)
-                        .transition().duration(500).text("> day._" + monDay).style("opacity", 1);
+                        .transition().duration(500).text("day._" + monDay).style("opacity", 1);
                 })
                 .transition().delay((d, i) => 100 + 50 * i).duration(500).style("opacity", 1);
         })
         .transition().delay(250).duration(1000).style("opacity", 1);
 
-    const monthTxt = addText("> month. <", largeur / 2, hauteur / 10 * 3, "menuPick", "pointer", "middle", "3em");
+    const monthTxt = addText("month.", largeur / 2, hauteur / 10 * 3, "menuPick", "pointer", "middle", "3em", 0);
     monthTxt
         .attr("id", "monthSel")
         .on("click", (e) => {
@@ -68,13 +68,13 @@ function pickChoice() {
 
                     d3.select("#monthSel")
                         .transition().delay(250).duration(500).style("opacity", 0)
-                        .transition().duration(500).text("> month._" + monMonth).style("opacity", 1);
+                        .transition().duration(500).text("month._" + monMonth).style("opacity", 1);
                 })
                 .transition().delay((d, i) => 100 + 50 * i).duration(500).style("opacity", 1);
         })
         .transition().delay(250).duration(1000).style("opacity", 1);
 
-    const yearTxt = addText("year. <", largeur / 10 * 9, hauteur / 10 * 3, "menuPick", "pointer", "end", "3em")
+    const yearTxt = addText("year.", largeur / 10 * 9, hauteur / 10 * 3, "menuPick", "pointer", "end", "3em", 0)
     yearTxt
         .attr("id", "yearSel")
         .on("click", (e) => {
@@ -110,7 +110,7 @@ function pickChoice() {
 
                     d3.select("#yearSel")
                         .transition().delay(250).duration(500).style("opacity", 0)
-                        .transition().duration(500).text("> year._" + monDay).style("opacity", 1);
+                        .transition().duration(500).text("year._" + monDay).style("opacity", 1);
                 })
                 .transition().delay((d, i) => 100 + 50 * i).duration(500).style("opacity", 1);
         })
@@ -118,7 +118,7 @@ function pickChoice() {
 
 
 
-    const validateTxt = addText("> confirm. <", largeur / 2, hauteur / 10 * 6.5, "menuPick", "pointer", "middle", "4em")
+    const validateTxt = addText("> confirm. <", largeur / 2, hauteur / 10 * 6.5, "menuPick", "pointer", "middle", "4em", 0)
     validateTxt.transition().delay(500).duration(1000).style("opacity", 1);
 }
 
@@ -137,18 +137,4 @@ function deleteSelection() {
 
     d3.select(".daysSelect")
         .transition().delay(750).remove();
-}
-
-function addText(txt, x, y, txtClass, cursorType, anchor, fontSize){
-    return svgSpace
-        .append("text")
-        .text(txt)
-        .attr("fill", "white")
-        .attr("x", x)
-        .attr("y", y)
-        .attr("class", txtClass)
-        .style("cursor", cursorType)
-        .style("text-anchor", anchor)
-        .style("font-size", fontSize)
-        .style("opacity", "0")
 }

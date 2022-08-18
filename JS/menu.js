@@ -4,33 +4,15 @@ let myMoon = svgSpace           // variable for the giant moon
     .attr("fill", "white")
     .attr("transform", "translate(" + largeur / 2 + "," + hauteur / 2 + ") scale(-1,1)");
 
-let titleApp = svgSpace         // the title
-    .append("text")
-    .text("moon phases.")
-    .attr("fill", "white")
-    .attr("x", largeur / 2)
-    .attr("y", hauteur / 2)
-    .style("font-size", "3em")
-    .style("cursor", "default");
+// the title
+let titleApp = addText("moon phases.", largeur / 2, hauteur / 2, "titleText", "default", "start", "3em", 1);
 
-let subTitleApp = svgSpace      // the subtitle
-    .append("text")
-    .text("by joël rimaz")
-    .attr("fill", "white")
-    .attr("x", largeur / 2)
-    .attr("y", hauteur / 2 + 25)
-    .style("cursor", "default");
+// the subtitle
+let subTitleApp = addText("by joël rimaz", largeur / 2, hauteur / 2 + 25, "subTitleText", "default", "start", "1em", 1);
 
-let startUpButton = svgSpace    // the start button
-    .append("text")
-    .text("start.")
-    .attr("fill", "white")
-    .attr("x", largeur / 2)
-    .attr("y", hauteur / 10 * 9)
-    .style("text-anchor", "middle")
-    .style("font-size", "4em")
-    .style("opacity", "1")
-    .style("cursor", "pointer")
+// the start button
+let startUpButton = addText("start.", largeur / 2, hauteur / 10 * 9, "startBtn", "pointer", "middle", "4em", 1);
+startUpButton
     .on("click", () => {
         startUpButton
             .transition().duration(200).style("opacity", "0")
@@ -41,34 +23,39 @@ let startUpButton = svgSpace    // the start button
 
         myMoonGraphs
             .transition().delay(200).duration(1000).style("display", "block").style("opacity", "1")
-
-        //d3.selectAll(".txtCalendarYear")
-            //.transition().delay((d, i) => 100 * i).duration(1000).style("display", "block").style("opacity", "1");
     });
 
-d3.timer(changeMoon);   // timer for the giant moon to move continually
+// timer for the giant moon to move continually
+d3.timer(changeMoon);
 
-function changeMoon(e) {    // central animated moon
+// function to display the central animated moon
+function changeMoon(e) {
     myMoon
         .attr("d", function () {
             return moon((2 * pi + (e / 10000 * pi)) % (2 * pi), rayonBase);    // call of the moon function to determine the angle of the SVG elliptic arcs
         });
 }
 
-function moon(m, rayon) {      // function to display the moon according to its phase by calculating 2 elliptic arcs
-    let rotation1;      // the angle of the first arc (the outside of the moon)
+// function to display the moon according to its phase by calculating 2 elliptic arcs
+function moon(m, rayon) {
+    // the angle of the first arc (the outside of the moon)
+    let rotation1;
     if (m < pi) rotation1 = rayon;
     else rotation1 = -rayon;
 
-    let flip1;          // if the first arc is flipped
+    // if the first arc is flipped
+    let flip1;
     if (m < pi) flip1 = 0;
     else flip1 = 1;
+
     // the angle of the second arc (the "croissant")
     let rotation2 = Math.round(((rayon * Math.cos(m)) + Number.EPSILON) * 100) / 100; // i tested with sin and tan, but neither did allow for m = 0 to be a full moon
 
-    let flip2;          // if the second arc is flipped
+    // if the second arc is flipped
+    let flip2;
     if (m < pi / 2 || (pi <= m && m < 3 * pi / 2)) flip2 = 0;
     else flip2 = 1;
 
+    // return the "d" attribute of a SVG path with M, and 2 As (A = elliptic arc)
     return "M" + [0, rayon] + " A" + [rotation1, rayon, 0, 0, flip1, 0, -rayon] + " A" + [rotation2, rayon, 0, 0, flip2, 0, rayon]; // return the SVG "d" attribute to be set
 }

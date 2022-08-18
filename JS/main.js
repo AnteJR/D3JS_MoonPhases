@@ -46,21 +46,21 @@ let monCSV = d3.csv("Data/Moonphases.csv", function (d) {
         .append("text")
         .text((d) => d)
         .attr("class", "txtCalendarYear")
-        .attr("x", (d, i) => {                                      // if I want to put them at slightly random places, remove commented Math.ceil(...)
-            if (i < 6) return (largeur / 15) + (largeur / 6) * (i) // + Math.ceil((Math.random() - 0.5) * 100)
-            else if (i == 6 || i == 7) return (largeur / 15) + (largeur / 6) * (i - 6) // + Math.ceil((Math.random() - 0.5) * 100)
-            else if (i == 8 || i == 9) return (largeur / 15) + (largeur / 6) * (i - 4) // + Math.ceil((Math.random() - 0.5) * 100)
-            else if (i == 10 || i == 11) return (largeur / 15) + (largeur / 6) * (i - 10) // + Math.ceil((Math.random() - 0.5) * 100)
-            else if (i == 12 || i == 13) return (largeur / 15) + (largeur / 6) * (i - 8) // + Math.ceil((Math.random() - 0.5) * 100)
-            else if (i > 13 && i < 20) return (largeur / 15) + (largeur / 6) * (i - 14) // + Math.ceil((Math.random() - 0.5) * 100)
-            else if (i >= 20) return (largeur / 15) + (largeur / 6) * (i - 20) // + Math.ceil((Math.random() - 0.5) * 100)
+        .attr("x", (d, i) => {
+            if (i < 6) return (largeur / 15) + (largeur / 6) * (i);
+            else if (i == 6 || i == 7) return (largeur / 15) + (largeur / 6) * (i - 6);
+            else if (i == 8 || i == 9) return (largeur / 15) + (largeur / 6) * (i - 4);
+            else if (i == 10 || i == 11) return (largeur / 15) + (largeur / 6) * (i - 10);
+            else if (i == 12 || i == 13) return (largeur / 15) + (largeur / 6) * (i - 8);
+            else if (i > 13 && i < 20) return (largeur / 15) + (largeur / 6) * (i - 14);
+            else if (i >= 20) return (largeur / 15) + (largeur / 6) * (i - 20);
         })
         .attr("y", (d, i) => {
-            if (i < 6) return hauteur / 10 // + Math.ceil((Math.random() - 0.5) * 100)
-            else if (i == 6 || i == 7 || i == 8 || i == 9) return hauteur / 10 * 3 // + Math.ceil((Math.random() - 0.5) * 100)
-            else if (i == 10 || i == 11 || i == 12 || i == 13) return hauteur / 10 * 5 // + Math.ceil((Math.random() - 0.5) * 100)
-            else if (i > 13 && i < 20) return hauteur / 10 * 7 // + Math.ceil((Math.random() - 0.5) * 100)
-            else if (i >= 20) return hauteur / 10 * 9 // + Math.ceil((Math.random() - 0.5) * 100)
+            if (i < 6) return hauteur / 10;
+            else if (i == 6 || i == 7 || i == 8 || i == 9) return hauteur / 10 * 3;
+            else if (i == 10 || i == 11 || i == 12 || i == 13) return hauteur / 10 * 5;
+            else if (i > 13 && i < 20) return hauteur / 10 * 7;
+            else if (i >= 20) return hauteur / 10 * 9;
         })
         .style("font-style", "italic")
         .style("font-size", "2em")
@@ -73,16 +73,19 @@ let monCSV = d3.csv("Data/Moonphases.csv", function (d) {
                 .transition().style("display", "none");
 
             d3.selectAll(".txtCalendarMonth")
-                .transition().delay((d, i) => 1000 + 100 * i).duration(1000).style("display", "block").style("opacity", "1");
+                .style("display", "block")
+                .transition().delay((d, i) => 1000 + 100 * i).duration(1000).style("opacity", "1");
 
             titleApp
                 .transition().delay(500).duration(200).style("opacity", "0");
 
             yearSelected
-                .transition().delay(1000).duration(1000).style("display", "block").style("opacity", "1").text(d3.select(e.currentTarget).text());
+                .style("display", "block")
+                .transition().delay(1000).duration(1000).style("opacity", "1").text(d3.select(e.currentTarget).text());
 
             backTxtYears
-                .transition().duration(1000).style("display", "block").style("opacity", "1");
+                .style("display", "block")
+                .transition().delay(2000).duration(1000).style("opacity", "1");
 
             backMenu
                 .transition().delay(500).duration(200).style("opacity", "0")
@@ -143,3 +146,17 @@ let monCSV = d3.csv("Data/Moonphases.csv", function (d) {
             moonCalendarDisplay(txtToApply);
         });
 });
+
+function addText(txt, x, y, txtClass, cursorType, anchor, fontSize, opac){
+    return svgSpace
+        .append("text")
+        .text(txt)
+        .attr("fill", "white")
+        .attr("x", x)
+        .attr("y", y)
+        .attr("class", txtClass)
+        .style("cursor", cursorType)
+        .style("text-anchor", anchor)
+        .style("font-size", fontSize)
+        .style("opacity", opac)
+}
