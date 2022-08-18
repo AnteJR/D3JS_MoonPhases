@@ -74,12 +74,14 @@ function moonCalendarDisplay(txt) {
         .enter()
         .append("text")
         .text((d) => {
-            let original = d[1],
-                newTxt = original.split(""),
-                finalTxt = "";
+            if (d[1] != "waxing crescent" && d[1] != "waning crescent" && d[1] != "waxing gibbous" && d[1] != "waning gibbous") {
+                let original = d[1],
+                    newTxt = original.split(""),
+                    finalTxt = "";
 
-            newTxt.forEach((e) => finalTxt += e + "\u00A0");
-            return finalTxt
+                newTxt.forEach((e) => finalTxt += e + "\u00A0");
+                return finalTxt
+            }
         })
         .attr("class", "lunarCalendarTexts")
         .attr("fill", "white")
@@ -154,7 +156,7 @@ function moonCalendarDisplay(txt) {
         .on("click", (e) => {            // the onClick where we:
             let txt = yearSelected.text(),  //  1. isolate the year and the month from the texts
                 yearTxt = txt.split(" ").pop();
-            
+
             let txtClicked = d3.select(e.currentTarget).text(),
                 monthIsolated = txtClicked.split(" ").pop();
 
@@ -217,7 +219,7 @@ function moonCalendarDisplay(txt) {
         .on("click", (e) => {            // the onClick where we:
             let txt = yearSelected.text(),  //  1. isolate the year and the month from the texts
                 yearTxt = txt.split(" ").pop();
-            
+
             let txtClicked = d3.select(e.currentTarget).text(),
                 monthIsolated = txtClicked.split(" ")[0];
 

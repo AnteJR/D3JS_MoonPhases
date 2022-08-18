@@ -104,7 +104,10 @@ function pickChoice() {
                     monDay = parseInt(d3.select(event.currentTarget).text());
 
                     d3.selectAll(".yearsSelectTxt")
-                        .transition().delay((d, i) => 25 * i).duration(500).style("opacity", 0)
+                        .transition().delay((d, i) => {
+                            if (i < 13) return 30 * i;
+                            else return 30 * (i - 13);
+                        }).duration(500).style("opacity", 0)
                         .transition().remove();
 
                     d3.select("#yearSel")
@@ -223,13 +226,17 @@ function displayPickedMoon(day2Display, month2Display, year2Display, phaseOfMoon
         })
         .transition().duration(1000).attr("y", hauteur - 20).style("opacity", 1);
 
-    const prevButton = addText("< previous day.", largeur / 20, hauteur / 4, "changeDayText", "pointer", "start", "2em", 0)
-        .on("click", () => changeUp(true, idTable))
-        .transition().duration(1000).attr("y", hauteur / 2).style("opacity", 1);
+    if (idTable > 0) {
+        const prevButton = addText("< previous day.", largeur / 20, hauteur / 4, "changeDayText", "pointer", "start", "2em", 0)
+            .on("click", () => changeUp(true, idTable))
+            .transition().duration(1000).attr("y", hauteur / 2).style("opacity", 1);
+    }
 
-    const nextButton = addText("next day. >", largeur / 20 * 19, hauteur / 4, "changeDayText", "pointer", "end", "2em", 0)
-        .on("click", () => changeUp(false, idTable))
-        .transition().duration(1000).attr("y", hauteur / 2).style("opacity", 1);
+    if (idTable < dataTable.length - 1) {
+        const nextButton = addText("next day. >", largeur / 20 * 19, hauteur / 4, "changeDayText", "pointer", "end", "2em", 0)
+            .on("click", () => changeUp(false, idTable))
+            .transition().duration(1000).attr("y", hauteur / 2).style("opacity", 1);
+    }
 }
 
 function changeUp(isMinus, i) {
