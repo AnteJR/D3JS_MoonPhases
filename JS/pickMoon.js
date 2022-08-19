@@ -121,9 +121,7 @@ function pickChoice() {
         })
         .transition().delay(250).duration(1000).style("opacity", 1);
 
-
-
-    const validateTxt = addText("> confirm. <", largeur / 2, hauteur / 10 * 6.5, "menuPick", "pointer", "middle", "4em", 0)
+    const validateTxt = addText("> confirm <", largeur / 2, hauteur / 10 * 6.5, "menuPick", "pointer", "middle", "4em", 0)
     validateTxt
         .on("click", (e) => {
             let selectedDay = dayTxt.text().split("_").pop();
@@ -131,14 +129,50 @@ function pickChoice() {
             let selectedYear = yearTxt.text().split("_").pop();
 
             showSelectedMoon(selectedDay, selectedMonth, selectedYear);
+
+            const backButtonPick = addText("< back.", 20, hauteur / 4 * 3, "backButtonPhase", "pointer", "start", "4em", 0);
+            backButtonPick
+                .on("click", (e) => {
+                    deleteDisplayPickedMoon();
+
+                    d3.selectAll(".changeDayText")
+                        .transition().duration(250).style("opacity", "0")
+                        .transition().remove();
+
+                    backButtonPick
+                        .transition().duration(250).style("opacity", 0)
+                        .transition().remove();
+        
+                    titleApp
+                        .transition().duration(1000).attr("y", hauteur - hauteur / 20).style("opacity", "1");
+        
+                    myMoon
+                        .transition().duration(1000).attr("transform", "translate(" + largeur / 2 + "," + (hauteur - hauteur / 20) + ") scale(-1,1)");
+        
+                    backMenu
+                        .transition().style("display", "block")
+                        .transition().delay(500).duration(1000).style("opacity", "1");
+        
+                    pickChoice();
+                })
+                .transition().delay(1000).duration(1000).attr("y", hauteur - 20).style("opacity", 1);
+
+                const prevButton = addText("< previous day.", largeur / 20, hauteur / 2, "changeDayText backBttnDay", "pointer", "start", "2em", 0)
+                    .on("click", () => changeUp(true))
+                    .transition().delay(1000).duration(250).style("opacity", 1);
+
+                const nextButton = addText("next day. >", largeur / 20 * 19, hauteur / 2, "changeDayText nxtBttnDay", "pointer", "end", "2em", 0)
+                    .on("click", () => changeUp(false))
+                    .transition().delay(1000).duration(250).style("opacity", 1);
         })
         .transition().delay(500).duration(1000).style("opacity", 1);
 }
 
+let idMoon = 0;
+
 function showSelectedMoon(d, m, y) {
     // find moon phase and elliptic arc's
     let selectedMoonPhase = [];
-    let idMoon = 0;
 
     dataTable.forEach((e, i) => {
         if (e.day == d && e.month == m && e.year == y) {
@@ -169,18 +203,6 @@ function showSelectedMoon(d, m, y) {
 
         setTimeout(() => {
             displayPickedMoon(d, m, y, selectedMoonPhase[0], selectedMoonPhase[1], idMoon);
-
-            if (idMoon > 0) {
-                const prevButton = addText("< previous day.", largeur / 20, hauteur / 4, "changeDayText", "pointer", "start", "2em", 0)
-                    .on("click", () => changeUp(true, idMoon))
-                    .transition().duration(1000).attr("y", hauteur / 2).style("opacity", 1);
-            }
-        
-            if (idMoon < dataTable.length - 1) {
-                const nextButton = addText("next day. >", largeur / 20 * 19, hauteur / 4, "changeDayText", "pointer", "end", "2em", 0)
-                    .on("click", () => changeUp(false, idMoon))
-                    .transition().duration(1000).attr("y", hauteur / 2).style("opacity", 1);
-            }
         }, 1000);
     }
 }
@@ -218,28 +240,10 @@ function displayPickedMoon(day2Display, month2Display, year2Display, phaseOfMoon
     const txtMoonPhasePick = addText(phaseOfMoonTxt, largeur / 2, hauteur / 2, "txtFullPhase", "default", "middle", "5em", 0);
     txtMoonPhasePick
         .transition().duration(1000).attr("y", hauteur / 10 * 9).style("opacity", 1);
-
-    const backButtonPick = addText("< back.", 20, hauteur / 4 * 3, "backButtonPhase", "pointer", "start", "4em", 0);
-    backButtonPick
-        .on("click", (e) => {
-            deleteDisplayPickedMoon()
-
-            titleApp
-                .transition().duration(1000).attr("y", hauteur - hauteur / 20).style("opacity", "1")
-
-            myMoon
-                .transition().duration(1000).attr("transform", "translate(" + largeur / 2 + "," + (hauteur - hauteur / 20) + ") scale(-1,1)");
-
-            backMenu
-                .transition().style("display", "block")
-                .transition().delay(500).duration(1000).style("opacity", "1");
-
-            pickChoice();
-        })
-        .transition().duration(1000).attr("y", hauteur - 20).style("opacity", 1);
 }
 
-function changeUp(isMinus, i) {
+function changeUp(isMinus) {
+    i = idMoon;
     if (isMinus) i--;
     else i++;
 
@@ -249,10 +253,6 @@ function changeUp(isMinus, i) {
 }
 
 function deleteDisplayPickedMoon() {
-    d3.select(".backButtonPhase")
-        .transition().duration(500).attr("y", hauteur / 4 * 3).style("opacity", 0)
-        .transition().remove();
-
     d3.select(".txtFullDate")
         .transition().duration(500).attr("y", 0).style("opacity", 0)
         .transition().remove();
@@ -263,10 +263,6 @@ function deleteDisplayPickedMoon() {
 
     d3.selectAll(".moonPick")
         .transition().duration(500).attr("transform", "translate(" + largeur / 2 + "," + hauteur / 4 + ") scale(-1,1)").style("opacity", 0).remove();
-
-    d3.selectAll(".changeDayText")
-        .transition().duration(500).attr("y", hauteur / 4).style("opacity", "0")
-        .transition().remove();
 }
 
 function deleteSelection() {
