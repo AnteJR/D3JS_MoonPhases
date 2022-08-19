@@ -105,28 +105,10 @@ function moonCalendarDisplay(txt) {
         .style("opacity", "0")
         .transition().delay(1500).duration(500).style("opacity", "1");
 
-    const lunarCalendarAstro = svgSpace.append("text")
-        .text(horoscopes[monthNumber - 1][1])
-        .attr("class", "astroTxt")
-        .attr("fill", "white")
-        .attr("x", () => largeur / (mainMoons.length + 1) * (lineHoroscope + 0.5))
-        .attr("y", hauteur / 10 * 9)
-        .style("cursor", "default")
-        .style("text-anchor", "end")
-        .style("opacity", "0")
-        .style("font-size", "1em")
+    const lunarCalendarAstro = addText(horoscopes[monthNumber - 1][1], largeur / (mainMoons.length + 1) * (lineHoroscope + 0.5), hauteur / 10 * 9, "astroTxt", "default", "end", "1em", 0)
         .transition().delay(1500).duration(500).style("opacity", "1");
 
-    const lunarCalendarAstroRight = svgSpace.append("text")
-        .text(horoscopes[monthNumber - 1][2])
-        .attr("class", "astroTxt")
-        .attr("fill", "white")
-        .attr("x", () => largeur / (mainMoons.length + 1) * (lineHoroscope + 0.75))
-        .attr("y", hauteur / 10 * 9)
-        .style("cursor", "default")
-        .style("text-anchor", "start")
-        .style("opacity", "0")
-        .style("font-size", "1em")
+    const lunarCalendarAstroRight = addText(horoscopes[monthNumber - 1][2], largeur / (mainMoons.length + 1) * (lineHoroscope + 0.75), hauteur / 10 * 9, "astroTxt", "default", "start", "1em", 0)
         .transition().delay(1500).duration(500).style("opacity", "1");
 
     const monthBefore = svgSpace.append("text")
@@ -144,9 +126,8 @@ function moonCalendarDisplay(txt) {
             if (monthPreceding == 11) return "<  november"
             if (monthPreceding == 12) return "<  december"
         })
-        .attr("class", "monthButton")
+        .attr("class", "monthButton mouseOverTxt")
         .attr("id", "monthBack")
-        .attr("fill", "white")
         .attr("x", 25)
         .attr("y", hauteur / 10 * 2.25)
         .style("cursor", "pointer")
@@ -207,9 +188,8 @@ function moonCalendarDisplay(txt) {
             if (monthFollowing == 11) return "november  >"
             if (monthFollowing == 12) return "december  >"
         })
-        .attr("class", "monthButton")
+        .attr("class", "monthButton mouseOverTxt")
         .attr("id", "monthForward")
-        .attr("fill", "white")
         .attr("x", largeur - 25)
         .attr("y", hauteur / 10 * 2.25)
         .style("cursor", "pointer")

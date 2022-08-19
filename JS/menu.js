@@ -11,8 +11,7 @@ let titleApp = addText("moon phases.", largeur / 2, hauteur / 2, "titleText", "d
 let subTitleApp = addText("by joël rimaz", largeur / 2, hauteur / 2 + 25, "subTitleText", "default", "start", "1em", 1);
 
 // the start button
-let startUpButton = addText("start.", largeur / 2, hauteur / 10 * 9, "startBtn", "pointer", "middle", "4em", 1);
-startUpButton
+let startUpButton = addText("start.", largeur / 2, hauteur / 10 * 9, "startBtn", "pointer", "middle", "4em", 1)
     .on("click", () => {
         startUpButton
             .transition().duration(200).style("opacity", "0")

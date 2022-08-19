@@ -7,3 +7,7 @@ text {
     font-family: times;
     mix-blend-mode: difference;
 }
+
+.mouseOverTxt:hover {
+    fill: rgba(255, 255, 255, 0.5);
+}

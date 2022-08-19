@@ -2,7 +2,7 @@ function pickChoice() {
     let monDay = 0,
         monMonth = "";
 
-    const introTxt = addText("choose a date.", largeur / 2, hauteur / 10, "menuPick", "default", "middle", "4em", 0);
+    const introTxt = addText("choose a date.", largeur / 2, hauteur / 10, "menuPick", "default", "middle", "4em", 0)
     introTxt.transition().duration(1000).style("opacity", 1);
 
     const dayTxt = addText("day.", largeur / 10, hauteur / 10 * 3, "menuPick", "pointer", "start", "3em", 0);
@@ -21,7 +21,7 @@ function pickChoice() {
                 .attr("fill", "white")
                 .attr("x", (d, i) => (largeur / (days.length + 1)) * (i + 1))
                 .attr("y", hauteur / 10 * 4.5)
-                .attr("class", "daysSelectTxt")
+                .attr("class", "daysSelectTxt mouseOverTxt")
                 .style("cursor", "pointer")
                 .style("font-size", "2em")
                 .style("text-anchor", "middle")
@@ -55,7 +55,7 @@ function pickChoice() {
                 .attr("fill", "white")
                 .attr("x", (d, i) => (largeur / (months.length + 1)) * (i + 1))
                 .attr("y", hauteur / 10 * 4.5)
-                .attr("class", "monthSelectTxt")
+                .attr("class", "monthSelectTxt mouseOverTxt")
                 .style("cursor", "pointer")
                 .style("font-size", "2em")
                 .style("text-anchor", "middle")
@@ -95,7 +95,7 @@ function pickChoice() {
                     if (i < 13) return hauteur / 10 * 4.5;
                     else if (i > 12) return hauteur / 10 * 4.5 + hauteur / 22;
                 })
-                .attr("class", "yearsSelectTxt")
+                .attr("class", "yearsSelectTxt mouseOverTxt")
                 .style("cursor", "pointer")
                 .style("font-size", "2em")
                 .style("text-anchor", "middle")
@@ -169,6 +169,18 @@ function showSelectedMoon(d, m, y) {
 
         setTimeout(() => {
             displayPickedMoon(d, m, y, selectedMoonPhase[0], selectedMoonPhase[1], idMoon);
+
+            if (idMoon > 0) {
+                const prevButton = addText("< previous day.", largeur / 20, hauteur / 4, "changeDayText", "pointer", "start", "2em", 0)
+                    .on("click", () => changeUp(true, idMoon))
+                    .transition().duration(1000).attr("y", hauteur / 2).style("opacity", 1);
+            }
+        
+            if (idMoon < dataTable.length - 1) {
+                const nextButton = addText("next day. >", largeur / 20 * 19, hauteur / 4, "changeDayText", "pointer", "end", "2em", 0)
+                    .on("click", () => changeUp(false, idMoon))
+                    .transition().duration(1000).attr("y", hauteur / 2).style("opacity", 1);
+            }
         }, 1000);
     }
 }
@@ -225,18 +237,6 @@ function displayPickedMoon(day2Display, month2Display, year2Display, phaseOfMoon
             pickChoice();
         })
         .transition().duration(1000).attr("y", hauteur - 20).style("opacity", 1);
-
-    if (idTable > 0) {
-        const prevButton = addText("< previous day.", largeur / 20, hauteur / 4, "changeDayText", "pointer", "start", "2em", 0)
-            .on("click", () => changeUp(true, idTable))
-            .transition().duration(1000).attr("y", hauteur / 2).style("opacity", 1);
-    }
-
-    if (idTable < dataTable.length - 1) {
-        const nextButton = addText("next day. >", largeur / 20 * 19, hauteur / 4, "changeDayText", "pointer", "end", "2em", 0)
-            .on("click", () => changeUp(false, idTable))
-            .transition().duration(1000).attr("y", hauteur / 2).style("opacity", 1);
-    }
 }
 
 function changeUp(isMinus, i) {

@@ -5,7 +5,7 @@ const yearGrid = svgSpace.append("g")
         .enter()
         .append("text")
         .text((d) => d)
-        .attr("class", "txtCalendarYear")
+        .attr("class", "txtCalendarYear mouseOverTxt")
         .attr("x", (d, i) => {
             if (i < 6) return (largeur / 15) + (largeur / 6) * (i);
             else if (i == 6 || i == 7) return (largeur / 15) + (largeur / 6) * (i - 6);
@@ -59,7 +59,7 @@ const monthGrid = svgSpace.append("g")
     .enter()
     .append("text")
     .text((d) => d)
-    .attr("class", "txtCalendarMonth")
+    .attr("class", "txtCalendarMonth mouseOverTxt")
     .attr("x", (d, i) => {
         if (i == 0 || i == 1) return (largeur / 15) + (largeur / 6) * (i);
         else if (i == 2 || i == 3) return (largeur / 15) + (largeur / 6) * (i + 2);

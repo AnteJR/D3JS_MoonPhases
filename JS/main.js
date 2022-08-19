@@ -35,10 +35,13 @@ function addText(txt, x, y, txtClass, cursorType, anchor, fontSize, opac){
     return svgSpace
         .append("text")
         .text(txt)
-        .attr("fill", "white")
         .attr("x", x)
         .attr("y", y)
-        .attr("class", txtClass)
+        .attr("class", () => {
+            let classOfTxt = txtClass;
+            if(cursorType == "pointer") classOfTxt += " mouseOverTxt"
+            return classOfTxt;
+        })
         .style("cursor", cursorType)
         .style("text-anchor", anchor)
         .style("font-size", fontSize)
